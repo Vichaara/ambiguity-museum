@@ -3,16 +3,24 @@ title: Which Peerless?
 
 case:
   name: Raffles v. Wichelhaus
-  citation: 159 Eng. Rep. 375
-  parallel_citations: ["(1864) 2 Hurl. & C. 906"]
+  citation: 2 Hurl. & C. 906
+  parallel_citations: ["159 Eng. Rep. 375"]
   court: Court of Exchequer
   jurisdiction: UK
   date: "1864-01-20"
+  judge: >
+    Pollock C.B. and Martin B. intervened from the bench. No judgment was written.
+    The report ends "Per Curiam. Judgment for the defendants."
+  prior_history: >
+    Decided on demurrer to the plea, so the two-ships fact was admitted for the
+    purposes of argument rather than tried.
 
 instrument:
   type: contract
-  provision: Sale of 125 bales of Surat cotton, "to arrive ex Peerless from Bombay"
-  drafted_by: The parties, neither of whom knew there were two such ships
+  provision: Sale of 125 bales of Surat cotton, pleaded in the declaration
+  drafted_by: >
+    The parties, neither of whom knew that two ships of the name were about to
+    sail from Bombay.
 
 mechanism:
   primary: latent-ambiguity
@@ -20,45 +28,52 @@ mechanism:
 
 disputed_text:
   quote: >
-    ... 125 bales of Surat cotton, guaranteed middling fair merchant's Dhollorah,
-    to arrive ex "Peerless" from Bombay ...
+    ... certain goods, to wit, 125 bales of Surat cotton, guaranteed middling fair
+    merchant's dhollorah, to arrive ex Peerless from Bombay; and that the cotton
+    should be taken from the quay, and that the defendants would pay the plaintiff
+    for the same at a certain rate, to wit, at the rate of 17.25 d. per pound,
+    within a certain time then agreed upon after the arrival of said goods in
+    England.
   locus: >
-    the ship's name "Peerless", which denoted two different vessels sailing from
-    Bombay, one in October and one in December
+    the ship's name "Peerless", which on the face of the contract picks out one
+    vessel and in fact picked out two, one sailing from Bombay in October and one
+    in December
 
 readings:
   - id: A
-    advanced_by: Wichelhaus (buyer)
+    advanced_by: Wichelhaus and others, the buyers
     statement: >
-      The contract referred to the Peerless that sailed in October. Cotton
-      arriving on a later ship does not answer it.
+      The contract named the Peerless that sailed in October. Cotton arriving on a
+      later ship of the same name does not answer it, and the buyers need not take
+      it.
   - id: B
-    advanced_by: Raffles (seller)
+    advanced_by: Raffles, the seller
     statement: >
-      The contract referred to the Peerless that sailed in December, on which
-      the cotton was in fact shipped.
+      The subject of the sale is cotton of a stated description, not a particular
+      voyage. It is immaterial which Peerless carried it, so long as a ship of that
+      name did.
 
 resolution:
   outcome: >
-    no-contract. Neither reading prevailed; the court found no binding agreement
+    no-contract. Neither reading prevailed. Judgment went to the defendants on the
+    ground argued for them, that there was no consensus ad idem.
   basis: [no-consensus-ad-idem, extrinsic-evidence]
   court_declared_ambiguous: true
   quote: >
-    PENDING — see verification. The report is very short and the decision was
-    given without a full written opinion; quote the actual reported words or
-    describe the outcome without quotation marks.
+    He was then stopped by the Court. Per Curiam. Judgment for the defendants.
 
 stakes:
   kind: money
+  amount: 125 bales of Surat cotton at 17.25d per pound
   note: >
-    125 bales of cotton at a guaranteed rate. The report does not state a
-    damages figure.
-  documented: false
+    The rate and quantity are pleaded in the declaration. The report states no
+    damages figure, the case having been decided on demurrer.
+  documented: true
 
 minimal_fix:
   edit: >
-    Name the sailing: "ex Peerless from Bombay, sailing in October". One
-    qualifying phrase and the ambiguity never arises.
+    Name the sailing. "To arrive ex Peerless from Bombay, sailing in October"
+    identifies one vessel and no other, and the case does not arise.
   suffices_without_facts: true
 
 inclusion_test:
@@ -67,35 +82,53 @@ inclusion_test:
   not_vagueness: true
   boundary: true
   notes: >
-    The collection's defining boundary specimen. On its face the contract is
-    perfectly clear; the two readings only exist once you learn there were two
-    ships, which means the ambiguity is invisible from the text alone. It passes
-    test (b) cleanly, since naming the sailing month is a text-only fix requiring no
-    knowledge of what happened, but it strains test (a), and the case is
-    conventionally taught as mutual mistake rather than interpretation. It is
-    here precisely because it tests the rule. A criterion applied only to easy
-    cases is not a criterion.
+    The collection's defining boundary specimen, and the exhibit that most tests
+    its own rule. On the face of the contract nothing is unclear. The second
+    reading exists only once you learn there were two ships, so the ambiguity is
+    invisible from the text alone, and the case is conventionally taught as mutual
+    mistake rather than interpretation. It passes test (b) cleanly, since naming
+    the sailing month is a text-only fix that requires no knowledge of what later
+    happened, and it strains test (a). It is here because a criterion applied only
+    to easy cases is not a criterion.
+    The report repays reading in full for a second reason. The court gave no
+    reasons at all. Everything the case is cited for comes from Mellish's argument
+    for the defendants, that "the moment it appears that two ships called the
+    Peerless were about to sail from Bombay there is a latent ambiguity, and parol
+    evidence may be given", and that consequently "there was no consensus ad
+    idem, and therefore no binding contract". He was stopped mid-argument and
+    judgment followed. The doctrine is counsel's, adopted in silence. The nearest
+    thing to judicial reasoning is Pollock C.B. interjecting that "it would be a
+    question for the jury whether both parties meant the same ship to be called
+    the Peerless", and likening the case to a purchase of wine from a named estate
+    "in Spain or France, where there are two estates of the same name". The
+    court_declared_ambiguous flag is set true on the strength of the court
+    stopping counsel, not on any statement, because there is no statement.
 
 sources:
+  - url: http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf
+    kind: near-primary
+    confirms: [disputed_text, readings, resolution, stakes, prior_history]
+    retrieved: "2026-07-29"
   - url: https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html
     kind: near-primary
     confirms: [citation]
     retrieved: "2026-07-29"
 
 verification:
-  status: needs-primary
+  status: confirmed
   checked_on: "2026-07-29"
   open_questions:
     - >
-      resolution.quote is a placeholder. The English Reports text was not read
-      directly when this exhibit was drafted.
+      The report text was read in full, including the declaration, the plea,
+      counsel on both sides and the interjections from the bench. The reproduction
+      carries casebook pagination (348 to 350) rather than English Reports
+      pagination, so it confirms the text of 2 Hurl. & C. 906 but not the 159 Eng.
+      Rep. 375 page number, which rests on the second source.
     - >
-      disputed_text is reconstructed from secondary accounts and must be checked
-      against the report. The exact contract wording matters more here than
-      anywhere else in the collection, since the whole exhibit is one word.
-    - >
-      Confirm the sailing months (reported as October and December) from the
-      report rather than from case briefs.
+      The reproduction prints "consensus ad item" where the phrase is consensus ad
+      idem. Treated as a typographical slip in that printing and not reproduced in
+      the quoted material here. Check an English Reports facsimile before quoting
+      that sentence verbatim anywhere.
 
 pairs_with: [doe-gord-v-needs, frigaliment-what-is-chicken]
-tags: [contract, shipping, latent-ambiguity, boundary, canonical, needs-primary]
+tags: [contract, shipping, latent-ambiguity, boundary, canonical]

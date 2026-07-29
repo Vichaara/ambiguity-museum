@@ -20,14 +20,14 @@ one reading, and a court had to choose between them.
 | Distinct mechanisms | 11 across 13 exhibits |
 | Court called the text clear | 6 |
 | Boundary specimens | 6 |
-| Verified to a primary source | 11 of 13 |
+| Verified to a primary source | 12 of 13 |
 
 ## Index
 
 | No. | Exhibit | Instrument | Mechanism | Notes |
 |---|---|---|---|---|
 | `1836.01` | [Which George Gord?](#ex-1836-01) | will | equivocation | boundary, **needs primary** |
-| `1864.01` | [Which Peerless?](#ex-1864-01) | contract | latent ambiguity | boundary, **needs primary** |
+| `1864.01` | [Which Peerless?](#ex-1864-01) | contract | latent ambiguity | boundary |
 | `1960.01` | [What is chicken?](#ex-1960-01) | contract | lexical polysemy | — |
 | `1997.01` | [May a court move the brackets?](#ex-1997-01) | contract | punctuation scope | boundary |
 | `2003.01` | [Was 9/11 one occurrence or two?](#ex-2003-01) | insurance policy | undefined term | — |
@@ -107,53 +107,50 @@ The ambiguity sits in a description that fitted two different people equally wel
 
 ## 1864.01  Which Peerless?
 
-**Raffles v. Wichelhaus**, 159 Eng. Rep. 375 (Court of Exchequer, 1864)
-
-> [!WARNING]
-> **Not yet verified against a primary source.** The holding below is a
-> placeholder, not a quotation. See *Outstanding* at the end of this entry.
+**Raffles v. Wichelhaus**, 2 Hurl. & C. 906 (Court of Exchequer, 1864)
 
 **The text in dispute**
 
-> ... 125 bales of Surat cotton, guaranteed middling fair merchant's Dhollorah, to arrive ex "Peerless" from Bombay ...
+> ... certain goods, to wit, 125 bales of Surat cotton, guaranteed middling fair merchant's dhollorah, to arrive ex Peerless from Bombay; and that the cotton should be taken from the quay, and that the defendants would pay the plaintiff for the same at a certain rate, to wit, at the rate of 17.25 d. per pound, within a certain time then agreed upon after the arrival of said goods in England.
 
-The ambiguity sits in the ship's name "Peerless", which denoted two different vessels sailing from Bombay, one in October and one in December.
+The ambiguity sits in the ship's name "Peerless", which on the face of the contract picks out one vessel and in fact picked out two, one sailing from Bombay in October and one in December.
 
 **The readings**
 
-- **Reading A** — Wichelhaus (buyer)  
-  The contract referred to the Peerless that sailed in October. Cotton arriving on a later ship does not answer it.
-- **Reading B** — Raffles (seller)  
-  The contract referred to the Peerless that sailed in December, on which the cotton was in fact shipped.
+- **Reading A** — Wichelhaus and others, the buyers  
+  The contract named the Peerless that sailed in October. Cotton arriving on a later ship of the same name does not answer it, and the buyers need not take it.
+- **Reading B** — Raffles, the seller  
+  The subject of the sale is cotton of a stated description, not a particular voyage. It is immaterial which Peerless carried it, so long as a ship of that name did.
 
 **Held**
 
-> PENDING — see verification. The report is very short and the decision was given without a full written opinion; quote the actual reported words or describe the outcome without quotation marks.
+> He was then stopped by the Court. Per Curiam. Judgment for the defendants.
 
-**The edit that would have prevented it.** Name the sailing: "ex Peerless from Bombay, sailing in October". One qualifying phrase and the ambiguity never arises.
+**The edit that would have prevented it.** Name the sailing. "To arrive ex Peerless from Bombay, sailing in October" identifies one vessel and no other, and the case does not arise.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
 
 | | |
 |---|---|
-| Instrument | contract — Sale of 125 bales of Surat cotton, "to arrive ex Peerless from Bombay" |
-| Drafted by | The parties, neither of whom knew there were two such ships |
+| Instrument | contract — Sale of 125 bales of Surat cotton, pleaded in the declaration |
+| Drafted by | The parties, neither of whom knew that two ships of the name were about to sail from Bombay. |
 | Mechanism | latent ambiguity (equivocation) |
 | Resolved on | no consensus ad idem, extrinsic evidence |
-| At stake | 125 bales of cotton at a guaranteed rate. The report does not state a damages figure. *(not stated in the opinion)* |
-| Verification | `needs-primary`, checked 2026-07-29 |
+| At stake | 125 bales of Surat cotton at 17.25d per pound — The rate and quantity are pleaded in the declaration. The report states no damages figure, the case having been decided on demurrer. |
+| History | Decided on demurrer to the plea, so the two-ships fact was admitted for the purposes of argument rather than tried. |
+| Verification | `confirmed`, checked 2026-07-29 |
 
-**Why this is a boundary specimen.** The collection's defining boundary specimen. On its face the contract is perfectly clear; the two readings only exist once you learn there were two ships, which means the ambiguity is invisible from the text alone. It passes test (b) cleanly, since naming the sailing month is a text-only fix requiring no knowledge of what happened, but it strains test (a), and the case is conventionally taught as mutual mistake rather than interpretation. It is here precisely because it tests the rule. A criterion applied only to easy cases is not a criterion.
+**Why this is a boundary specimen.** The collection's defining boundary specimen, and the exhibit that most tests its own rule. On the face of the contract nothing is unclear. The second reading exists only once you learn there were two ships, so the ambiguity is invisible from the text alone, and the case is conventionally taught as mutual mistake rather than interpretation. It passes test (b) cleanly, since naming the sailing month is a text-only fix that requires no knowledge of what later happened, and it strains test (a). It is here because a criterion applied only to easy cases is not a criterion. The report repays reading in full for a second reason. The court gave no reasons at all. Everything the case is cited for comes from Mellish's argument for the defendants, that "the moment it appears that two ships called the Peerless were about to sail from Bombay there is a latent ambiguity, and parol evidence may be given", and that consequently "there was no consensus ad idem, and therefore no binding contract". He was stopped mid-argument and judgment followed. The doctrine is counsel's, adopted in silence. The nearest thing to judicial reasoning is Pollock C.B. interjecting that "it would be a question for the jury whether both parties meant the same ship to be called the Peerless", and likening the case to a purchase of wine from a named estate "in Spain or France, where there are two estates of the same name". The court_declared_ambiguous flag is set true on the strength of the court stopping counsel, not on any statement, because there is no statement.
 
 **Outstanding**
 
-- resolution.quote is a placeholder. The English Reports text was not read directly when this exhibit was drafted.
-- disputed_text is reconstructed from secondary accounts and must be checked against the report. The exact contract wording matters more here than anywhere else in the collection, since the whole exhibit is one word.
-- Confirm the sailing months (reported as October and December) from the report rather than from case briefs.
+- The report text was read in full, including the declaration, the plea, counsel on both sides and the interjections from the bench. The reproduction carries casebook pagination (348 to 350) rather than English Reports pagination, so it confirms the text of 2 Hurl. & C. 906 but not the 159 Eng. Rep. 375 page number, which rests on the second source.
+- The reproduction prints "consensus ad item" where the phrase is consensus ad idem. Treated as a typographical slip in that printing and not reproduced in the quoted material here. Check an English Reports facsimile before quoting that sentence verbatim anywhere.
 
 **Sources**
 
+- [near-primary](http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf)
 - [near-primary](https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html)
 
 **Read alongside** [Which George Gord?](#ex-1836-01), [What is chicken?](#ex-1960-01)

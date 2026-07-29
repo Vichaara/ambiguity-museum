@@ -339,7 +339,7 @@
               "near-primary",
               "secondary"
             ],
-            "description": "primary = the opinion itself (court site, govinfo). near-primary = faithful reproduction (CourtListener, BAILII, Justia). secondary = commentary, journalism, case briefs."
+            "description": "What the source IS, not how prestigious its host is. The test is whether the document reproduces the report or summarises it. primary = the court's own text as issued (a slip opinion, a court or government site); for cases predating law reporting as we know it there is no such artefact, and the nominate report is the record, so a faithful reprint of it counts as near-primary at worst. near-primary = a faithful reproduction of that text by anyone (CourtListener, BAILII, Justia, a scanned reprint hosted by a university). A course-page PDF that reproduces counsel's argument and the bench's interjections is worth more here than a polished publisher's page that prints only the headnote. secondary = commentary, journalism, case briefs, anything that paraphrases. May support stakes or background; may never be the sole support for a citation, the disputed text, or the resolution quote."
           },
           "confirms": {
             "type": "array",
