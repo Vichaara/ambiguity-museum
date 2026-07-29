@@ -9,40 +9,56 @@ case:
   jurisdiction: UK
   date: "1997-06-19"
   judge: >
-    Lord Hoffmann (Lords Goff, Hope and Clyde concurring; Lord Lloyd of Berwick
-    dissenting)
+    Lord Hoffmann, with Lord Goff of Chieveley, Lord Hope of Craighead and Lord
+    Clyde concurring. Lord Lloyd of Berwick dissented on the construction of
+    section 3(b), though he agreed with the House on the separate question of the
+    claim against the solicitors.
+  prior_history: >
+    Evans-Lombe J. read the clause in the investors' favour but doubted himself,
+    saying he was doing violence to the natural meaning and acting in a way "more
+    appropriate to rectification than the process of construction". The Court of
+    Appeal reversed him, Leggatt L.J. holding on the authority of Alice Through
+    the Looking Glass that his reading was "not an available meaning of the
+    words". The House of Lords restored the judge.
 
 instrument:
   type: contract
-  provision: Section 3(b) of the ICS investor claim form
+  provision: Section 3(b) of the Investors Compensation Scheme claim form
   drafted_by: >
-    The Investors Compensation Scheme, the assignee, who then had to argue its
-    own form did not mean what it appeared to say.
+    The Investors Compensation Scheme, the assignee, which then had to argue its
+    own form did not mean what it appeared to say. Hoffmann called it "one badly
+    drafted clause which is happily no longer in use".
 
 mechanism:
-  primary: modifier-scope
-  secondary: [punctuation-scope]
+  primary: punctuation-scope
+  secondary: [modifier-scope]
 
 disputed_text:
   quote: >
     Any claim (whether sounding in rescission for undue influence or otherwise)
-    that you have or may have against the West Bromwich Building Society
+    that you have or may have against the West Bromwich Building Society in which
+    you claim an abatement of sums which you would otherwise have to repay to that
+    Society in respect of sums borrowed by you from that Society in connection
+    with the transaction and dealings giving rise to the claim (including interest
+    on any such sums).
   locus: >
-    the parenthetical, and whether it narrows the claims assigned or merely
-    illustrates them
+    the placement of the opening parenthesis, and so whether "sounding in
+    rescission" limits the claims reserved to the investor or merely illustrates
+    them
 
 readings:
   - id: A
-    advanced_by: West Bromwich Building Society
+    advanced_by: West Bromwich Building Society, and the Court of Appeal
     statement: >
-      Read literally: "any claim" of any kind is assigned to ICS, and the
-      parenthetical is merely illustrative. Investors retained nothing.
+      Read as written. "Any claim" is the antecedent, and "or otherwise" inside the
+      parenthesis stops the parenthesis narrowing it, so claims of every kind were
+      reserved to the investors and never assigned to the Scheme.
   - id: B
-    advanced_by: ICS
+    advanced_by: The Investors Compensation Scheme
     statement: >
-      Read as "any claim sounding in rescission (whether for undue influence or
-      otherwise)". Only rescission claims were assigned, and investors kept
-      their damages claims.
+      Read as though the bracket opened one word earlier: "Any claim sounding in
+      rescission (whether for undue influence or otherwise)". Only rescission
+      claims were reserved, so the damages claims passed to the Scheme.
     adopted: true
 
 resolution:
@@ -50,22 +66,28 @@ resolution:
   basis: [commercial-absurdity, structural-context]
   court_declared_ambiguous: true
   quote: >
-    PENDING — see verification. Lord Hoffmann's speech must be quoted verbatim
-    from the primary report before this exhibit publishes.
+    If one applies these principles, it seems to me that the judge must be right
+    and, as we are dealing with one badly drafted clause which is happily no longer
+    in use, there is little advantage in my repeating his reasons at greater
+    length. ... Secondly, Leggatt L.J. said that the judge's construction was not
+    an "available meaning" of the words. If this means that judges cannot, short of
+    rectification, decide that the parties must have made mistakes of meaning or
+    syntax, I respectfully think he was wrong.
 
 stakes:
   kind: money
   note: >
-    Determined whether thousands of Home Income Plan investors retained damages
-    claims against the society or had assigned them away with their rescission
-    claims.
-  documented: false
+    Whether thousands of Home Income Plan investors kept their damages claims
+    against the building society or had assigned them to the Scheme along with
+    their rescission claims. The specimen claim form in evidence recorded a
+    compensation payment of £20,345.15 to one investor.
+  documented: true
 
 minimal_fix:
   edit: >
-    Move one bracket: "Any claim sounding in rescission (whether for undue
-    influence or otherwise)". That is precisely the rearrangement the House of
-    Lords performed.
+    Move the opening bracket one word to the left: "Any claim sounding in
+    rescission (whether for undue influence or otherwise)". That is exactly the
+    rearrangement the House of Lords performed, and it is the whole dispute.
   suffices_without_facts: true
 
 inclusion_test:
@@ -74,39 +96,42 @@ inclusion_test:
   not_vagueness: true
   boundary: true
   notes: >
-    A boundary specimen and the direct counterpart to chef-america-heating-to.
-    The two cases pose the same question, whether a court may repair defective drafting
-    rather than enforce it, and answer it oppositely. Here the House of Lords
-    rearranged the syntax because the literal reading made no commercial sense;
-    the Federal Circuit enforced a claim that incinerated its own product. Lord
-    Lloyd's dissent is the reason this is a boundary case rather than a core one:
-    it argues the majority crossed from interpreting into rewriting.
+    A boundary specimen and the direct counterpart to chef-america-heating-to. The
+    two cases pose the same question, whether a court may repair defective drafting
+    rather than enforce it, and answer it oppositely. Hoffmann held that judges
+    can, short of rectification, decide the parties used the wrong syntax; the
+    Federal Circuit construed a claim as written even though doing so incinerated
+    the product. Both courts knew exactly what they were choosing.
+    Two details make this the better half of the pairing. Hoffmann declined even to
+    accept that he was straining the words: answering the trial judge's worry about
+    "doing violence" to their natural meaning, he replied that many people
+    "including politicians, celebrities and Mrs. Malaprop, mangle meanings and
+    syntax but nevertheless communicate tolerably clearly what they are using the
+    words to mean", and that "if anyone is doing violence to natural meanings, it
+    is they rather than their listeners". And Lord Lloyd, dissenting, denied there
+    was any ambiguity at all: the difficulty arose "not from any obscurity of the
+    language (the meaning is, I think, tolerably clear) but from slovenly
+    drafting". One clause, and the House divided on whether it was even unclear.
 
 sources:
+  - url: https://publications.parliament.uk/pa/ld199798/ldjudgmt/jd970619/invest01.htm
+    kind: primary
+    confirms: [citation, disputed_text, readings, resolution, stakes, prior_history]
+    retrieved: "2026-07-29"
   - url: https://www.bailii.org/uk/cases/UKHL/1997/28.html
     kind: near-primary
     confirms: [citation]
     retrieved: "2026-07-29"
-  - url: https://publications.parliament.uk/pa/ld199798/ldjudgmt/jd970619/invest01.htm
-    kind: primary
-    confirms: [citation]
-    retrieved: "2026-07-29"
 
 verification:
-  status: needs-primary
+  status: confirmed
   checked_on: "2026-07-29"
   open_questions:
     - >
-      resolution.quote is a placeholder. Both BAILII and the Parliament archive
-      returned bot-protection challenges when this exhibit was drafted; the
-      judgment text was not read directly.
-    - >
-      The disputed_text wording and the rearranged reading are reported
-      consistently across secondary sources but have NOT been checked against the
-      report. Do not publish until both are confirmed.
-    - >
-      Confirm the division of the House (reported as 4-1) and Lord Lloyd's
-      ground of dissent from the speeches themselves.
+      The judgment text was read in full from the Parliament publication cited
+      above, which is paginated across several pages. Both parenthetical readings,
+      the quoted holding, the division of the House and Lord Lloyd's dissent were
+      taken from that text rather than from any summary.
 
 pairs_with: [chef-america-heating-to]
-tags: [contract, finance, uk, drafting, boundary, needs-primary]
+tags: [contract, finance, uk, drafting, boundary]

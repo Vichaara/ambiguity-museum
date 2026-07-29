@@ -17,10 +17,10 @@ one reading, and a court had to choose between them.
 | Exhibits | 13 |
 | Instrument types | statute (5), contract (4), will (1), insurance policy (1), patent claim (1), lease (1) |
 | Jurisdictions | US-federal (8), UK (3), US-MA (1), CA (1) |
-| Distinct mechanisms | 12 across 13 exhibits |
+| Distinct mechanisms | 11 across 13 exhibits |
 | Court called the text clear | 6 |
 | Boundary specimens | 6 |
-| Verified to a primary source | 10 of 13 |
+| Verified to a primary source | 11 of 13 |
 
 ## Index
 
@@ -29,7 +29,7 @@ one reading, and a court had to choose between them.
 | `1836.01` | [Which George Gord?](#ex-1836-01) | will | equivocation | boundary, **needs primary** |
 | `1864.01` | [Which Peerless?](#ex-1864-01) | contract | latent ambiguity | boundary, **needs primary** |
 | `1960.01` | [What is chicken?](#ex-1960-01) | contract | lexical polysemy | — |
-| `1997.01` | [May a court move the brackets?](#ex-1997-01) | contract | modifier scope | boundary, **needs primary** |
+| `1997.01` | [May a court move the brackets?](#ex-1997-01) | contract | punctuation scope | boundary |
 | `2003.01` | [Was 9/11 one occurrence or two?](#ex-2003-01) | insurance policy | undefined term | — |
 | `2003.02` | [Which work has to exist in the national economy?](#ex-2003-02) | statute | last antecedent | — |
 | `2004.01` | [Heat the dough to 850°F and see what happens](#ex-2004-01) | patent claim | preposition | called clear, boundary |
@@ -217,53 +217,48 @@ The ambiguity sits in the single word "chicken".
 
 **Investors Compensation Scheme Ltd v West Bromwich Building Society**, [1998] 1 WLR 896 (House of Lords, 1997)
 
-> [!WARNING]
-> **Not yet verified against a primary source.** The holding below is a
-> placeholder, not a quotation. See *Outstanding* at the end of this entry.
-
 **The text in dispute**
 
-> Any claim (whether sounding in rescission for undue influence or otherwise) that you have or may have against the West Bromwich Building Society
+> Any claim (whether sounding in rescission for undue influence or otherwise) that you have or may have against the West Bromwich Building Society in which you claim an abatement of sums which you would otherwise have to repay to that Society in respect of sums borrowed by you from that Society in connection with the transaction and dealings giving rise to the claim (including interest on any such sums).
 
-The ambiguity sits in the parenthetical, and whether it narrows the claims assigned or merely illustrates them.
+The ambiguity sits in the placement of the opening parenthesis, and so whether "sounding in rescission" limits the claims reserved to the investor or merely illustrates them.
 
 **The readings**
 
-- **Reading A** — West Bromwich Building Society  
-  Read literally: "any claim" of any kind is assigned to ICS, and the parenthetical is merely illustrative. Investors retained nothing.
-- **Reading B** — ICS — **adopted**  
-  Read as "any claim sounding in rescission (whether for undue influence or otherwise)". Only rescission claims were assigned, and investors kept their damages claims.
+- **Reading A** — West Bromwich Building Society, and the Court of Appeal  
+  Read as written. "Any claim" is the antecedent, and "or otherwise" inside the parenthesis stops the parenthesis narrowing it, so claims of every kind were reserved to the investors and never assigned to the Scheme.
+- **Reading B** — The Investors Compensation Scheme — **adopted**  
+  Read as though the bracket opened one word earlier: "Any claim sounding in rescission (whether for undue influence or otherwise)". Only rescission claims were reserved, so the damages claims passed to the Scheme.
 
 **Held**
 
-> PENDING — see verification. Lord Hoffmann's speech must be quoted verbatim from the primary report before this exhibit publishes.
+> If one applies these principles, it seems to me that the judge must be right and, as we are dealing with one badly drafted clause which is happily no longer in use, there is little advantage in my repeating his reasons at greater length. ... Secondly, Leggatt L.J. said that the judge's construction was not an "available meaning" of the words. If this means that judges cannot, short of rectification, decide that the parties must have made mistakes of meaning or syntax, I respectfully think he was wrong.
 
-**The edit that would have prevented it.** Move one bracket: "Any claim sounding in rescission (whether for undue influence or otherwise)". That is precisely the rearrangement the House of Lords performed.
+**The edit that would have prevented it.** Move the opening bracket one word to the left: "Any claim sounding in rescission (whether for undue influence or otherwise)". That is exactly the rearrangement the House of Lords performed, and it is the whole dispute.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
 
 | | |
 |---|---|
-| Instrument | contract — Section 3(b) of the ICS investor claim form |
-| Drafted by | The Investors Compensation Scheme, the assignee, who then had to argue its own form did not mean what it appeared to say. |
-| Mechanism | modifier scope (punctuation scope) |
+| Instrument | contract — Section 3(b) of the Investors Compensation Scheme claim form |
+| Drafted by | The Investors Compensation Scheme, the assignee, which then had to argue its own form did not mean what it appeared to say. Hoffmann called it "one badly drafted clause which is happily no longer in use". |
+| Mechanism | punctuation scope (modifier scope) |
 | Resolved on | commercial absurdity, structural context |
-| At stake | Determined whether thousands of Home Income Plan investors retained damages claims against the society or had assigned them away with their rescission claims. *(not stated in the opinion)* |
-| Verification | `needs-primary`, checked 2026-07-29 |
+| At stake | Whether thousands of Home Income Plan investors kept their damages claims against the building society or had assigned them to the Scheme along with their rescission claims. The specimen claim form in evidence recorded a compensation payment of £20,345.15 to one investor. |
+| History | Evans-Lombe J. read the clause in the investors' favour but doubted himself, saying he was doing violence to the natural meaning and acting in a way "more appropriate to rectification than the process of construction". The Court of Appeal reversed him, Leggatt L.J. holding on the authority of Alice Through the Looking Glass that his reading was "not an available meaning of the words". The House of Lords restored the judge. |
+| Verification | `confirmed`, checked 2026-07-29 |
 
-**Why this is a boundary specimen.** A boundary specimen and the direct counterpart to chef-america-heating-to. The two cases pose the same question, whether a court may repair defective drafting rather than enforce it, and answer it oppositely. Here the House of Lords rearranged the syntax because the literal reading made no commercial sense; the Federal Circuit enforced a claim that incinerated its own product. Lord Lloyd's dissent is the reason this is a boundary case rather than a core one: it argues the majority crossed from interpreting into rewriting.
+**Why this is a boundary specimen.** A boundary specimen and the direct counterpart to chef-america-heating-to. The two cases pose the same question, whether a court may repair defective drafting rather than enforce it, and answer it oppositely. Hoffmann held that judges can, short of rectification, decide the parties used the wrong syntax; the Federal Circuit construed a claim as written even though doing so incinerated the product. Both courts knew exactly what they were choosing. Two details make this the better half of the pairing. Hoffmann declined even to accept that he was straining the words: answering the trial judge's worry about "doing violence" to their natural meaning, he replied that many people "including politicians, celebrities and Mrs. Malaprop, mangle meanings and syntax but nevertheless communicate tolerably clearly what they are using the words to mean", and that "if anyone is doing violence to natural meanings, it is they rather than their listeners". And Lord Lloyd, dissenting, denied there was any ambiguity at all: the difficulty arose "not from any obscurity of the language (the meaning is, I think, tolerably clear) but from slovenly drafting". One clause, and the House divided on whether it was even unclear.
 
 **Outstanding**
 
-- resolution.quote is a placeholder. Both BAILII and the Parliament archive returned bot-protection challenges when this exhibit was drafted; the judgment text was not read directly.
-- The disputed_text wording and the rearranged reading are reported consistently across secondary sources but have NOT been checked against the report. Do not publish until both are confirmed.
-- Confirm the division of the House (reported as 4-1) and Lord Lloyd's ground of dissent from the speeches themselves.
+- The judgment text was read in full from the Parliament publication cited above, which is paginated across several pages. Both parenthetical readings, the quoted holding, the division of the House and Lord Lloyd's dissent were taken from that text rather than from any summary.
 
 **Sources**
 
-- [near-primary](https://www.bailii.org/uk/cases/UKHL/1997/28.html)
 - [primary](https://publications.parliament.uk/pa/ld199798/ldjudgmt/jd970619/invest01.htm)
+- [near-primary](https://www.bailii.org/uk/cases/UKHL/1997/28.html)
 
 **Read alongside** [Heat the dough to 850°F and see what happens](#ex-2004-01)
 
