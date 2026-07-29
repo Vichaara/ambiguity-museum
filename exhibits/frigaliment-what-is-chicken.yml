@@ -1,0 +1,96 @@
+id: frigaliment-what-is-chicken
+title: What is chicken?
+
+case:
+  name: Frigaliment Importing Co. v. B.N.S. International Sales Corp.
+  citation: 190 F. Supp. 116
+  court: United States District Court, S.D.N.Y.
+  jurisdiction: US-federal
+  date: "1960-12-27"
+  judge: Friendly, Circuit Judge (sitting by designation)
+
+instrument:
+  type: contract
+  provision: Sale confirmations dated 2 May 1957
+  drafted_by: >
+    The seller's confirmation, adopting a trade description neither party
+    defined.
+
+mechanism:
+  primary: lexical-polysemy
+  secondary: [undefined-term]
+
+disputed_text:
+  quote: >
+    US Fresh Frozen Chicken, Grade A, Government Inspected, Eviscerated
+    2½-3 lbs. and 1½-2 lbs. each all chicken individually wrapped in cryovac,
+    packed in secured fiber cartons or wooden boxes, suitable for export
+  locus: the single word "chicken"
+
+readings:
+  - id: A
+    advanced_by: Frigaliment (buyer)
+    statement: >
+      "Chicken" means a young bird suitable for broiling and frying. Older
+      stewing birds are "fowl" and do not answer the description.
+  - id: B
+    advanced_by: B.N.S. (seller)
+    statement: >
+      "Chicken" means any bird of the genus meeting the stated weight and grade
+      specifications, including stewing chicken.
+    adopted: true
+
+resolution:
+  outcome: B
+  basis: [dictionary, technical-usage, extrinsic-evidence, course-of-dealing]
+  court_declared_ambiguous: true
+  quote: >
+    The issue is, what is chicken? Plaintiff says "chicken" means a young
+    chicken, suitable for broiling and frying. Defendant says "chicken" means any
+    bird of that genus that meets contract specifications on weight and quality,
+    including what it calls "stewing chicken" and plaintiff pejoratively terms
+    "fowl". Dictionaries give both meanings, as well as some others not relevant
+    here. ... I have concluded that plaintiff has not sustained its burden of
+    persuasion that the contract used "chicken" in the narrower sense.
+
+stakes:
+  kind: money
+  amount: >
+    Two contracts covering 125,000 lbs at $33.00-$37.00 per 100 lbs
+  note: >
+    Derived from the contract terms quoted in the opinion, not from a stated
+    damages figure.
+  documented: true
+
+minimal_fix:
+  edit: >
+    Name the bird by grade class, "broiler" or "fryer", or add a sentence
+    defining "chicken" for the purposes of the contract. The USDA classes
+    already existed and are referenced in the opinion.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: false
+  notes: >
+    The classic teaching case, and unusually candid about the limits of
+    interpretation. Friendly quotes Holmes: the making of a contract depends
+    "not on the parties' having meant the same thing but on their having said the
+    same thing." Because neither reading was unreasonable, the case came down to
+    burden of persuasion: the buyer could not carry it, and so lost a case in which
+    it may well have been right.
+
+sources:
+  - url: https://www.courtlistener.com/opinion/1622834/frigaliment-importing-co-ltd-v-bns-international-sales-corp/
+    kind: near-primary
+    confirms: [citation, disputed_text, readings, resolution, stakes]
+    retrieved: "2026-07-29"
+
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+
+pairs_with: [white-city-v-pr-restaurants, raffles-two-ships-peerless]
+tags: [food, trade, contract, undefined-term, canonical]

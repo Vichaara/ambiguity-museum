@@ -1,0 +1,109 @@
+id: white-city-v-pr-restaurants
+title: Is a burrito a sandwich?
+
+case:
+  name: White City Shopping Center, LP v. PR Restaurants, LLC
+  citation: 21 Mass. L. Rptr. 565
+  parallel_citations: ["2006 WL 3292641"]
+  docket: "2006196313"
+  court: Massachusetts Superior Court
+  jurisdiction: US-MA
+  date: "2006-10-31"
+  judge: Jeffrey A. Locke
+
+instrument:
+  type: lease
+  provision: Lease §4.07 (exclusivity clause)
+  drafted_by: >
+    PR Restaurants, the tenant who later sued on it and lost. The court noted the
+    clause "underwent three revisions prior to the Lease's execution" and still
+    arrived without a definition of its central word.
+
+mechanism:
+  primary: undefined-term
+  secondary: [lexical-polysemy]
+
+disputed_text:
+  quote: >
+    Landlord agrees not to enter into a lease, occupancy agreement or license
+    affecting space in the Shopping Center ... for a bakery or restaurant
+    reasonably expected to have annual sales of sandwiches greater than ten
+    percent (10%) of its total sales ...
+  locus: the undefined noun "sandwiches"
+
+readings:
+  - id: A
+    advanced_by: PR Restaurants (Panera)
+    statement: >
+      "Sandwiches" covers any filling enclosed in bread, so burritos, tacos and
+      quesadillas count and Qdoba is excluded from the shopping centre.
+  - id: B
+    advanced_by: White City / Chair 5 (Qdoba)
+    statement: >
+      "Sandwiches" means the two-slices-of-bread article of ordinary speech.
+      A single rolled tortilla is not one, so Qdoba may open.
+    adopted: true
+
+resolution:
+  outcome: B
+  basis: [ordinary-meaning, dictionary, construed-as-written]
+  court_declared_ambiguous: false
+  quote: >
+    Given that the term "sandwiches" is not ambiguous and the Lease does not
+    provide a definition of it, this court applies the ordinary meaning of the
+    word. ... Under this definition and as dictated by common sense, this court
+    finds that the term "sandwich" is not commonly understood to include
+    burritos, tacos, and quesadillas, which are typically made with a single
+    tortilla and stuffed with a choice filling of meat, rice, and beans.
+
+stakes:
+  kind: money
+  amount: USD 385,000+ committed by the incoming tenant
+  note: >
+    Chair 5 had spent over $85,000 in planning and was contractually obliged to
+    spend over $300,000 on construction. The larger stake was PR's exclusivity
+    right for the balance of a ten-year lease.
+  documented: true
+
+minimal_fix:
+  edit: >
+    Define the term. One sentence, "for the purposes of this Section,
+    'sandwich' includes any filling wrapped or enclosed in any bread product,
+    including tortillas", forecloses Reading B entirely.
+  suffices_without_facts: true
+  caveat: >
+    The drafter had the motive and three revisions in which to do it. The fix was
+    never the hard part. The term simply looked obvious enough that nobody reached
+    for a definition.
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: true
+  notes: >
+    Included in the "declared clear" wing rather than the core. The court held the
+    word NOT ambiguous, so on its own account this is not an ambiguity case at all.
+    It earns its place for the opposite reason: footnote 3 records that "the parties
+    have submitted numerous dictionary definitions for the term 'sandwich,' as well
+    as expert affidavits", competing definitions and paid experts on both sides,
+    and the court still called the term unambiguous in the next breath. That gap
+    between declared clarity and demonstrated disagreement IS the exhibit.
+
+sources:
+  - url: https://www.courtlistener.com/opinion/8356298/white-city-shopping-center-v-pr-restaurants-llc/
+    kind: near-primary
+    confirms: [citation, disputed_text, readings, resolution, stakes]
+    retrieved: "2026-07-29"
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      The opinion attributes its definition to "The New Webster Third International
+      Dictionary ... Merriam-Webster, 2002", which conflates two different
+      dictionaries. Reproduce the court's wording as written and footnote the slip;
+      do not silently correct it.
+
+pairs_with: [wtc-one-occurrence-or-two]
+tags: [food, retail, exclusivity, declared-clear]

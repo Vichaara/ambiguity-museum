@@ -1,0 +1,108 @@
+id: oakhurst-dairy-serial-comma
+title: For want of a comma
+
+case:
+  name: O'Connor v. Oakhurst Dairy
+  citation: 851 F.3d 69
+  docket: 16-1901
+  court: United States Court of Appeals for the First Circuit
+  jurisdiction: US-federal
+  date: "2017-03-13"
+  judge: Barron, J. (with Lynch and Lipez, JJ.)
+  prior_history: >
+    Reversing partial summary judgment for the dairy in the District of Maine
+    (Torresen, C.J.).
+
+instrument:
+  type: statute
+  provision: Maine overtime exemption, 26 M.R.S.A. §664(3)(F)
+  drafted_by: >
+    The Maine Legislature, whose own drafting manual forbids the serial comma,
+    so the missing comma was house style, not oversight.
+
+mechanism:
+  primary: serial-comma
+  secondary: [list-scope]
+
+disputed_text:
+  quote: >
+    The canning, processing, preserving, freezing, drying, marketing, storing,
+    packing for shipment or distribution of: (1) Agricultural produce;
+    (2) Meat and fish products; and (3) Perishable foods.
+  locus: the absent comma between "shipment" and "or distribution"
+
+readings:
+  - id: A
+    advanced_by: The delivery drivers
+    statement: >
+      The final listed activity is the single gerund "packing", whether that
+      packing is for shipment or for distribution. Drivers who only distribute
+      are not exempt, and are owed overtime.
+    adopted: true
+  - id: B
+    advanced_by: Oakhurst Dairy
+    statement: >
+      "Packing for shipment" and "distribution" are two separate exempt
+      activities. Distribution is exempt on its own, so the drivers are not
+      owed overtime.
+
+resolution:
+  outcome: A
+  basis: [parallel-usage, surplusage, remedial-purpose]
+  court_declared_ambiguous: true
+  quote: >
+    We are reluctant to conclude from the text alone that the legislature clearly
+    chose to deploy the nonstandard grammatical device of asyndeton. But we are
+    also reluctant to overlook the seemingly anomalous violation of the parallel
+    usage canon that Oakhurst's reading of the text produces. And so -- there
+    being no comma in place to break the tie -- the text turns out to be no
+    clearer on close inspection than it first appeared.
+
+stakes:
+  kind: money
+  amount: unstated in the opinion
+  note: >
+    Five named delivery drivers sought unpaid overtime under §664(3) and the
+    FLSA. Figures circulating in press coverage describe a later settlement and
+    are not in this opinion.
+  documented: false
+
+minimal_fix:
+  edit: >
+    One comma: "packing for shipment, or distribution of". Reading B survives
+    only in its absence.
+  suffices_without_facts: true
+  caveat: >
+    The legislature could not have added it without departing from its own
+    drafting manual, which is the uncomfortable part.
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: false
+  notes: >
+    The collection's canonical exhibit. Both parses are written out in the
+    opinion itself, the court held the text irreducibly ambiguous on its face,
+    and the tie was broken by a default rule rather than by the words.
+
+sources:
+  - url: https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf
+    kind: primary
+    confirms: [disputed_text, readings, resolution, prior_history]
+    retrieved: "2026-07-29"
+  - url: https://law.justia.com/cases/federal/appellate-courts/ca1/16-1901/16-1901-2017-03-13.html
+    kind: near-primary
+    confirms: [citation]
+    retrieved: "2026-07-29"
+
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      The govinfo slip opinion carries no F.3d pagination; the 851 F.3d 69
+      citation was confirmed separately against reporter-faithful sources.
+
+pairs_with: [rogers-aliant-comma, facebook-duguid-series-qualifier]
+tags: [employment, punctuation, statute, canonical]

@@ -1,0 +1,456 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vichaara.ai/ambiguity/exhibit.schema.json",
+  "title": "Ambiguity exhibit",
+  "description": "One case in which a dispute turned on genuine textual ambiguity in a written legal instrument. The schema is the editorial policy: a case that cannot fill these fields does not belong in the collection.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "case",
+    "instrument",
+    "mechanism",
+    "disputed_text",
+    "readings",
+    "resolution",
+    "minimal_fix",
+    "inclusion_test",
+    "sources",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug. Never change it once published — it is the permalink."
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 90,
+      "description": "The human hook, phrased as the question the court faced. 'Is a burrito a sandwich?' not 'White City v. PR Restaurants'."
+    },
+    "case": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "citation",
+        "court",
+        "jurisdiction",
+        "date"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "citation": {
+          "type": "string",
+          "description": "Primary reporter citation."
+        },
+        "parallel_citations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "docket": {
+          "type": "string"
+        },
+        "court": {
+          "type": "string"
+        },
+        "jurisdiction": {
+          "type": "string",
+          "description": "ISO-ish: US-federal, US-MA, UK, CA, AU, EU."
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "judge": {
+          "type": "string"
+        },
+        "prior_history": {
+          "type": "string",
+          "description": "Note reversals here — a case that flipped is worth more than one that did not."
+        }
+      }
+    },
+    "instrument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "provision"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "contract",
+            "statute",
+            "insurance-policy",
+            "lease",
+            "will",
+            "trust",
+            "treaty",
+            "patent-claim",
+            "collective-bargaining-agreement",
+            "regulation",
+            "constitution",
+            "other"
+          ]
+        },
+        "provision": {
+          "type": "string",
+          "description": "Section or clause, e.g. 'Lease §4.07'."
+        },
+        "drafted_by": {
+          "type": "string",
+          "description": "Who wrote it. Records the cases where the drafter lost on their own words."
+        }
+      }
+    },
+    "mechanism": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary"
+      ],
+      "description": "The linguistic axis. Enforced as an enum so the collection cannot silently become twenty comma cases.",
+      "properties": {
+        "primary": {
+          "$ref": "#/$defs/mechanismKind"
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mechanismKind"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "disputed_text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quote",
+        "locus"
+      ],
+      "properties": {
+        "quote": {
+          "type": "string",
+          "maxLength": 1200,
+          "description": "VERBATIM. The words in dispute and just enough around them to parse. Never edit for readability."
+        },
+        "locus": {
+          "type": "string",
+          "description": "The exact span the ambiguity lives in, e.g. 'the comma before \"unless and until\"'."
+        },
+        "languages": {
+          "type": "array",
+          "minItems": 2,
+          "description": "For multilingual instruments only: each equally authentic version, verbatim.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "lang",
+              "quote"
+            ],
+            "properties": {
+              "lang": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "readings": {
+      "type": "array",
+      "minItems": 2,
+      "description": "The discrete parses. If you cannot write at least two, this is vagueness and the case does not belong here.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "statement"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z]$"
+          },
+          "advanced_by": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string",
+            "description": "The reading in plain words. A reader must be able to see why someone believed it."
+          },
+          "adopted": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      }
+    },
+    "resolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outcome",
+        "basis",
+        "court_declared_ambiguous",
+        "quote"
+      ],
+      "properties": {
+        "outcome": {
+          "type": "string",
+          "description": "Which reading id prevailed, or 'no-contract' / 'unresolved'."
+        },
+        "basis": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/resolutionBasis"
+          }
+        },
+        "court_declared_ambiguous": {
+          "type": "boolean",
+          "description": "Did the court concede the text was ambiguous? FALSE is the interesting case: it makes the 'declared clear, and the world disagreed' wing a query rather than a curatorial opinion."
+        },
+        "quote": {
+          "type": "string",
+          "maxLength": 1200,
+          "description": "REQUIRED VERBATIM, never a paraphrase. Adversarial review of an earlier draft killed four of five claims in this collection, and every one was a paraphrased characterisation of a court's reasoning. Quote the holding or do not make the claim."
+        }
+      }
+    },
+    "stakes": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Omit rather than guess. Stakes differ in KIND, not just amount — liberty is not a dollar figure.",
+      "properties": {
+        "kind": {
+          "enum": [
+            "money",
+            "liberty",
+            "entitlement",
+            "property",
+            "status",
+            "unstated"
+          ]
+        },
+        "amount": {
+          "type": "string",
+          "description": "As documented, with currency. e.g. 'USD 3.5bn per occurrence'."
+        },
+        "note": {
+          "type": "string"
+        },
+        "documented": {
+          "type": "boolean",
+          "description": "False means the figure comes from reporting, not the opinion. Say so on the page."
+        }
+      }
+    },
+    "minimal_fix": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "edit",
+        "suffices_without_facts"
+      ],
+      "properties": {
+        "edit": {
+          "type": "string",
+          "description": "The smallest change to the text that forecloses the losing reading. A comma, a word, a moved parenthesis."
+        },
+        "suffices_without_facts": {
+          "type": "boolean",
+          "description": "Inclusion test (b). Could the drafter have made this edit knowing nothing about what later happened? Must be true."
+        },
+        "caveat": {
+          "type": "string",
+          "description": "Where the fix trades one ambiguity for another, say so."
+        }
+      }
+    },
+    "inclusion_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "discrete_readings",
+        "fixable_by_text_alone",
+        "not_vagueness"
+      ],
+      "description": "The criterion, made auditable. A reviewer can check these three booleans against the exhibit without re-reading the opinion.",
+      "properties": {
+        "discrete_readings": {
+          "const": true,
+          "description": "Test (a). Two or more enumerable parses."
+        },
+        "fixable_by_text_alone": {
+          "const": true,
+          "description": "Test (b). No facts required."
+        },
+        "not_vagueness": {
+          "const": true,
+          "description": "Not an open-textured predicate ('reasonable', 'material', 'promptly')."
+        },
+        "boundary": {
+          "type": "boolean",
+          "default": false,
+          "description": "True for exhibits that test the edge — latent ambiguity surfaced only by facts, or a court repairing syntax rather than parsing it. Label them; do not hide them."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Required in practice whenever boundary is true."
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Provenance per field, not per exhibit. A secondary source may support stakes; it may never be the sole support for citation, disputed_text, or the resolution quote.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "url",
+          "kind",
+          "confirms"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "kind": {
+            "enum": [
+              "primary",
+              "near-primary",
+              "secondary"
+            ],
+            "description": "primary = the opinion itself (court site, govinfo). near-primary = faithful reproduction (CourtListener, BAILII, Justia). secondary = commentary, journalism, case briefs."
+          },
+          "confirms": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "citation",
+                "disputed_text",
+                "readings",
+                "resolution",
+                "stakes",
+                "prior_history"
+              ]
+            }
+          },
+          "retrieved": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "checked_on"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "confirmed",
+            "needs-primary",
+            "disputed"
+          ],
+          "description": "'confirmed' requires the citation, the disputed text, and the resolution quote each backed by a primary or near-primary source. Nothing else publishes."
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "open_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "pairs_with": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Exhibit ids that argue against or illuminate this one. The collection's best content is in the pairings, not the entries."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "mechanismKind": {
+      "enum": [
+        "serial-comma",
+        "list-scope",
+        "last-antecedent",
+        "series-qualifier",
+        "conjunction-disjunction",
+        "negation-scope",
+        "modifier-scope",
+        "lexical-polysemy",
+        "undefined-term",
+        "latent-ambiguity",
+        "equivocation",
+        "article-definite-indefinite",
+        "number-agreement",
+        "preposition",
+        "punctuation-scope",
+        "multilingual-divergence",
+        "cross-reference"
+      ]
+    },
+    "resolutionBasis": {
+      "enum": [
+        "plain-meaning",
+        "dictionary",
+        "ordinary-meaning",
+        "technical-usage",
+        "surplusage",
+        "parallel-usage",
+        "noscitur-a-sociis",
+        "ejusdem-generis",
+        "contra-proferentem",
+        "remedial-purpose",
+        "legislative-history",
+        "extrinsic-evidence",
+        "course-of-dealing",
+        "structural-context",
+        "other-language-version",
+        "rule-of-lenity",
+        "commercial-absurdity",
+        "no-consensus-ad-idem",
+        "construed-as-written",
+        "last-antecedent-canon",
+        "agency-deference"
+      ]
+    }
+  }
+}

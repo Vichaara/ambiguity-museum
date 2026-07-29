@@ -1,0 +1,99 @@
+id: pulsifer-and-or-and
+title: Does "does not have A, B, and C" mean all three, or each of three?
+
+case:
+  name: Pulsifer v. United States
+  citation: 601 U.S. 124
+  docket: 22-340
+  court: Supreme Court of the United States
+  jurisdiction: US-federal
+  date: "2024-03-15"
+
+instrument:
+  type: statute
+  provision: First Step Act safety valve, 18 U.S.C. §3553(f)(1)
+  drafted_by: Congress, 2018
+
+mechanism:
+  primary: negation-scope
+  secondary: [conjunction-disjunction, list-scope]
+
+disputed_text:
+  quote: >
+    the defendant does not have— (A) more than 4 criminal history points,
+    excluding any criminal history points resulting from a 1-point offense, as
+    determined under the sentencing guidelines; (B) a prior 3-point offense, as
+    determined under the sentencing guidelines; and (C) a prior 2-point violent
+    offense, as determined under the sentencing guidelines
+  locus: >
+    how the negation "does not have" distributes across an "and"-joined list of
+    three disqualifiers
+
+readings:
+  - id: A
+    advanced_by: Pulsifer
+    statement: >
+      The defendant is disqualified only if he has the full combination of A and
+      B and C together. Any lesser record leaves the safety valve open.
+  - id: B
+    advanced_by: The Government
+    statement: >
+      "Does not have" distributes across the list, so each of A, B and C
+      independently disqualifies. Far fewer defendants can reach the safety
+      valve.
+    adopted: true
+
+resolution:
+  outcome: B
+  basis: [surplusage, structural-context]
+  court_declared_ambiguous: false
+  quote: >
+    There are, to be sure, two grammatically permissible readings of the statute
+    when viewed in the abstract...But the difficulty in choosing between those
+    two constructions falls away once we consider the content of Subparagraphs
+    A, B, and C
+
+stakes:
+  kind: liberty
+  note: >
+    The safety valve permits a sentence below an otherwise mandatory minimum.
+    The reading determines which defendants may seek one; the opinion states no
+    single figure.
+  documented: false
+
+minimal_fix:
+  edit: >
+    Replace "and" with "or" for the Government's reading, or write "does not
+    have all of the following" for the defendant's. One word settles it.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: true
+  notes: >
+    A boundary specimen for an unusual reason. The Court expressly conceded
+    "two grammatically permissible readings" existed on the face of the text,
+    yet declined to call the provision ambiguous for purposes of the rule of
+    lenity, holding the choice resolvable by context. Sits in the "declared
+    clear" wing on the strength of that refusal: conceded ambiguity in the
+    grammar, denied ambiguity in law.
+
+sources:
+  - url: https://supreme.justia.com/cases/federal/us/601/22-340/
+    kind: near-primary
+    confirms: [citation, disputed_text, readings, resolution]
+    retrieved: "2026-07-29"
+
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      Sourced to Justia rather than supremecourt.gov. Swap in the slip opinion
+      URL when convenient; the quoted language was verified against Justia's
+      reproduction.
+
+pairs_with: [white-city-v-pr-restaurants]
+tags: [criminal, sentencing, statute, declared-clear, recent]

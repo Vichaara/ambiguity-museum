@@ -1,0 +1,112 @@
+id: ics-west-bromwich
+title: May a court move the brackets?
+
+case:
+  name: Investors Compensation Scheme Ltd v West Bromwich Building Society
+  citation: "[1998] 1 WLR 896"
+  parallel_citations: ["[1997] UKHL 28", "[1998] 1 All ER 98"]
+  court: House of Lords
+  jurisdiction: UK
+  date: "1997-06-19"
+  judge: >
+    Lord Hoffmann (Lords Goff, Hope and Clyde concurring; Lord Lloyd of Berwick
+    dissenting)
+
+instrument:
+  type: contract
+  provision: Section 3(b) of the ICS investor claim form
+  drafted_by: >
+    The Investors Compensation Scheme, the assignee, who then had to argue its
+    own form did not mean what it appeared to say.
+
+mechanism:
+  primary: modifier-scope
+  secondary: [punctuation-scope]
+
+disputed_text:
+  quote: >
+    Any claim (whether sounding in rescission for undue influence or otherwise)
+    that you have or may have against the West Bromwich Building Society
+  locus: >
+    the parenthetical, and whether it narrows the claims assigned or merely
+    illustrates them
+
+readings:
+  - id: A
+    advanced_by: West Bromwich Building Society
+    statement: >
+      Read literally: "any claim" of any kind is assigned to ICS, and the
+      parenthetical is merely illustrative. Investors retained nothing.
+  - id: B
+    advanced_by: ICS
+    statement: >
+      Read as "any claim sounding in rescission (whether for undue influence or
+      otherwise)". Only rescission claims were assigned, and investors kept
+      their damages claims.
+    adopted: true
+
+resolution:
+  outcome: B
+  basis: [commercial-absurdity, structural-context]
+  court_declared_ambiguous: true
+  quote: >
+    PENDING — see verification. Lord Hoffmann's speech must be quoted verbatim
+    from the primary report before this exhibit publishes.
+
+stakes:
+  kind: money
+  note: >
+    Determined whether thousands of Home Income Plan investors retained damages
+    claims against the society or had assigned them away with their rescission
+    claims.
+  documented: false
+
+minimal_fix:
+  edit: >
+    Move one bracket: "Any claim sounding in rescission (whether for undue
+    influence or otherwise)". That is precisely the rearrangement the House of
+    Lords performed.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: true
+  notes: >
+    A boundary specimen and the direct counterpart to chef-america-heating-to.
+    The two cases pose the same question, whether a court may repair defective drafting
+    rather than enforce it, and answer it oppositely. Here the House of Lords
+    rearranged the syntax because the literal reading made no commercial sense;
+    the Federal Circuit enforced a claim that incinerated its own product. Lord
+    Lloyd's dissent is the reason this is a boundary case rather than a core one:
+    it argues the majority crossed from interpreting into rewriting.
+
+sources:
+  - url: https://www.bailii.org/uk/cases/UKHL/1997/28.html
+    kind: near-primary
+    confirms: [citation]
+    retrieved: "2026-07-29"
+  - url: https://publications.parliament.uk/pa/ld199798/ldjudgmt/jd970619/invest01.htm
+    kind: primary
+    confirms: [citation]
+    retrieved: "2026-07-29"
+
+verification:
+  status: needs-primary
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      resolution.quote is a placeholder. Both BAILII and the Parliament archive
+      returned bot-protection challenges when this exhibit was drafted; the
+      judgment text was not read directly.
+    - >
+      The disputed_text wording and the rearranged reading are reported
+      consistently across secondary sources but have NOT been checked against the
+      report. Do not publish until both are confirmed.
+    - >
+      Confirm the division of the House (reported as 4-1) and Lord Lloyd's
+      ground of dissent from the speeches themselves.
+
+pairs_with: [chef-america-heating-to]
+tags: [contract, finance, uk, drafting, boundary, needs-primary]

@@ -1,0 +1,117 @@
+id: rogers-aliant-comma
+title: The comma that cost a million dollars, and then didn't
+
+case:
+  name: >
+    Rogers Cable Communications Inc. v. Aliant Telecom Inc., Telecom Decision
+    CRTC 2006-45, reviewed and varied by Telecom Decision CRTC 2007-75
+  citation: Telecom Decision CRTC 2007-75
+  parallel_citations: ["Telecom Decision CRTC 2006-45", "Reference 8690-R28-200512534"]
+  court: Canadian Radio-television and Telecommunications Commission
+  jurisdiction: CA
+  date: "2007-08-20"
+  prior_history: >
+    The Commission first read the clause against Rogers on 28 July 2006, calling
+    it clear. On review it reversed itself, holding its own earlier reading an
+    error of law made on a record that lacked the French text.
+
+instrument:
+  type: contract
+  provision: Section 8.1 of the 2002 model Support Structure Agreement
+  drafted_by: Industry model form
+
+mechanism:
+  primary: punctuation-scope
+  secondary: [multilingual-divergence, modifier-scope]
+
+disputed_text:
+  quote: >
+    Subject to the termination provisions of this Agreement, this Agreement shall
+    be effective from the date it is made and shall continue in force for a
+    period of five (5) years from the date it is made, and thereafter for
+    successive five (5) year terms, unless and until terminated by one year prior
+    notice in writing by either party.
+  locus: the comma before "unless and until"
+  languages:
+    - lang: en
+      quote: >
+        ... and thereafter for successive five (5) year terms, unless and until
+        terminated by one year prior notice in writing by either party.
+    - lang: fr
+      quote: >
+        ... un an avant l'expiration du contrat ...
+
+readings:
+  - id: A
+    advanced_by: Aliant Telecom
+    statement: >
+      The termination phrase attaches to the whole sentence, so either party may
+      terminate at any time on one year's notice, including during the initial
+      five-year term.
+  - id: B
+    advanced_by: Rogers
+    statement: >
+      The termination phrase attaches only to the renewal mechanism, so notice
+      must be given one year before the end of the initial or a renewed term.
+    adopted: true
+
+resolution:
+  outcome: B
+  basis: [other-language-version]
+  court_declared_ambiguous: false
+  quote: >
+    The Commission considers that the wording of section 8.1 in the French
+    language version of the model SSA can be interpreted in only one way:
+    termination of the model SSA can only occur upon notice one year prior to the
+    end of the initial term or one year prior to the end of a renewed term.
+
+stakes:
+  kind: money
+  note: >
+    Widely reported as a "million dollar comma" over pole-attachment costs. The
+    decisions themselves do not state a figure, so treat the number as press
+    shorthand, not a finding.
+  documented: false
+
+minimal_fix:
+  edit: >
+    Delete the comma before "unless and until", or move the phrase: "unless and
+    until terminated by one year prior notice in writing by either party, this
+    Agreement shall continue for successive five year terms."
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: false
+  notes: >
+    The most instructive exhibit in the collection, because the tribunal decided
+    it twice and disagreed with itself. On first hearing it read the clause on a
+    punctuation canon and declared it clear. On review, the equally authentic
+    French version, which places the notice requirement expressly before
+    expiry, admitted only one reading, and the Commission held its own earlier
+    confidence to have been an error of law. Same clause, same tribunal, opposite
+    result, thirteen months apart.
+
+sources:
+  - url: https://crtc.gc.ca/eng/archive/2007/dt2007-75.htm
+    kind: primary
+    confirms: [citation, disputed_text, readings, resolution, prior_history]
+    retrieved: "2026-07-29"
+  - url: https://crtc.gc.ca/eng/archive/2006/dt2006-45.pdf
+    kind: primary
+    confirms: [prior_history, disputed_text]
+    retrieved: "2026-07-29"
+
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      The French clause is quoted here only as the fragment reproduced in the
+      2007 decision. Pull the full French section 8.1 from the model SSA before
+      presenting the two language versions side by side.
+
+pairs_with: [oakhurst-dairy-serial-comma, white-city-v-pr-restaurants]
+tags: [telecoms, contract, punctuation, bilingual, reversed, declared-clear]

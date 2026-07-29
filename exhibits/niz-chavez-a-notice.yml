@@ -1,0 +1,96 @@
+id: niz-chavez-a-notice
+title: Is "a notice" one document, or a running total?
+
+case:
+  name: Niz-Chavez v. Garland
+  citation: 593 U.S. 155
+  parallel_citations: ["141 S. Ct. 1474", "209 L. Ed. 2d 433"]
+  docket: 19-863
+  court: Supreme Court of the United States
+  jurisdiction: US-federal
+  date: "2021-04-29"
+  judge: Gorsuch, J.
+
+instrument:
+  type: statute
+  provision: >
+    Stop-time rule, 8 U.S.C. §1229b(d)(1), cross-referencing the notice-to-appear
+    requirements of §1229(a)(1)
+  drafted_by: Congress, 1996
+
+mechanism:
+  primary: article-definite-indefinite
+  secondary: [lexical-polysemy]
+
+disputed_text:
+  quote: >
+    ... a notice to appear ...
+  locus: >
+    the indefinite article "a", and the fact that it sits outside the
+    parenthetical defined term in §1229(a)(1)
+
+readings:
+  - id: A
+    advanced_by: Niz-Chavez
+    statement: >
+      "A notice to appear" is one document containing all six categories of
+      required information. Two partial documents do not trigger the stop-time
+      rule.
+    adopted: true
+  - id: B
+    advanced_by: The Government
+    statement: >
+      The phrase denotes the aggregate of the required information, deliverable
+      in instalments, with the rule triggering when the last piece arrives.
+
+resolution:
+  outcome: A
+  basis: [plain-meaning, structural-context]
+  court_declared_ambiguous: false
+  quote: >
+    To trigger the stop-time rule, the government must serve "a" notice
+    containing all the information Congress has specified. To an ordinary
+    reader—both in 1996 and today—"a" notice would seem to suggest just that:
+    "a" single document containing the required information, not a mishmash of
+    pieces with some assembly required.
+
+stakes:
+  kind: entitlement
+  note: >
+    Whether the clock on continuous physical presence stops determines
+    eligibility for cancellation of removal.
+  documented: false
+
+minimal_fix:
+  edit: >
+    Drop the article and use the mass-noun sense, so that the rule triggers on
+    providing "notice" of the mandated information, for the Government's
+    reading. Write "a single written notice" for the other. The Court names
+    both edits itself.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: false
+  notes: >
+    The facts were undisputed: a charging document in March 2013, a separate
+    time-and-place document two months later. The entire case is the article.
+
+sources:
+  - url: https://www.supremecourt.gov/opinions/20pdf/19-863_6jgm.pdf
+    kind: primary
+    confirms: [disputed_text, readings, resolution]
+    retrieved: "2026-07-29"
+  - url: https://supreme.justia.com/cases/federal/us/593/19-863/
+    kind: near-primary
+    confirms: [citation]
+    retrieved: "2026-07-29"
+
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+
+pairs_with: [white-city-v-pr-restaurants]
+tags: [immigration, statute, grammar, declared-clear]

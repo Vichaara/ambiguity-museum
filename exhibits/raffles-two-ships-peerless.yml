@@ -1,0 +1,101 @@
+id: raffles-two-ships-peerless
+title: Which Peerless?
+
+case:
+  name: Raffles v. Wichelhaus
+  citation: 159 Eng. Rep. 375
+  parallel_citations: ["(1864) 2 Hurl. & C. 906"]
+  court: Court of Exchequer
+  jurisdiction: UK
+  date: "1864-01-20"
+
+instrument:
+  type: contract
+  provision: Sale of 125 bales of Surat cotton, "to arrive ex Peerless from Bombay"
+  drafted_by: The parties, neither of whom knew there were two such ships
+
+mechanism:
+  primary: latent-ambiguity
+  secondary: [equivocation]
+
+disputed_text:
+  quote: >
+    ... 125 bales of Surat cotton, guaranteed middling fair merchant's Dhollorah,
+    to arrive ex "Peerless" from Bombay ...
+  locus: >
+    the ship's name "Peerless", which denoted two different vessels sailing from
+    Bombay, one in October and one in December
+
+readings:
+  - id: A
+    advanced_by: Wichelhaus (buyer)
+    statement: >
+      The contract referred to the Peerless that sailed in October. Cotton
+      arriving on a later ship does not answer it.
+  - id: B
+    advanced_by: Raffles (seller)
+    statement: >
+      The contract referred to the Peerless that sailed in December, on which
+      the cotton was in fact shipped.
+
+resolution:
+  outcome: >
+    no-contract. Neither reading prevailed; the court found no binding agreement
+  basis: [no-consensus-ad-idem, extrinsic-evidence]
+  court_declared_ambiguous: true
+  quote: >
+    PENDING — see verification. The report is very short and the decision was
+    given without a full written opinion; quote the actual reported words or
+    describe the outcome without quotation marks.
+
+stakes:
+  kind: money
+  note: >
+    125 bales of cotton at a guaranteed rate. The report does not state a
+    damages figure.
+  documented: false
+
+minimal_fix:
+  edit: >
+    Name the sailing: "ex Peerless from Bombay, sailing in October". One
+    qualifying phrase and the ambiguity never arises.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: true
+  notes: >
+    The collection's defining boundary specimen. On its face the contract is
+    perfectly clear; the two readings only exist once you learn there were two
+    ships, which means the ambiguity is invisible from the text alone. It passes
+    test (b) cleanly, since naming the sailing month is a text-only fix requiring no
+    knowledge of what happened, but it strains test (a), and the case is
+    conventionally taught as mutual mistake rather than interpretation. It is
+    here precisely because it tests the rule. A criterion applied only to easy
+    cases is not a criterion.
+
+sources:
+  - url: https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html
+    kind: near-primary
+    confirms: [citation]
+    retrieved: "2026-07-29"
+
+verification:
+  status: needs-primary
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      resolution.quote is a placeholder. The English Reports text was not read
+      directly when this exhibit was drafted.
+    - >
+      disputed_text is reconstructed from secondary accounts and must be checked
+      against the report. The exact contract wording matters more here than
+      anywhere else in the collection, since the whole exhibit is one word.
+    - >
+      Confirm the sailing months (reported as October and December) from the
+      report rather than from case briefs.
+
+pairs_with: [doe-gord-v-needs, frigaliment-what-is-chicken]
+tags: [contract, shipping, latent-ambiguity, boundary, canonical, needs-primary]

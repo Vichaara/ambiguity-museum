@@ -1,0 +1,121 @@
+id: barnhart-thomas-last-antecedent
+title: Which work has to exist in the national economy?
+
+case:
+  name: Barnhart v. Thomas
+  citation: 540 U.S. 20
+  parallel_citations: ["124 S. Ct. 376", "157 L. Ed. 2d 333"]
+  docket: 02-763
+  court: Supreme Court of the United States
+  jurisdiction: US-federal
+  date: "2003-11-12"
+  judge: Scalia, J., for a unanimous Court
+  prior_history: >
+    Reversing the Third Circuit, 294 F.3d 568, which had held the statute
+    unambiguously carried the opposite reading.
+
+instrument:
+  type: statute
+  provision: >
+    Social Security Act definition of disability, 42 U.S.C. §§423(d)(2)(A),
+    1382c(a)(3)(B)
+  drafted_by: Congress
+
+mechanism:
+  primary: last-antecedent
+  secondary: [modifier-scope]
+
+disputed_text:
+  quote: >
+    ... only if his physical or mental impairment or impairments are of such
+    severity that he is not only unable to do his previous work but cannot,
+    considering his age, education, and work experience, engage in any other kind
+    of substantial gainful work which exists in the national economy.
+  locus: >
+    the relative clause "which exists in the national economy", and whether it
+    reaches back past "any other kind of substantial gainful work" to "his
+    previous work"
+
+readings:
+  - id: A
+    advanced_by: Thomas, and the Third Circuit below
+    statement: >
+      The clause governs both kinds of work. Previous work is a species of work
+      existing in the national economy, so the agency cannot deny a claim on the
+      basis of previous work without first checking that such work still exists,
+      and Pauline Thomas's job, elevator operator, largely did not.
+  - id: B
+    advanced_by: The Social Security Administration
+    statement: >
+      The clause modifies only the phrase it immediately follows. Ability to do
+      previous work defeats a claim on its own, whether or not that work still
+      exists anywhere.
+    adopted: true
+
+resolution:
+  outcome: B
+  basis: [last-antecedent-canon, agency-deference, structural-context]
+  court_declared_ambiguous: true
+  quote: >
+    The Third Circuit's reading disregards — indeed, is precisely contrary to —
+    the grammatical "rule of the last antecedent," according to which a limiting
+    clause or phrase (here, the relative clause "which exists in the national
+    economy") should ordinarily be read as modifying only the noun or phrase that
+    it immediately follows (here, "any other kind of substantial gainful work").
+    ... While this rule is not an absolute and can assuredly be overcome by other
+    indicia of meaning, we have said that construing a statute in accord with the
+    rule is "quite sensible as a matter of grammar."
+
+stakes:
+  kind: entitlement
+  note: >
+    Disability insurance and Supplemental Security Income for the claimant, and
+    systemically whether the agency must establish that a claimant's former
+    occupation still exists before denying benefits at that step. Pauline Thomas
+    had worked as an elevator operator for six years until the job was eliminated
+    in 1995.
+  documented: true
+
+minimal_fix:
+  edit: >
+    Move the qualifier or repeat it: "unable to do his previous work which exists
+    in the national economy, and cannot ... engage in any other kind of
+    substantial gainful work which exists in the national economy." Fronting it,
+    "of work which exists in the national economy, he can do neither his previous
+    work nor any other kind", settles it just as well.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: false
+  notes: >
+    The purest last-antecedent exhibit in the collection, and unusual in that the
+    grammatical rule supplies the stated ground of decision rather than just the
+    mechanism. Scalia names the canon and quotes Sutherland on it. Note also what
+    the Court declined to do. The Third Circuit had held that the statute
+    unambiguously carried Reading A; the Court disagreed, and upheld Reading B as
+    "at least a reasonable construction" entitled to deference. Two federal courts
+    read the same sentence oppositely, and the reading that prevailed did so on
+    reasonableness rather than on correctness.
+
+sources:
+  - url: https://www.courtlistener.com/opinion/131145/barnhart-v-thomas/
+    kind: near-primary
+    confirms: [citation, disputed_text, readings, resolution, stakes, prior_history]
+    retrieved: "2026-07-29"
+
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      The deference half of the reasoning rests on the Chevron framework. That
+      framework's subsequent treatment by the Supreme Court is not described here
+      because it was not verified when this exhibit was written. Before adding any
+      note about it, confirm the later authority directly. Do not summarise it
+      from memory.
+
+pairs_with: [facebook-duguid-series-qualifier]
+tags: [statute, benefits, grammar, canon, unanimous]

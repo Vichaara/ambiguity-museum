@@ -1,0 +1,113 @@
+id: wtc-one-occurrence-or-two
+title: Was 9/11 one occurrence or two?
+
+case:
+  name: World Trade Center Properties LLC v. Hartford Fire Insurance Co.
+  citation: 345 F.3d 154
+  parallel_citations: ["2003 U.S. App. LEXIS 19944"]
+  docket: 02-9349
+  court: United States Court of Appeals for the Second Circuit
+  jurisdiction: US-federal
+  date: "2003-09-26"
+  prior_history: >
+    Consolidated appeals from SR Int'l Bus. Ins. Co. v. World Trade Ctr. Props.
+    LLC, 222 F. Supp. 2d 385 (S.D.N.Y. 2002), which quotes the WilProp definition
+    at 398. Later jury trials and 467 F.3d 107 (2d Cir. 2006) resolved the
+    insurers left unresolved here.
+
+instrument:
+  type: insurance-policy
+  provision: >
+    Temporary binders on a $3.5bn-per-occurrence property programme. No insurer had
+    issued a final policy as of 11 September 2001.
+  drafted_by: >
+    Willis, the insured's own broker, circulated the WilProp form. Travelers was the
+    only one of the four insurers to submit its own form.
+
+mechanism:
+  primary: undefined-term
+  secondary: [lexical-polysemy]
+
+disputed_text:
+  quote: >
+    "Occurrence" shall mean all losses or damages that are attributable directly or
+    indirectly to one cause or to one series of similar causes. All such losses will
+    be added together and the total amount of such losses will be treated as one
+    occurrence irrespective of the period of time or area over which such losses
+    occur.
+  locus: >
+    The word "occurrence", present and defined in the WilProp form, present and
+    UNDEFINED in the Travelers form. The exhibit is the contrast, not the clause.
+
+readings:
+  - id: A
+    advanced_by: The Silverstein Parties
+    statement: >
+      Two aircraft, two buildings, two occurrences, and so up to two times the
+      $3.5bn per-occurrence limit.
+  - id: B
+    advanced_by: The insurers
+    statement: >
+      One coordinated attack is "one series of similar causes," therefore a single
+      occurrence and a single limit.
+
+resolution:
+  outcome: >
+    Split by instrument, not by fact. Reading B as a matter of law for the insurers
+    bound to the WilProp form; for Travelers, whose form left the term undefined,
+    neither reading prevailed and the question went to the fact finder.
+  basis: [construed-as-written, extrinsic-evidence, structural-context]
+  court_declared_ambiguous: true
+  quote: >
+    ... the district court held that (a) the binders they issued were governed by the
+    insurance policy form circulated by Silverstein Properties' insurance broker, and
+    (b) under the definition of "occurrence" in that form, the destruction of the WTC
+    was one occurrence as a matter of law. ... [W]e conclude that ... the meaning of
+    "occurrence" in the Travelers binder is sufficiently ambiguous under New York law
+    to preclude summary judgment and to warrant consideration by the fact finder of
+    extrinsic evidence to determine the parties' intentions.
+
+stakes:
+  kind: money
+  amount: USD 3.5bn per occurrence
+  note: >
+    The difference between one occurrence and two was, at the per-occurrence limit,
+    approximately $3.5bn. Figures reported for the eventual recovery vary by source
+    and settlement; cite the limit, which the opinion supports, and not a total.
+  documented: true
+
+minimal_fix:
+  edit: >
+    Define the term, or, from the insured's side, define it the other way. Travelers'
+    form said "occurrence" and stopped. Adding either the WilProp sentence or its
+    converse ("each impact shall constitute a separate occurrence") would have
+    determined the outcome before a plane ever took off.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: false
+  notes: >
+    The cleanest demonstration in the collection that the answer lives in the text
+    and not in the world. The facts were identical across every insurer: same
+    towers, same morning, same two aircraft. The legal character of that morning
+    differed only because one form defined a word and another did not.
+
+sources:
+  - url: https://www.courtlistener.com/opinion/783708/tan-world-trade-center-properties-llc-silverstein-properties-inc/
+    kind: near-primary
+    confirms: [citation, disputed_text, readings, resolution, prior_history]
+    retrieved: "2026-07-29"
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+  open_questions:
+    - >
+      Recovery totals circulating in the press (~$4.6bn) are not stated in this
+      opinion and trace to later settlements. Do not put a total on the page without
+      pulling 467 F.3d 107 first.
+
+pairs_with: [white-city-v-pr-restaurants]
+tags: [insurance, catastrophe, undefined-term, high-stakes]

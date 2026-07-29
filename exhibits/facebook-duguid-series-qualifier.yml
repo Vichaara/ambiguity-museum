@@ -1,0 +1,93 @@
+id: facebook-duguid-series-qualifier
+title: One modifier, two verbs. Which does it reach?
+
+case:
+  name: Facebook, Inc. v. Duguid
+  citation: 592 U.S. 395
+  docket: 19-511
+  court: Supreme Court of the United States
+  jurisdiction: US-federal
+  date: "2021-04-01"
+  judge: Sotomayor, J. (Alito, J., concurring in the judgment)
+  prior_history: Reversing 926 F.3d 1146 (9th Cir.).
+
+instrument:
+  type: statute
+  provision: TCPA autodialer definition, 47 U.S.C. §227(a)(1)(A)-(B)
+  drafted_by: Congress, 1991
+
+mechanism:
+  primary: series-qualifier
+  secondary: [modifier-scope]
+
+disputed_text:
+  quote: >
+    (A) to store or produce telephone numbers to be called, using a random or
+    sequential number generator; and (B) to dial such numbers.
+  locus: >
+    the trailing participial phrase "using a random or sequential number
+    generator", and the comma that precedes it
+
+readings:
+  - id: A
+    advanced_by: Facebook
+    statement: >
+      The clause modifies both verbs. Equipment is an autodialer only if it
+      stores or produces numbers *using a number generator*, which most modern
+      marketing systems do not.
+    adopted: true
+  - id: B
+    advanced_by: Duguid
+    statement: >
+      The clause modifies only "produce," the nearest verb. Equipment that
+      merely stores numbers and dials them is an autodialer, sweeping in a far
+      wider class of systems.
+
+resolution:
+  outcome: A
+  basis: [structural-context, plain-meaning]
+  court_declared_ambiguous: false
+  quote: >
+    Facebook argues the clause "using a random or sequential number generator"
+    modifies both verbs that precede it ("store" and "produce"), while Duguid
+    contends it modifies only the closest one ("produce"). We conclude that the
+    clause modifies both, specifying how the equipment must either "store" or
+    "produce" telephone numbers.
+
+stakes:
+  kind: money
+  amount: unstated in the opinion
+  note: >
+    The TCPA carries statutory damages per call, so the scope of one participial
+    phrase governs the exposure of every company operating an automated
+    messaging system. The opinion does not quantify it.
+  documented: false
+
+minimal_fix:
+  edit: >
+    Move the modifier to the front, so that it reads "using a random or sequential number
+    generator, to store or produce telephone numbers", or repeat it after each
+    verb. Either forecloses Reading B.
+  suffices_without_facts: true
+
+inclusion_test:
+  discrete_readings: true
+  fixable_by_text_alone: true
+  not_vagueness: true
+  boundary: false
+  notes: >
+    The Court enumerates both parses itself, in one sentence, before choosing.
+    Nothing about Facebook's actual conduct bore on the question.
+
+sources:
+  - url: https://www.supremecourt.gov/opinions/20pdf/19-511_p86b.pdf
+    kind: primary
+    confirms: [citation, disputed_text, readings, resolution, prior_history]
+    retrieved: "2026-07-29"
+
+verification:
+  status: confirmed
+  checked_on: "2026-07-29"
+
+pairs_with: [oakhurst-dairy-serial-comma]
+tags: [technology, telecoms, statute, declared-clear]
