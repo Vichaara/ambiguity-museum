@@ -1,10 +1,10 @@
 # Catalogue
 
-13 exhibits. Each is a case where a written legal instrument admitted more than
+12 exhibits. Each is a case where a written legal instrument admitted more than
 one reading, and a court had to choose between them.
 
 > [!NOTE]
-> In **6 of 13 exhibits the court declared the text unambiguous** — in one
+> In **6 of 12 exhibits the court declared the text unambiguous** — in one
 > case after the parties had filed competing dictionary definitions and expert
 > affidavits, in another while conceding the reading it enforced would incinerate the
 > product the patent existed to make. Judicial confidence in clarity is not evidence
@@ -14,19 +14,18 @@ one reading, and a court had to choose between them.
 
 | | |
 |---|---|
-| Exhibits | 13 |
-| Instrument types | statute (5), contract (4), will (1), insurance policy (1), patent claim (1), lease (1) |
-| Jurisdictions | US-federal (8), UK (3), US-MA (1), CA (1) |
-| Distinct mechanisms | 11 across 13 exhibits |
+| Exhibits | 12 |
+| Instrument types | statute (5), contract (4), insurance policy (1), patent claim (1), lease (1) |
+| Jurisdictions | US-federal (8), UK (2), US-MA (1), CA (1) |
+| Distinct mechanisms | 10 across 12 exhibits |
 | Court called the text clear | 6 |
-| Boundary specimens | 6 |
-| Verified to a primary source | 12 of 13 |
+| Boundary specimens | 5 |
+| Verified to a primary source | 12 of 12 |
 
 ## Index
 
 | No. | Exhibit | Instrument | Mechanism | Notes |
 |---|---|---|---|---|
-| `1836.01` | [Which George Gord?](#ex-1836-01) | will | equivocation | boundary, **needs primary** |
 | `1864.01` | [Which Peerless?](#ex-1864-01) | contract | latent ambiguity | boundary |
 | `1960.01` | [What is chicken?](#ex-1960-01) | contract | lexical polysemy | — |
 | `1997.01` | [May a court move the brackets?](#ex-1997-01) | contract | punctuation scope | boundary |
@@ -39,67 +38,6 @@ one reading, and a court had to choose between them.
 | `2021.01` | [One modifier, two verbs. Which does it reach?](#ex-2021-01) | statute | series qualifier | called clear |
 | `2021.02` | [Is "a notice" one document, or a running total?](#ex-2021-02) | statute | article definite indefinite | called clear |
 | `2024.01` | [Does "does not have A, B, and C" mean all three, or each of three?](#ex-2024-01) | statute | negation scope | called clear, boundary |
-
----
-
-<a id="ex-1836-01"></a>
-
-## 1836.01  Which George Gord?
-
-**Doe d. Gord v. Needs**, (1836) 2 M & W 129 (Court of Exchequer, 1836)
-
-> [!WARNING]
-> **Not yet verified against a primary source.** The holding below is a
-> placeholder, not a quotation. See *Outstanding* at the end of this entry.
-
-**The text in dispute**
-
-> ... George Gord, the son of Gord ...
-
-The ambiguity sits in a description that fitted two different people equally well. The testator having elsewhere in the same will devised property to "John Gord, the son of George Gord" and to "George Gord, the son of George Gord".
-
-**The readings**
-
-- **Reading A**  
-  The devise was to George Gord the son of George Gord.
-- **Reading B**  
-  The devise was to George Gord the son of John Gord.
-
-**Held**
-
-> PENDING — see verification. Quote the reported judgment before publishing.
-
-**The edit that would have prevented it.** Complete the description. "George Gord, the son of John Gord, of [parish]" identifies one person and no other.
-
-<details>
-<summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
-
-| | |
-|---|---|
-| Instrument | will — Devise of a house under a will dated March 1807 |
-| Drafted by | The testator |
-| Mechanism | equivocation (latent ambiguity) |
-| Resolved on | extrinsic evidence |
-| At stake | A devised house. No valuation appears in the accounts consulted. *(not stated in the opinion)* |
-| History | Date is the reported year only; the precise decision date was not confirmed. |
-| Verification | `needs-primary`, checked 2026-07-29 |
-
-**Why this is a boundary specimen.** Included as the wills counterpart to raffles-two-ships-peerless: the same mechanism (one description, two real-world referents) in a different instrument, twenty-eight years earlier. The pairing is the point: equivocation turns up whenever a name is assumed to pick out exactly one thing, in any century and any kind of drafting. The remedy differs from Raffles, though. A will admits declarations of intention, where the contract simply failed.
-
-**Outstanding**
-
-- The weakest-sourced exhibit in the collection. Citation appears consistently as (1836) 2 M & W 129; 150 ER 698, but the report itself was not read.
-- disputed_text is a reconstruction from secondary descriptions of the will's devises and is very likely not the testator's exact words. Replace it with the reported wording or drop the exhibit.
-- Confirm the precise decision date, the identity of the competing devisees, and whether the court admitted declarations of intention as stated here.
-- If the report cannot be reached, consider substituting a better-documented equivocation case rather than publishing this one.
-
-**Sources**
-
-- [secondary](https://vlex.co.uk/vid/doe-d-george-gord-803311113)
-
-**Read alongside** [Which Peerless?](#ex-1864-01)
-
-</details>
 
 ---
 
@@ -153,7 +91,7 @@ The ambiguity sits in the ship's name "Peerless", which on the face of the contr
 - [near-primary](http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf)
 - [near-primary](https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html)
 
-**Read alongside** [Which George Gord?](#ex-1836-01), [What is chicken?](#ex-1960-01)
+**Read alongside** [What is chicken?](#ex-1960-01)
 
 </details>
 

@@ -110,11 +110,11 @@ python3 scripts/build_catalogue.py   # regenerate CATALOGUE.md
 
 Two rules are worth explaining, because both came out of getting it wrong first.
 
-**`resolution.quote` must be verbatim.** An early draft of this collection was assembled
-with automated research and then checked adversarially. Citations and quoted text came
-through intact, while every paraphrased characterisation of a court's reasoning was
-refuted. Paraphrase is therefore structurally impossible in the one field that proved
-untrustworthy: quote the holding, or do not make the claim.
+**`resolution.quote` must be verbatim.** An early draft was checked adversarially, claim
+by claim. Citations and quoted text came through intact, while every paraphrased
+characterisation of a court's reasoning was refuted. Paraphrase is therefore structurally
+impossible in the one field that proved untrustworthy: quote the holding, or do not make
+the claim.
 
 **Provenance is tracked per field rather than per exhibit.** Each source declares what it
 confirms. A secondary source can support a dollar figure, but it can never be the sole
@@ -123,9 +123,13 @@ enforces this, so an exhibit marked `confirmed` that lacks primary or near-prima
 coverage of those three fields fails the build.
 
 Exhibits still being verified carry `verification.status: needs-primary` and say what is
-outstanding. Three currently do, all pre-1998 English cases sitting behind bot-protected
-archives. They stay in the collection with their gaps visible rather than omitted or
-quietly guessed at.
+outstanding. None currently does.
+
+Two rules bound what an unverified exhibit may do. It may leave `resolution.quote` as an
+explicit placeholder, since a missing holding is a gap a reader can see. It may not put
+reconstructed wording in `disputed_text`, because that field renders as a quotation and
+the banner does not warn anyone about it. An exhibit that cannot meet the second rule does
+not ship.
 
 ---
 
