@@ -145,9 +145,14 @@ worth more than a confident guess, and this collection is read by people who wil
 
 ## Licence
 
-Code and schema: MIT. Exhibit data and prose: CC BY 4.0.
+Code and schema (`scripts/`, `schema/`): MIT, see [LICENSE](LICENSE).
 
-Quoted judicial text is reproduced from public court records.
+Exhibit data and prose (`exhibits/`, this file, `CATALOGUE.md`): CC BY 4.0, see
+[LICENSE-DATA](LICENSE-DATA).
+
+Judicial opinions quoted in the exhibits are reproduced from public court records.
+They are not ours to license, neither licence purports to grant rights in them, and
+no permission is needed to quote them.
 
 ---
 
