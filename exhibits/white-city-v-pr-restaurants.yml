@@ -96,8 +96,10 @@ inclusion_test:
   boundary:
     tests: [vagueness, refusal-to-find-ambiguity]
     against_inclusion: >
-      This is the most contestable inclusion in the collection. A burrito is a borderline
-      case of "sandwich", and borderline cases of an open-textured predicate are the
+      The inclusion most likely to be simply wrong, and it fails differently from
+      raffles-two-ships-peerless. Raffles strains the criterion while satisfying it; the
+      objection here goes to whether the criterion is satisfied at all. A burrito is a
+      borderline case of "sandwich", and borderline cases of an open-textured predicate are the
       definition of vagueness, which the collection excludes by rule. The court agreed
       the term was not ambiguous, and reached its answer by consulting a dictionary,
       which is how one resolves vagueness rather than how one chooses between parses.
@@ -107,8 +109,7 @@ inclusion_test:
       product, and the case turned on which definition governed rather than on whether a
       particular item shaded across a line. A word can be vague at its edges and
       ambiguous between two settled senses; this was the second. A reader who thinks that
-      distinction too fine should treat this exhibit as the collection's weakest and say
-      so.
+      distinction too fine should treat this as the one exhibit to strike, and say so.
   notes: >
     Included in the "declared clear" wing rather than the core. The court held the
     word NOT ambiguous, so on its own account this is not an ambiguity case at all.

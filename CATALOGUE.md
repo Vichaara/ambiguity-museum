@@ -96,7 +96,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 *Why it is here anyway.* Test (b) asks whether an edit made in advance, knowing nothing of what later happened, would have prevented the dispute. Naming the sailing month does exactly that. The decisive point is timing: "Peerless" had two referents at the moment of drafting, and it was only the parties' knowledge that arrived late. The ambiguity was in the text from the start, waiting.
 
-**Curator's note.** The collection's defining boundary specimen, and the exhibit that most tests its own rule. On the face of the contract nothing is unclear. The second reading exists only once you learn there were two ships, so the ambiguity is invisible from the text alone, and the case is conventionally taught as mutual mistake rather than interpretation. It passes test (b) cleanly, since naming the sailing month is a text-only fix that requires no knowledge of what later happened, and it strains test (a). It is here because a criterion applied only to easy cases is not a criterion. The report repays reading in full for a second reason. The court gave no reasons at all. Everything the case is cited for comes from Mellish's argument for the defendants, that "the moment it appears that two ships called the Peerless were about to sail from Bombay there is a latent ambiguity, and parol evidence may be given", and that consequently "there was no consensus ad idem, and therefore no binding contract". He was stopped mid-argument and judgment followed. The doctrine is counsel's, adopted in silence. The nearest thing to judicial reasoning is Pollock C.B. interjecting that "it would be a question for the jury whether both parties meant the same ship to be called the Peerless", and likening the case to a purchase of wine from a named estate "in Spain or France, where there are two estates of the same name". The court_declared_ambiguous flag is set true on the strength of the court stopping counsel, not on any statement, because there is no statement.
+**Curator's note.** The exhibit that stretches test (a) furthest, though it plainly satisfies it. Two readings exist because "Peerless" picked out two vessels at the moment of drafting. Neither is visible on the face of the contract. The second reading exists only once you learn there were two ships, so the ambiguity is invisible from the text alone, and the case is conventionally taught as mutual mistake rather than interpretation. It passes test (b) cleanly, since naming the sailing month is a text-only fix that requires no knowledge of what later happened, and it strains test (a). It is here because a criterion applied only to easy cases is not a criterion. The report repays reading in full for a second reason. The court gave no reasons at all. Everything the case is cited for comes from Mellish's argument for the defendants, that "the moment it appears that two ships called the Peerless were about to sail from Bombay there is a latent ambiguity, and parol evidence may be given", and that consequently "there was no consensus ad idem, and therefore no binding contract". He was stopped mid-argument and judgment followed. The doctrine is counsel's, adopted in silence. The nearest thing to judicial reasoning is Pollock C.B. interjecting that "it would be a question for the jury whether both parties meant the same ship to be called the Peerless", and likening the case to a purchase of wine from a named estate "in Spain or France, where there are two estates of the same name". The court_declared_ambiguous flag is set true on the strength of the court stopping counsel, not on any statement, because there is no statement.
 
 **Outstanding**
 
@@ -295,7 +295,7 @@ Both readings were draftable. What the text failed to do was choose between them
 | History | Consolidated appeals from SR Int'l Bus. Ins. Co. v. World Trade Ctr. Props. LLC, 222 F. Supp. 2d 385 (S.D.N.Y. 2002), which quotes the WilProp definition at 398. Later jury trials and 467 F.3d 107 (2d Cir. 2006) resolved the insurers left unresolved here. |
 | Verification | `confirmed`, checked 2026-07-29 |
 
-**Curator's note.** The cleanest demonstration in the collection that the answer lives in the text and not in the world. The facts were identical across every insurer: same towers, same morning, same two aircraft. The legal character of that morning differed only because one form defined a word and another did not.
+**Curator's note.** The only exhibit in which one set of facts carried two different legal characters at the same moment. The facts were identical across every insurer: same towers, same morning, same two aircraft. The legal character of that morning differed only because one form defined a word and another did not.
 
 **Outstanding**
 
@@ -360,7 +360,7 @@ Both readings were draftable. What the text failed to do was choose between them
 | History | Reversing the Third Circuit, 294 F.3d 568, which had held the statute unambiguously carried the opposite reading. |
 | Verification | `confirmed`, checked 2026-07-29 |
 
-**Curator's note.** The purest last-antecedent exhibit in the collection, and unusual in that the grammatical rule supplies the stated ground of decision rather than just the mechanism. Scalia names the canon and quotes Sutherland on it. Note also what the Court declined to do. The Third Circuit had held that the statute unambiguously carried Reading A; the Court disagreed, and upheld Reading B as "at least a reasonable construction" entitled to deference. Two federal courts read the same sentence oppositely, and the reading that prevailed did so on reasonableness rather than on correctness.
+**Curator's note.** The collection's only last-antecedent exhibit, and unusual in that the grammatical rule supplies the stated ground of decision rather than merely the mechanism. Scalia names the canon and quotes Sutherland on it. Note also what the Court declined to do. The Third Circuit had held that the statute unambiguously carried Reading A; the Court disagreed, and upheld Reading B as "at least a reasonable construction" entitled to deference. Two federal courts read the same sentence oppositely, and the reading that prevailed did so on reasonableness rather than on correctness.
 
 **Outstanding**
 
@@ -430,7 +430,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 *Why it is here anyway.* Two readings were argued, briefed, and dispositive of the appeal, and the court chose between them while conceding the winner produces a charcoal briquet. A declaration that text is unambiguous is a holding about the words, not an observation of a fact, and the gap between the two is a large part of what this collection is for. Six of twelve exhibits sit on the same side of it.
 
-**Curator's note.** A boundary specimen, and the collection's sharpest statement of the opposite principle to ics-west-bromwich. The court conceded the result was absurd: the dough "would be burned to a crisp," producing something an attorney in the case called a charcoal briquet. It enforced the claim anyway, holding it "susceptible to only one reasonable interpretation." Whether that makes this an ambiguity case or a refusal to find one is exactly the question worth arguing about, which is why it is here and labelled.
+**Curator's note.** A boundary specimen, and the counterpart to ics-west-bromwich: the same question answered the other way. The court conceded the result was absurd: the dough "would be burned to a crisp," producing something an attorney in the case called a charcoal briquet. It enforced the claim anyway, holding it "susceptible to only one reasonable interpretation." Whether that makes this an ambiguity case or a refusal to find one is exactly the question worth arguing about, which is why it is here and labelled.
 
 **Sources**
 
@@ -492,9 +492,9 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Boundary specimen.** Tests: vagueness, refusal to find ambiguity.
 
-*The case against including it.* This is the most contestable inclusion in the collection. A burrito is a borderline case of "sandwich", and borderline cases of an open-textured predicate are the definition of vagueness, which the collection excludes by rule. The court agreed the term was not ambiguous, and reached its answer by consulting a dictionary, which is how one resolves vagueness rather than how one chooses between parses.
+*The case against including it.* The inclusion most likely to be simply wrong, and it fails differently from raffles-two-ships-peerless. Raffles strains the criterion while satisfying it; the objection here goes to whether the criterion is satisfied at all. A burrito is a borderline case of "sandwich", and borderline cases of an open-textured predicate are the definition of vagueness, which the collection excludes by rule. The court agreed the term was not ambiguous, and reached its answer by consulting a dictionary, which is how one resolves vagueness rather than how one chooses between parses.
 
-*Why it is here anyway.* The dispute was not about where a boundary falls. Both sides advanced discrete, statable definitions, two slices of bread against any filling enclosed in any bread product, and the case turned on which definition governed rather than on whether a particular item shaded across a line. A word can be vague at its edges and ambiguous between two settled senses; this was the second. A reader who thinks that distinction too fine should treat this exhibit as the collection's weakest and say so.
+*Why it is here anyway.* The dispute was not about where a boundary falls. Both sides advanced discrete, statable definitions, two slices of bread against any filling enclosed in any bread product, and the case turned on which definition governed rather than on whether a particular item shaded across a line. A word can be vague at its edges and ambiguous between two settled senses; this was the second. A reader who thinks that distinction too fine should treat this as the one exhibit to strike, and say so.
 
 **Curator's note.** Included in the "declared clear" wing rather than the core. The court held the word NOT ambiguous, so on its own account this is not an ambiguity case at all. It earns its place for the opposite reason: footnote 3 records that "the parties have submitted numerous dictionary definitions for the term 'sandwich,' as well as expert affidavits", competing definitions and paid experts on both sides, and the court still called the term unambiguous in the next breath. That gap between declared clarity and demonstrated disagreement IS the exhibit.
 
@@ -561,7 +561,7 @@ Both readings were draftable. What the text failed to do was choose between them
 | History | The Commission first read the clause against Rogers on 28 July 2006, calling it clear. On review it reversed itself, holding its own earlier reading an error of law made on a record that lacked the French text. |
 | Verification | `confirmed`, checked 2026-07-29 |
 
-**Curator's note.** The most instructive exhibit in the collection, because the tribunal decided it twice and disagreed with itself. On first hearing it read the clause on a punctuation canon and declared it clear. On review, the equally authentic French version, which places the notice requirement expressly before expiry, admitted only one reading, and the Commission held its own earlier confidence to have been an error of law. Same clause, same tribunal, opposite result, thirteen months apart.
+**Curator's note.** The only exhibit in which one tribunal read the same clause twice and reversed itself. On first hearing it read the clause on a punctuation canon and declared it clear. On review, the equally authentic French version, which places the notice requirement expressly before expiry, admitted only one reading, and the Commission held its own earlier confidence to have been an error of law. Same clause, same tribunal, opposite result, thirteen months apart.
 
 **Outstanding**
 
@@ -627,7 +627,7 @@ Both readings were draftable. What the text failed to do was choose between them
 | History | Reversing partial summary judgment for the dairy in the District of Maine (Torresen, C.J.). |
 | Verification | `confirmed`, checked 2026-07-29 |
 
-**Curator's note.** The collection's canonical exhibit. Both parses are written out in the opinion itself, the court held the text irreducibly ambiguous on its face, and the tie was broken by a default rule rather than by the words.
+**Curator's note.** The best known of these cases, which is a fact about the literature rather than a ranking against the others here. Both parses are written out in the opinion itself, the court held the text irreducibly ambiguous on its face, and the tie was broken by a default rule rather than by the words.
 
 **Outstanding**
 
