@@ -60,6 +60,23 @@ for p in paths:
         fail += 1
         print(f"FAIL {p.name}: decision adopts {bad_adopt[0]!r}, which is not a reading id")
         continue
+    for x in ds:
+        if x["known_from"] == "unverified":
+            fail += 1; print(f"FAIL {p.name}: decision '{x['court'][:40]}' is unverified"); break
+        if x["known_from"] == "inferred" and x["declared_ambiguous"] is not None:
+            fail += 1
+            print(f"FAIL {p.name}: '{x['court'][:40]}' is inferred, so it cannot assert "
+                  f"declared_ambiguous={x['declared_ambiguous']}")
+            break
+        if x["known_from"] == "inferred" and x.get("quote"):
+            fail += 1; print(f"FAIL {p.name}: an inferred row cannot carry a quote"); break
+    else:
+        pass
+    if fail and ds and any(x["known_from"] in ("unverified",) or
+                           (x["known_from"]=="inferred" and (x["declared_ambiguous"] is not None or x.get("quote")))
+                           for x in ds):
+        continue
+
     dated = [x["date"] for x in ds if x.get("date")]
     if dated != sorted(dated):
         fail += 1; print(f"FAIL {p.name}: decisions are not in chronological order"); continue

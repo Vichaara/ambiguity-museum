@@ -22,7 +22,8 @@ one reading, and a court had to choose between them.
 | Boundary specimens | 5 |
 | Reached more than one court | 9 |
 | ... where the reading changed between courts | 6 |
-| ... where courts disagreed on whether the text was ambiguous | 4 |
+| ... where courts disagreed on whether the text was ambiguous | 3 |
+| Decisions recorded, of which inferred rather than read | 22, 5 inferred |
 | Verified to a primary source | 12 of 12 |
 
 ## Index
@@ -431,7 +432,7 @@ Found at 358 F.3d at 1372-73, Part II-A, at "we construe the claim as written".
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States District Court (on claim construction) | Reading B | clear | first instance |
+| United States District Court (on claim construction) *(inferred, not read)* | Reading B | did not say | first instance |
 | United States Court of Appeals for the Federal Circuit (358 F.3d 1371) | Reading B | clear | affirmed |
 
 **The edits that would have prevented it**
@@ -647,7 +648,7 @@ Found at slip op., closing the grammatical analysis at "We are reluctant to conc
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States District Court for the District of Maine (Torresen, C.J.) | Reading B | clear | first instance |
+| United States District Court for the District of Maine (Torresen, C.J.) *(inferred, not read)* | Reading B | did not say | first instance |
 | United States Court of Appeals for the First Circuit (851 F.3d 69) | Reading A | ambiguous | reversed |
 
 **The edits that would have prevented it**
@@ -720,7 +721,7 @@ Found at slip op., Part II-A, at "Facebook argues the clause".
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States Court of Appeals for the Ninth Circuit (926 F.3d 1146) | Reading B | did not say | first instance |
+| United States Court of Appeals for the Ninth Circuit (926 F.3d 1146) *(inferred, not read)* | Reading B | did not say | first instance |
 | Supreme Court of the United States (592 U.S. 395) | Reading A | clear | reversed |
 
 **The edits that would have prevented it**
@@ -788,7 +789,7 @@ Found at slip op., at "To trigger the stop-time rule, the government must serve"
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States Court of Appeals for the Sixth Circuit | Reading B | did not say | first instance |
+| United States Court of Appeals for the Sixth Circuit *(inferred, not read)* | Reading B | did not say | first instance |
 | Supreme Court of the United States (593 U.S. 155) | Reading A | clear | reversed |
 
 **The edits that would have prevented it**
@@ -856,7 +857,7 @@ Found at majority opinion, at "There are, to be sure, two grammatically permissi
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States Court of Appeals for the Eighth Circuit | Reading B | did not say | first instance |
+| United States Court of Appeals for the Eighth Circuit (39 F.4th 1018) *(inferred, not read)* | Reading B | did not say | first instance |
 | Supreme Court of the United States (601 U.S. 124) | Reading B | clear | affirmed |
 
 **The edits that would have prevented it**

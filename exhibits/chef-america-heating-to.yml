@@ -44,10 +44,12 @@ readings:
 
 decisions:
   - court: United States District Court (on claim construction)
+    known_from: inferred
     adopted: B
-    declared_ambiguous: false
+    declared_ambiguous: null
     disposition: first-instance
   - court: United States Court of Appeals for the Federal Circuit
+    known_from: read
     citation: 358 F.3d 1371
     date: "2004-02-20"
     adopted: B

@@ -47,10 +47,13 @@ readings:
 
 decisions:
   - court: United States Court of Appeals for the Eighth Circuit
+    citation: 39 F.4th 1018
+    known_from: inferred
     adopted: B
     declared_ambiguous: null
     disposition: first-instance
   - court: Supreme Court of the United States
+    known_from: read
     citation: 601 U.S. 124
     date: "2024-03-15"
     adopted: B

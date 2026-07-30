@@ -56,12 +56,14 @@ readings:
 
 decisions:
   - court: United States District Court for the Southern District of New York
+    known_from: reported-above
     citation: 222 F. Supp. 2d 385
     date: "2002-09-25"
     adopted: B
     declared_ambiguous: false
     disposition: first-instance
   - court: United States Court of Appeals for the Second Circuit
+    known_from: read
     citation: 345 F.3d 154
     date: "2003-09-26"
     adopted: B

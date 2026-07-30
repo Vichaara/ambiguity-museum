@@ -65,6 +65,7 @@ readings:
 
 decisions:
   - court: High Court, Chancery Division (Evans-Lombe J.)
+    known_from: reported-above
     adopted: B
     declared_ambiguous: true
     disposition: first-instance
@@ -74,6 +75,7 @@ decisions:
       the judge's own misgiving about his construction, as reported in Lord Hoffmann's
       speech
   - court: Court of Appeal (Leggatt L.J.)
+    known_from: reported-above
     adopted: A
     declared_ambiguous: false
     disposition: reversed
@@ -84,6 +86,7 @@ decisions:
       Hoffmann's speech, where Hoffmann answers that the concept is unhelpful "when, on
       any view, the words have not been used in a natural and ordinary way"
   - court: House of Lords
+    known_from: read
     citation: "[1998] 1 WLR 896"
     date: "1997-06-19"
     adopted: B

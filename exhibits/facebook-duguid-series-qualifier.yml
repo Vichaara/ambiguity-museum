@@ -47,11 +47,13 @@ readings:
 
 decisions:
   - court: United States Court of Appeals for the Ninth Circuit
+    known_from: inferred
     citation: 926 F.3d 1146
     adopted: B
     declared_ambiguous: null
     disposition: first-instance
   - court: Supreme Court of the United States
+    known_from: read
     citation: 592 U.S. 395
     date: "2021-04-01"
     adopted: A

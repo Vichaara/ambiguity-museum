@@ -372,7 +372,8 @@
                 "readings",
                 "resolution",
                 "stakes",
-                "prior_history"
+                "prior_history",
+                "decisions"
               ]
             }
           },
@@ -473,7 +474,8 @@
           "court",
           "adopted",
           "declared_ambiguous",
-          "disposition"
+          "disposition",
+          "known_from"
         ],
         "properties": {
           "court": {
@@ -516,6 +518,15 @@
           "pinpoint": {
             "type": "string",
             "description": "Required whenever quote is present."
+          },
+          "known_from": {
+            "enum": [
+              "read",
+              "reported-above",
+              "inferred",
+              "unverified"
+            ],
+            "description": "How this row is known, which the rest of the schema demands of every other factual field and this one was shipped without. read: the decision's own text was read. reported-above: a later court's opinion sets out this court's holding, which is often the only way a nineteenth-century or unreported first-instance ruling is reachable. inferred: deduced from the disposition rather than read, so a court that was reversed is recorded as having adopted the reading the reversing court rejected. Sound as reasoning, but it is not a source, and declared_ambiguous should be null on an inferred row unless the later court says otherwise. unverified: asserted and not checked. Should not appear in a published exhibit."
           }
         },
         "dependentRequired": {

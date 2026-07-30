@@ -44,6 +44,7 @@ readings:
 
 decisions:
   - court: United States District Court, S.D.N.Y. (Friendly, Circuit Judge, by designation)
+    known_from: read
     citation: 190 F. Supp. 116
     date: "1960-12-27"
     adopted: B

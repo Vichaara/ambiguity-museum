@@ -73,8 +73,15 @@ read for pleasure. Where that happens, it stays out.
 **How exhibits travelled** (`decisions`). Every court that decided the point, oldest
 first, each recording the reading it adopted and whether it treated the text as
 ambiguous. Nine exhibits reached more than one court. In six the reading changed between
-them, and in four the courts disagreed about whether the text was ambiguous at all. A
+them, and in three the courts disagreed about whether the text was ambiguous at all. A
 single outcome field hides that; this is the more interesting fact.
+
+Each row also records how it is known. Twenty-two decisions are listed and five are
+marked `inferred`: the court was not read, and its position is deduced from the fact that
+a later court reversed it. An inferred row may record which reading that court must have
+taken, since a reversal entails one, but it may not say whether that court called the text
+clear, because nothing in the record says so. The validator enforces both. Five of the
+lower-court rows carry no quote at all, and the catalogue marks them.
 
 *ICS v West Bromwich* is the clearest case. The judge read it one way while doubting
 himself, the Court of Appeal reversed him and called the words natural and ordinary, and

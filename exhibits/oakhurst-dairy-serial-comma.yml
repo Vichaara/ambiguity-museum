@@ -50,10 +50,12 @@ readings:
 
 decisions:
   - court: United States District Court for the District of Maine (Torresen, C.J.)
+    known_from: inferred
     adopted: B
-    declared_ambiguous: false
+    declared_ambiguous: null
     disposition: first-instance
   - court: United States Court of Appeals for the First Circuit
+    known_from: read
     citation: 851 F.3d 69
     date: "2017-03-13"
     adopted: A

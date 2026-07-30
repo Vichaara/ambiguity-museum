@@ -57,6 +57,7 @@ readings:
 
 decisions:
   - court: Court of Exchequer
+    known_from: read
     citation: 2 Hurl. & C. 906
     date: "1864-01-20"
     adopted: none

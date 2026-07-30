@@ -56,6 +56,7 @@ readings:
 
 decisions:
   - court: United States Court of Appeals for the Third Circuit
+    known_from: reported-above
     citation: 294 F.3d 568
     adopted: A
     declared_ambiguous: false
@@ -65,6 +66,7 @@ decisions:
       description, the specific items must fall within the description.
     pinpoint: 294 F.3d at 572, as quoted in the Supreme Court's opinion
   - court: Supreme Court of the United States
+    known_from: read
     citation: 540 U.S. 20
     date: "2003-11-12"
     adopted: B

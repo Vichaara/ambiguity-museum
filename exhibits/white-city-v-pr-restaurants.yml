@@ -48,6 +48,7 @@ readings:
 
 decisions:
   - court: Massachusetts Superior Court (Locke, J.)
+    known_from: read
     citation: 21 Mass. L. Rptr. 565
     date: "2006-10-31"
     adopted: B

@@ -60,12 +60,14 @@ readings:
 
 decisions:
   - court: Canadian Radio-television and Telecommunications Commission
+    known_from: read
     citation: Telecom Decision CRTC 2006-45
     date: "2006-07-28"
     adopted: A
     declared_ambiguous: false
     disposition: first-instance
   - court: Canadian Radio-television and Telecommunications Commission, on review
+    known_from: read
     citation: Telecom Decision CRTC 2007-75
     date: "2007-08-20"
     adopted: B
