@@ -45,9 +45,6 @@ disputed_text:
     the placement of the opening parenthesis, and so whether "sounding in
     rescission" limits the claims reserved to the investor or merely illustrates
     them
-
-  pinpoint: >
-    section 3(b) of the claim form, set out in full in Lord Lloyd of Berwick's speech
 readings:
   - id: A
     advanced_by: West Bromwich Building Society, and the Court of Appeal
@@ -109,9 +106,6 @@ resolution:
     an "available meaning" of the words. If this means that judges cannot, short of
     rectification, decide that the parties must have made mistakes of meaning or
     syntax, I respectfully think he was wrong.
-
-  pinpoint: >
-    Lord Hoffmann's speech, immediately following his five principles of construction
 stakes:
   kind: money
   note: >
@@ -180,11 +174,16 @@ inclusion_test:
 
 sources:
   - url: https://publications.parliament.uk/pa/ld199798/ldjudgmt/jd970619/invest01.htm
+    pinpoints:
+      disputed_text: >
+        section 3(b) of the claim form, set out in full in Lord Lloyd of Berwick's speech
+      resolution: >
+        Lord Hoffmann's speech, immediately following his five principles of construction
     kind: primary
     confirms: [citation, disputed_text, readings, resolution, stakes, prior_history]
     retrieved: "2026-07-29"
   - url: https://www.bailii.org/uk/cases/UKHL/1997/28.html
-    archived: https://web.archive.org/web/20260109180412/http://www.bailii.org/uk/cases/UKHL/1997/28.html
+    archived_url: https://web.archive.org/web/20260109180412/http://www.bailii.org/uk/cases/UKHL/1997/28.html
     kind: near-primary
     confirms: [citation]
     retrieved: "2026-07-29"

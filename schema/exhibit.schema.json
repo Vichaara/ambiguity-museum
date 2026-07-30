@@ -137,8 +137,7 @@
       "additionalProperties": false,
       "required": [
         "quote",
-        "locus",
-        "pinpoint"
+        "locus"
       ],
       "properties": {
         "quote": {
@@ -170,10 +169,6 @@
               }
             }
           }
-        },
-        "pinpoint": {
-          "type": "string",
-          "description": "Where in the source this text sits, so a reader can check it without searching a long judgment. A reporter page where the pagination is known; otherwise a structural locator (a named part of the opinion, a judge's speech, a distinctive opening phrase). Do not assert a page number that has not been seen in the source itself."
         }
       }
     },
@@ -214,8 +209,7 @@
         "outcome",
         "basis",
         "court_declared_ambiguous",
-        "quote",
-        "pinpoint"
+        "quote"
       ],
       "properties": {
         "outcome": {
@@ -237,10 +231,6 @@
           "type": "string",
           "maxLength": 1200,
           "description": "REQUIRED VERBATIM, never a paraphrase. Adversarial review of an earlier draft killed four of five claims in this collection, and every one was a paraphrased characterisation of a court's reasoning. Quote the holding or do not make the claim."
-        },
-        "pinpoint": {
-          "type": "string",
-          "description": "Where in the source this text sits, so a reader can check it without searching a long judgment. A reporter page where the pagination is known; otherwise a structural locator (a named part of the opinion, a judge's speech, a distinctive opening phrase). Do not assert a page number that has not been seen in the source itself."
         }
       }
     },
@@ -381,10 +371,29 @@
             "type": "string",
             "format": "date"
           },
-          "archived": {
+          "archived_url": {
             "type": "string",
             "format": "uri",
-            "description": "A Wayback snapshot of this URL. Court sites reorganise and course pages vanish; the Raffles report here is hosted on a university teaching page, which is exactly the kind of link that disappears without notice. Omit where no snapshot exists rather than inventing one."
+            "description": "A snapshot of this URL, for sources that will not survive. Worth having for near-primary and secondary sources, and for anything hosted on a course page, a personal site, or a project that could quietly end. Official court and government sites do not need one unless they have shown themselves unstable. The Raffles report here sits on a university teaching page and is the clearest case for the field."
+          },
+          "pinpoints": {
+            "type": "object",
+            "minProperties": 1,
+            "description": "Where in THIS document each confirmed fact sits. A pinpoint only means something relative to a particular source: a reporter page is useless to a reader holding a casebook scan with its own pagination, and an exhibit with two sources cannot say 'at 117' without saying at 117 of what. Keys must be values this source already claims to confirm. Use whatever the document itself offers: paragraph numbers for an HTML judgment, a reporter page where the pagination is printed, the printed page rather than the PDF viewer's index, or a structural locator naming a part of the opinion or a judge's speech.",
+            "propertyNames": {
+              "enum": [
+                "citation",
+                "disputed_text",
+                "readings",
+                "resolution",
+                "stakes",
+                "prior_history",
+                "decisions"
+              ]
+            },
+            "additionalProperties": {
+              "type": "string"
+            }
           }
         }
       }

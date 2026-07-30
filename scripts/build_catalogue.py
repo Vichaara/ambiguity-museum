@@ -29,7 +29,7 @@ def cell(s):
     return flat(s).replace("|", "\\|")
 
 def human(s):
-    return flat(s).replace("-", " ")
+    return flat(s).replace("-", " ").replace("_", " ")
 
 def anchor(acc):
     """Explicit anchor id, emitted as <a id> just above the heading.
@@ -143,8 +143,7 @@ for d in docs:
     for line in flat(d["disputed_text"]["quote"]).split("\n"):
         w(f"> {line}")
     w("")
-    w(f"The ambiguity sits in {flat(d['disputed_text']['locus'])}. "
-      f"Found at {flat(d['disputed_text']['pinpoint'])}.")
+    w(f"The ambiguity sits in {flat(d['disputed_text']['locus'])}.")
     w("")
 
     w("**The readings**")
@@ -164,9 +163,6 @@ for d in docs:
     for line in flat(res["quote"]).split("\n"):
         w(f"> {line}")
     w("")
-    w(f"Found at {flat(res['pinpoint'])}.")
-    w("")
-
     if len(d["decisions"]) > 1:
         w("**How it travelled**")
         w("")
@@ -233,9 +229,11 @@ for d in docs:
     w("")
     for s_ in d["sources"]:
         line = f"- [{s_['kind']}]({s_['url']})"
-        if s_.get("archived"):
-            line += f" &middot; [archived]({s_['archived']})"
+        if s_.get("archived_url"):
+            line += f" &middot; [archived]({s_['archived_url']})"
         w(line)
+        for k, v in (s_.get("pinpoints") or {}).items():
+            w(f"  <br>*{human(k)}* at {flat(v)}")
     w("")
     if d.get("pairs_with"):
         links = ", ".join(

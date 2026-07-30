@@ -38,9 +38,6 @@ disputed_text:
     the ship's name "Peerless", which on the face of the contract picks out one
     vessel and in fact picked out two, one sailing from Bombay in October and one
     in December
-
-  pinpoint: >
-    the Declaration, as reported at 2 Hurl. & C. 906
 readings:
   - id: A
     advanced_by: Wichelhaus and others, the buyers
@@ -75,9 +72,6 @@ resolution:
   court_declared_ambiguous: true
   quote: >
     He was then stopped by the Court. Per Curiam. Judgment for the defendants.
-
-  pinpoint: >
-    the close of the report, following Mellish's argument in support of the plea
 stakes:
   kind: money
   amount: 125 bales of Surat cotton at 17.25d per pound
@@ -149,12 +143,19 @@ inclusion_test:
 
 sources:
   - url: http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf
-    archived: https://web.archive.org/web/20260730205018/http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf
+    pinpoints:
+      disputed_text: >
+        the Declaration, at the head of the report, on the first page of the reprint
+        (carrying casebook pagination 348)
+      resolution: >
+        the close of the report, following Mellish's argument in support of the plea, on
+        the third page of the reprint (carrying casebook pagination 350)
+    archived_url: https://web.archive.org/web/20260730205018/http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf
     kind: near-primary
     confirms: [disputed_text, readings, resolution, stakes, prior_history]
     retrieved: "2026-07-29"
   - url: https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html
-    archived: https://web.archive.org/web/20260314053603/https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html
+    archived_url: https://web.archive.org/web/20260314053603/https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html
     kind: near-primary
     confirms: [citation]
     retrieved: "2026-07-29"

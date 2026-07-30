@@ -30,9 +30,6 @@ disputed_text:
     reasonably expected to have annual sales of sandwiches greater than ten
     percent (10%) of its total sales ...
   locus: the undefined noun "sandwiches"
-
-  pinpoint: >
-    21 Mass. L. Rptr. at 566, Lease section 4.07 as set out in the Background
 readings:
   - id: A
     advanced_by: PR Restaurants (Panera)
@@ -70,9 +67,6 @@ resolution:
     finds that the term "sandwich" is not commonly understood to include
     burritos, tacos, and quesadillas, which are typically made with a single
     tortilla and stuffed with a choice filling of meat, rice, and beans.
-
-  pinpoint: >
-    21 Mass. L. Rptr. at 567, section A of the Discussion
 stakes:
   kind: money
   amount: USD 385,000+ committed by the incoming tenant
@@ -134,6 +128,11 @@ inclusion_test:
 
 sources:
   - url: https://www.courtlistener.com/opinion/8356298/white-city-shopping-center-v-pr-restaurants-llc/
+    pinpoints:
+      disputed_text: >
+        21 Mass. L. Rptr. at 566, Lease section 4.07 as set out in the Background
+      resolution: >
+        21 Mass. L. Rptr. at 567, section A of the Discussion
     kind: near-primary
     confirms: [citation, disputed_text, readings, resolution, stakes]
     retrieved: "2026-07-29"

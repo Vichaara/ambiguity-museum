@@ -60,22 +60,18 @@ for p in paths:
         fail += 1
         print(f"FAIL {p.name}: decision adopts {bad_adopt[0]!r}, which is not a reading id")
         continue
+    bad = None
     for x in ds:
         if x["known_from"] == "unverified":
-            fail += 1; print(f"FAIL {p.name}: decision '{x['court'][:40]}' is unverified"); break
-        if x["known_from"] == "inferred" and x["declared_ambiguous"] is not None:
-            fail += 1
-            print(f"FAIL {p.name}: '{x['court'][:40]}' is inferred, so it cannot assert "
-                  f"declared_ambiguous={x['declared_ambiguous']}")
-            break
-        if x["known_from"] == "inferred" and x.get("quote"):
-            fail += 1; print(f"FAIL {p.name}: an inferred row cannot carry a quote"); break
-    else:
-        pass
-    if fail and ds and any(x["known_from"] in ("unverified",) or
-                           (x["known_from"]=="inferred" and (x["declared_ambiguous"] is not None or x.get("quote")))
-                           for x in ds):
-        continue
+            bad = f"decision '{x['court'][:40]}' is unverified"
+        elif x["known_from"] == "inferred" and x["declared_ambiguous"] is not None:
+            bad = (f"'{x['court'][:40]}' is inferred, so it cannot assert "
+                   f"declared_ambiguous={x['declared_ambiguous']}")
+        elif x["known_from"] == "inferred" and x.get("quote"):
+            bad = f"'{x['court'][:40]}' is inferred, so it cannot carry a quote"
+        if bad: break
+    if bad:
+        fail += 1; print(f"FAIL {p.name}: {bad}"); continue
 
     dated = [x["date"] for x in ds if x.get("date")]
     if dated != sorted(dated):
@@ -106,8 +102,24 @@ for p in paths:
         print(f"FAIL {p.name}: no reading is marked plausible_intent, so nobody wanted either outcome")
         continue
 
+    # A pinpoint is a location inside a particular document, so it may only name a fact
+    # that document actually carries. This lived on the field itself until Raffles proved
+    # the problem: its pinpoint cited a reporter pagination neither of its sources used.
+    stray = [(src["url"], sorted(set(src.get("pinpoints", {})) - set(src["confirms"])))
+             for src in doc["sources"]]
+    stray = [(u, k) for u, k in stray if k]
+    if stray:
+        fail += 1
+        print(f"FAIL {p.name}: {stray[0][0][:48]} pinpoints {stray[0][1]}, which it does not confirm")
+        continue
+    pinned = {k for src in doc["sources"] for k in src.get("pinpoints", {})}
+    missing = [f for f in ("disputed_text", "resolution") if f not in pinned]
+    if missing:
+        fail += 1; print(f"FAIL {p.name}: no source gives a pinpoint for {missing[0]}"); continue
+
     hard = {"citation", "disputed_text", "resolution"}
-    covered = {c for s in doc["sources"] if s["kind"] in ("primary", "near-primary") for c in s["confirms"]}
+    covered = {c for s_ in doc["sources"] if s_["kind"] in ("primary", "near-primary")
+               for c in s_["confirms"]}
     if doc["verification"]["status"] == "confirmed" and not hard <= covered:
         fail += 1
         print(f"FAIL {p.name}: status 'confirmed' but {sorted(hard - covered)} lack a primary/near-primary source")

@@ -153,13 +153,24 @@ support for a citation, the disputed text, or the resolution quote. The validato
 enforces this, so an exhibit marked `confirmed` that lacks primary or near-primary
 coverage of those three fields fails the build.
 
-Every quoted passage carries a `pinpoint` saying where in the source it sits, so a reader
-can check it without searching a long judgment. Reporter pages appear only where the
-pagination was seen in the source itself; everywhere else the locator is structural, which
-is honest and just as findable. Sources carry a Wayback `archived` link where a snapshot
-exists. Court sites reorganise and course pages vanish, and the *Raffles* report is hosted
-on a university teaching page, which is exactly the kind of link that disappears without
-notice.
+Pinpoints hang off the source, not off the quotation. A location only means something
+relative to a particular document: a reporter page is no use to a reader holding a
+casebook scan with its own pagination, and an exhibit with two sources cannot say "at 117"
+without saying at 117 of what. So each source declares where in *itself* each confirmed
+fact sits, and the validator rejects a pinpoint naming something that source does not
+claim to confirm.
+
+*Raffles* is why. Its pinpoint used to cite `2 Hurl. & C. 906`, which is the pagination of
+neither source the exhibit actually lists. It now points into the reprint a reader can
+open.
+
+Reporter pages appear only where the pagination was seen in the source itself; everywhere
+else the locator is structural, which is honest and just as findable.
+
+Fragile sources carry an `archived_url`. That means near-primary and secondary sources,
+and anything on a course page or a personal site. Official court and government sites do
+not need one unless they have shown themselves unstable. The *Raffles* report sits on a
+university teaching page and is the clearest case for the field.
 
 Exhibits still being verified carry `verification.status: needs-primary` and say what is
 outstanding. None currently does.

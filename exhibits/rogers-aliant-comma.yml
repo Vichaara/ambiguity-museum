@@ -40,10 +40,6 @@ disputed_text:
     - lang: fr
       quote: >
         ... un an avant l'expiration du contrat ...
-
-  pinpoint: >
-    section 8.1 of the 2002 model Support Structure Agreement, set out in Telecom
-    Decision CRTC 2006-45
 readings:
   - id: A
     advanced_by: Aliant Telecom
@@ -87,10 +83,6 @@ resolution:
     language version of the model SSA can be interpreted in only one way:
     termination of the model SSA can only occur upon notice one year prior to the
     end of the initial term or one year prior to the end of a renewed term.
-
-  pinpoint: >
-    Telecom Decision CRTC 2007-75, the Commission's determination on the French
-    language version
 stakes:
   kind: money
   note: >
@@ -134,11 +126,19 @@ inclusion_test:
 
 sources:
   - url: https://crtc.gc.ca/eng/archive/2007/dt2007-75.htm
+    pinpoints:
+      resolution: >
+        Telecom Decision CRTC 2007-75, the Commission's determination on the French
+        language version
     kind: primary
     confirms: [citation, disputed_text, readings, resolution, prior_history]
     retrieved: "2026-07-29"
   - url: https://crtc.gc.ca/eng/archive/2006/dt2006-45.pdf
-    archived: https://web.archive.org/web/20260313175158/https://www.crtc.gc.ca/eng/archive/2006/dt2006-45.pdf
+    pinpoints:
+      disputed_text: >
+        section 8.1 of the 2002 model Support Structure Agreement, set out in Telecom
+        Decision CRTC 2006-45
+    archived_url: https://web.archive.org/web/20260313175158/https://www.crtc.gc.ca/eng/archive/2006/dt2006-45.pdf
     kind: primary
     confirms: [prior_history, disputed_text]
     retrieved: "2026-07-29"

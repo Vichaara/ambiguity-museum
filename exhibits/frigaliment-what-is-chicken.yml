@@ -26,9 +26,6 @@ disputed_text:
     2½-3 lbs. and 1½-2 lbs. each all chicken individually wrapped in cryovac,
     packed in secured fiber cartons or wooden boxes, suitable for export
   locus: the single word "chicken"
-
-  pinpoint: >
-    190 F. Supp. at 117, the first of the two contracts as set out in the opinion
 readings:
   - id: A
     advanced_by: Frigaliment (buyer)
@@ -67,9 +64,6 @@ resolution:
     "fowl". Dictionaries give both meanings, as well as some others not relevant
     here. ... I have concluded that plaintiff has not sustained its burden of
     persuasion that the contract used "chicken" in the narrower sense.
-
-  pinpoint: >
-    190 F. Supp. at 117, the opening paragraph and the burden holding that follows it
 stakes:
   kind: money
   amount: >
@@ -111,6 +105,11 @@ inclusion_test:
 
 sources:
   - url: https://www.courtlistener.com/opinion/1622834/frigaliment-importing-co-ltd-v-bns-international-sales-corp/
+    pinpoints:
+      disputed_text: >
+        190 F. Supp. at 117, the first of the two contracts as set out in the opinion
+      resolution: >
+        190 F. Supp. at 117, the opening paragraph and the burden holding that follows it
     kind: near-primary
     confirms: [citation, disputed_text, readings, resolution, stakes]
     retrieved: "2026-07-29"
