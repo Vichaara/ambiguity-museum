@@ -135,6 +135,10 @@ verification:
   checked_on: "2026-07-29"
   open_questions:
     - >
+      The District of Maine order of 25 March 2016 in No. 2:14-cv-00192 was not reachable
+      in full text. Its row is marked inferred: the reading it took follows from the
+      reversal, but nothing here supports a claim about whether it called the text clear.
+    - >
       The govinfo slip opinion carries no F.3d pagination; the 851 F.3d 69
       citation was confirmed separately against reporter-faithful sources.
 

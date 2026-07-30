@@ -22,8 +22,8 @@ one reading, and a court had to choose between them.
 | Boundary specimens | 5 |
 | Reached more than one court | 9 |
 | ... where the reading changed between courts | 6 |
-| ... where courts disagreed on whether the text was ambiguous | 3 |
-| Decisions recorded, of which inferred rather than read | 22, 5 inferred |
+| ... where courts disagreed on whether the text was ambiguous | 4 |
+| Decisions recorded, of which inferred rather than read | 22, 3 inferred |
 | Verified to a primary source | 12 of 12 |
 
 ## Index
@@ -679,6 +679,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Outstanding**
 
+- The District of Maine order of 25 March 2016 in No. 2:14-cv-00192 was not reachable in full text. Its row is marked inferred: the reading it took follows from the reversal, but nothing here supports a claim about whether it called the text clear.
 - The govinfo slip opinion carries no F.3d pagination; the 851 F.3d 69 citation was confirmed separately against reporter-faithful sources.
 
 **Sources**
@@ -721,7 +722,7 @@ Found at slip op., Part II-A, at "Facebook argues the clause".
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States Court of Appeals for the Ninth Circuit (926 F.3d 1146) *(inferred, not read)* | Reading B | did not say | first instance |
+| United States Court of Appeals for the Ninth Circuit (926 F.3d 1146) | Reading B | ambiguous | first instance |
 | Supreme Court of the United States (592 U.S. 395) | Reading A | clear | reversed |
 
 **The edits that would have prevented it**
@@ -857,7 +858,7 @@ Found at majority opinion, at "There are, to be sure, two grammatically permissi
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States Court of Appeals for the Eighth Circuit (39 F.4th 1018) *(inferred, not read)* | Reading B | did not say | first instance |
+| United States Court of Appeals for the Eighth Circuit (39 F.4th 1018) | Reading B | clear | first instance |
 | Supreme Court of the United States (601 U.S. 124) | Reading B | clear | affirmed |
 
 **The edits that would have prevented it**

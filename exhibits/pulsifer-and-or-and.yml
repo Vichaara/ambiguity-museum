@@ -47,11 +47,20 @@ readings:
 
 decisions:
   - court: United States Court of Appeals for the Eighth Circuit
+    known_from: read
     citation: 39 F.4th 1018
-    known_from: inferred
+    date: "2022-07-06"
     adopted: B
-    declared_ambiguous: null
+    declared_ambiguous: false
     disposition: first-instance
+    quote: >
+      The parties discuss whether "and" should be read conjunctively or disjunctively,
+      but we do not believe that is the important question. ... Here, the traditional
+      tools of interpretation reveal the meaning of the provision, and there is no
+      grievous ambiguity.
+    pinpoint: >
+      39 F.4th 1018, the court's construction of section 3553(f)(1) and its rejection of
+      the rule of lenity
   - court: Supreme Court of the United States
     known_from: read
     citation: 601 U.S. 124

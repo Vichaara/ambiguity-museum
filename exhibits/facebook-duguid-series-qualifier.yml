@@ -47,11 +47,22 @@ readings:
 
 decisions:
   - court: United States Court of Appeals for the Ninth Circuit
-    known_from: inferred
+    known_from: read
     citation: 926 F.3d 1146
+    date: "2019-06-13"
     adopted: B
-    declared_ambiguous: null
+    declared_ambiguous: true
     disposition: first-instance
+    quote: >
+      To clarify any ambiguity, we rearticulated the definition of an ATDS: "equipment
+      which has the capacity—(1) to store numbers to be called or (2) to produce numbers
+      to be called, using a random or sequential number generator—and to dial such
+      numbers automatically." Id. at 1053. That definition governs this appeal.
+    pinpoint: >
+      926 F.3d 1146, Part I, the panel explaining why the circuit had rearticulated the
+      definition in Marks v. Crunch San Diego, LLC, 904 F.3d 1041, 1053. The sentence
+      describes the circuit's earlier act rather than announcing a holding on ambiguity,
+      which is why it is quoted in full here
   - court: Supreme Court of the United States
     known_from: read
     citation: 592 U.S. 395
