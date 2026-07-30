@@ -50,6 +50,30 @@ for p in paths:
         if len(b["why_included"].split()) < 25:
             fail += 1
             print(f"FAIL {p.name}: boundary.why_included does not answer it"); continue
+    # decisions[] and resolution describe the same last court. If they drift apart one of
+    # them is wrong, and the summary field is the likelier culprit because it is the one
+    # nobody re-reads.
+    ds = doc["decisions"]
+    reading_ids = {r["id"] for r in doc["readings"]} | {"none"}
+    bad_adopt = [x["adopted"] for x in ds if x["adopted"] not in reading_ids]
+    if bad_adopt:
+        fail += 1
+        print(f"FAIL {p.name}: decision adopts {bad_adopt[0]!r}, which is not a reading id")
+        continue
+    dated = [x["date"] for x in ds if x.get("date")]
+    if dated != sorted(dated):
+        fail += 1; print(f"FAIL {p.name}: decisions are not in chronological order"); continue
+    last, res = ds[-1], doc["resolution"]
+    out = str(res["outcome"]).strip()
+    if len(out) == 1 and last["adopted"] != out:
+        fail += 1
+        print(f"FAIL {p.name}: last decision adopted {last['adopted']}, resolution.outcome says {out}")
+        continue
+    if last["declared_ambiguous"] != res["court_declared_ambiguous"]:
+        fail += 1
+        print(f"FAIL {p.name}: last decision and resolution disagree on court_declared_ambiguous")
+        continue
+
     # Codex review, #2: recording only the edit that produces the litigated outcome makes
     # that outcome the drafting baseline. Every reading must be shown to be draftable.
     r_ids = {r["id"] for r in doc["readings"]}

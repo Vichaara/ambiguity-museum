@@ -64,6 +64,11 @@ n_confirmed  = sum(1 for d in docs if d["verification"]["status"] == "confirmed"
 n_clear      = sum(1 for d in docs if d["resolution"]["court_declared_ambiguous"] is False)
 n_boundary   = sum(1 for d in docs if d["inclusion_test"].get("boundary"))
 n_mech       = len({d["mechanism"]["primary"] for d in docs})
+multi        = [d for d in docs if len(d["decisions"]) > 1]
+n_flip       = sum(1 for d in multi if len({x["adopted"] for x in d["decisions"]}) > 1)
+n_ambdis     = sum(1 for d in multi
+                   if len({x["declared_ambiguous"] for x in d["decisions"]
+                           if x["declared_ambiguous"] is not None}) > 1)
 instruments  = Counter(d["instrument"]["type"] for d in docs)
 jurisdictions= Counter(d["case"]["jurisdiction"] for d in docs)
 
@@ -93,6 +98,9 @@ w(f"| Jurisdictions | {', '.join(f'{k} ({v})' for k, v in jurisdictions.most_com
 w(f"| Distinct mechanisms | {n_mech} across {n} exhibits |")
 w(f"| Court called the text clear | {n_clear} |")
 w(f"| Boundary specimens | {n_boundary} |")
+w(f"| Reached more than one court | {len(multi)} |")
+w(f"| ... where the reading changed between courts | {n_flip} |")
+w(f"| ... where courts disagreed on whether the text was ambiguous | {n_ambdis} |")
 w(f"| Verified to a primary source | {n_confirmed} of {n} |")
 w("")
 
@@ -155,6 +163,18 @@ for d in docs:
     w("")
     w(f"Found at {flat(res['pinpoint'])}.")
     w("")
+
+    if len(d["decisions"]) > 1:
+        w("**How it travelled**")
+        w("")
+        w("| Court | Read it as | Called the text | |")
+        w("|---|---|---|---|")
+        for x in d["decisions"]:
+            amb = {True: "ambiguous", False: "clear", None: "did not say"}[x["declared_ambiguous"]]
+            rd = "neither reading" if x["adopted"] == "none" else f"Reading {x['adopted']}"
+            cite = f" ({cell(x['citation'])})" if x.get("citation") else ""
+            w(f"| {cell(x['court'])}{cite} | {rd} | {amb} | {human(x['disposition'])} |")
+        w("")
 
     w("**The edits that would have prevented it**")
     w("")

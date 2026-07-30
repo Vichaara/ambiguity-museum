@@ -17,7 +17,8 @@
     "inclusion_test",
     "sources",
     "verification",
-    "preventive_edits"
+    "preventive_edits",
+    "decisions"
   ],
   "properties": {
     "id": {
@@ -458,6 +459,69 @@
             "type": "string",
             "description": "Where choosing this reading moves money, risk or entitlement rather than merely clarifying, say how. This is what stops the two edits reading as interchangeable when one of them doubles an insurer's limit."
           }
+        }
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Every court that decided the point, oldest first. Several exhibits are interesting precisely because different decision-makers read the same words differently, and a single resolution field records only who won. What this exposes instead is when apparent clarity flipped, and how often a court that called a text plain was later disagreed with.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "court",
+          "adopted",
+          "declared_ambiguous",
+          "disposition"
+        ],
+        "properties": {
+          "court": {
+            "type": "string"
+          },
+          "citation": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Omit rather than guess. Lower-court dates are often not in the sources here."
+          },
+          "adopted": {
+            "type": "string",
+            "description": "The reading id this court adopted, or 'none' where it decided the instrument failed rather than choosing between readings."
+          },
+          "declared_ambiguous": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Whether THIS court treated the text as ambiguous. null where it did not say, which is its own finding and must not be guessed at."
+          },
+          "disposition": {
+            "enum": [
+              "first-instance",
+              "affirmed",
+              "reversed",
+              "varied",
+              "restored-below",
+              "remanded",
+              "self-reversed"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "description": "Verbatim, on the same terms as resolution.quote. Where a higher court reports the lower court's words, that counts, and the pinpoint must say so. Omit entirely rather than paraphrase."
+          },
+          "pinpoint": {
+            "type": "string",
+            "description": "Required whenever quote is present."
+          }
+        },
+        "dependentRequired": {
+          "quote": [
+            "pinpoint"
+          ]
         }
       }
     }

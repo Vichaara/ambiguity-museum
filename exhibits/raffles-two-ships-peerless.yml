@@ -55,6 +55,17 @@ readings:
       voyage. It is immaterial which Peerless carried it, so long as a ship of that
       name did.
 
+decisions:
+  - court: Court of Exchequer
+    citation: 2 Hurl. & C. 906
+    date: "1864-01-20"
+    adopted: none
+    declared_ambiguous: true
+    disposition: first-instance
+    quote: >
+      He was then stopped by the Court. Per Curiam. Judgment for the defendants.
+    pinpoint: the close of the report
+
 resolution:
   outcome: >
     no-contract. Neither reading prevailed. Judgment went to the defendants on the

@@ -48,6 +48,22 @@ readings:
       activities. Distribution is exempt on its own, so the drivers are not
       owed overtime.
 
+decisions:
+  - court: United States District Court for the District of Maine (Torresen, C.J.)
+    adopted: B
+    declared_ambiguous: false
+    disposition: first-instance
+  - court: United States Court of Appeals for the First Circuit
+    citation: 851 F.3d 69
+    date: "2017-03-13"
+    adopted: A
+    declared_ambiguous: true
+    disposition: reversed
+    quote: >
+      there being no comma in place to break the tie -- the text turns out to be no
+      clearer on close inspection than it first appeared
+    pinpoint: slip op., closing the grammatical analysis
+
 resolution:
   outcome: A
   basis: [parallel-usage, surplusage, remedial-purpose]

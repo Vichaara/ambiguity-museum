@@ -42,6 +42,18 @@ readings:
       specifications, including stewing chicken.
     adopted: true
 
+decisions:
+  - court: United States District Court, S.D.N.Y. (Friendly, Circuit Judge, by designation)
+    citation: 190 F. Supp. 116
+    date: "1960-12-27"
+    adopted: B
+    declared_ambiguous: true
+    disposition: first-instance
+    quote: >
+      I have concluded that plaintiff has not sustained its burden of persuasion that the
+      contract used "chicken" in the narrower sense.
+    pinpoint: 190 F. Supp. at 117
+
 resolution:
   outcome: B
   basis: [dictionary, technical-usage, extrinsic-evidence, course-of-dealing]

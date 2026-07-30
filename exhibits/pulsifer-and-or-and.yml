@@ -45,6 +45,22 @@ readings:
       valve.
     adopted: true
 
+decisions:
+  - court: United States Court of Appeals for the Eighth Circuit
+    adopted: B
+    declared_ambiguous: null
+    disposition: first-instance
+  - court: Supreme Court of the United States
+    citation: 601 U.S. 124
+    date: "2024-03-15"
+    adopted: B
+    declared_ambiguous: false
+    disposition: affirmed
+    quote: >
+      There are, to be sure, two grammatically permissible readings of the statute when
+      viewed in the abstract
+    pinpoint: the majority opinion, conceding the point before resolving it on context
+
 resolution:
   outcome: B
   basis: [surplusage, structural-context]

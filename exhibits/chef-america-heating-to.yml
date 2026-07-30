@@ -42,6 +42,21 @@ readings:
       The claim does not mention an oven at all.
     adopted: true
 
+decisions:
+  - court: United States District Court (on claim construction)
+    adopted: B
+    declared_ambiguous: false
+    disposition: first-instance
+  - court: United States Court of Appeals for the Federal Circuit
+    citation: 358 F.3d 1371
+    date: "2004-02-20"
+    adopted: B
+    declared_ambiguous: false
+    disposition: affirmed
+    quote: >
+      we construe the claim as written, not as the patentees wish they had written it
+    pinpoint: 358 F.3d at 1372-73, Part II-A
+
 resolution:
   outcome: B
   basis: [construed-as-written, plain-meaning]

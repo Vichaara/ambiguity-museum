@@ -46,6 +46,18 @@ readings:
       A single rolled tortilla is not one, so Qdoba may open.
     adopted: true
 
+decisions:
+  - court: Massachusetts Superior Court (Locke, J.)
+    citation: 21 Mass. L. Rptr. 565
+    date: "2006-10-31"
+    adopted: B
+    declared_ambiguous: false
+    disposition: first-instance
+    quote: >
+      Given that the term "sandwiches" is not ambiguous and the Lease does not provide a
+      definition of it, this court applies the ordinary meaning of the word.
+    pinpoint: 21 Mass. L. Rptr. at 567
+
 resolution:
   outcome: B
   basis: [ordinary-meaning, dictionary, construed-as-written]

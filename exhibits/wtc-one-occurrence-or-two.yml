@@ -54,6 +54,24 @@ readings:
       One coordinated attack is "one series of similar causes," therefore a single
       occurrence and a single limit.
 
+decisions:
+  - court: United States District Court for the Southern District of New York
+    citation: 222 F. Supp. 2d 385
+    date: "2002-09-25"
+    adopted: B
+    declared_ambiguous: false
+    disposition: first-instance
+  - court: United States Court of Appeals for the Second Circuit
+    citation: 345 F.3d 154
+    date: "2003-09-26"
+    adopted: B
+    declared_ambiguous: true
+    disposition: affirmed
+    quote: >
+      the meaning of "occurrence" in the Travelers binder is sufficiently ambiguous under
+      New York law to preclude summary judgment
+    pinpoint: the court's conclusion as to Travelers, distinguishing the WilProp insurers
+
 resolution:
   outcome: >
     Split by instrument, not by fact. Reading B as a matter of law for the insurers
@@ -120,6 +138,13 @@ verification:
   status: confirmed
   checked_on: "2026-07-29"
   open_questions:
+    - >
+      decisions[] gives one row per court, which this case strains. The Second Circuit
+      reached opposite answers for different insurers on the same day: one occurrence as
+      a matter of law for those bound to the WilProp form, and a triable question for
+      Travelers, whose form left the term undefined. The row records adopted: B for the
+      former and declared_ambiguous: true for the latter. That is the whole point of the
+      exhibit and the one place the schema cannot express it.
     - >
       Recovery totals circulating in the press (~$4.6bn) are not stated in this
       opinion and trace to later settlements. Do not put a total on the page without

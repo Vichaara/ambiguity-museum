@@ -20,6 +20,9 @@ one reading, and a court had to choose between them.
 | Distinct mechanisms | 10 across 12 exhibits |
 | Court called the text clear | 6 |
 | Boundary specimens | 5 |
+| Reached more than one court | 9 |
+| ... where the reading changed between courts | 6 |
+| ... where courts disagreed on whether the text was ambiguous | 4 |
 | Verified to a primary source | 12 of 12 |
 
 ## Index
@@ -199,6 +202,14 @@ The ambiguity sits in the placement of the opening parenthesis, and so whether "
 
 Found at Lord Hoffmann's speech, immediately following his five principles of construction.
 
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| High Court, Chancery Division (Evans-Lombe J.) | Reading B | ambiguous | first instance |
+| Court of Appeal (Leggatt L.J.) | Reading A | clear | reversed |
+| House of Lords ([1998] 1 WLR 896) | Reading B | ambiguous | restored below |
+
 **The edits that would have prevented it**
 
 Both readings were draftable. What the text failed to do was choose between them.
@@ -271,6 +282,13 @@ The ambiguity sits in The word "occurrence", present and defined in the WilProp 
 
 Found at the court's disposition as to Hartford, Royal and St. Paul, and its conclusion as to Travelers.
 
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| United States District Court for the Southern District of New York (222 F. Supp. 2d 385) | Reading B | clear | first instance |
+| United States Court of Appeals for the Second Circuit (345 F.3d 154) | Reading B | ambiguous | affirmed |
+
 **The edits that would have prevented it**
 
 Both readings were draftable. What the text failed to do was choose between them.
@@ -299,6 +317,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Outstanding**
 
+- decisions[] gives one row per court, which this case strains. The Second Circuit reached opposite answers for different insurers on the same day: one occurrence as a matter of law for those bound to the WilProp form, and a triable question for Travelers, whose form left the term undefined. The row records adopted: B for the former and declared_ambiguous: true for the latter. That is the whole point of the exhibit and the one place the schema cannot express it.
 - Recovery totals circulating in the press (~$4.6bn) are not stated in this opinion and trace to later settlements. Do not put a total on the page without pulling 467 F.3d 107 first.
 
 **Sources**
@@ -335,6 +354,13 @@ The ambiguity sits in the relative clause "which exists in the national economy"
 > The Third Circuit's reading disregards — indeed, is precisely contrary to — the grammatical "rule of the last antecedent," according to which a limiting clause or phrase (here, the relative clause "which exists in the national economy") should ordinarily be read as modifying only the noun or phrase that it immediately follows (here, "any other kind of substantial gainful work"). ... While this rule is not an absolute and can assuredly be overcome by other indicia of meaning, we have said that construing a statute in accord with the rule is "quite sensible as a matter of grammar."
 
 Found at the majority opinion, at "The Third Circuit's reading disregards".
+
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| United States Court of Appeals for the Third Circuit (294 F.3d 568) | Reading A | clear | first instance |
+| Supreme Court of the United States (540 U.S. 20) | Reading B | ambiguous | reversed |
 
 **The edits that would have prevented it**
 
@@ -400,6 +426,13 @@ The ambiguity sits in the preposition "to", as against "at". Found at 358 F.3d a
 > Thus, in accord with our settled practice we construe the claim as written, not as the patentees wish they had written it. As written, the claim unambiguously requires that the dough be heated to a temperature range of 400° F. to 850° F.
 
 Found at 358 F.3d at 1372-73, Part II-A, at "we construe the claim as written".
+
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| United States District Court (on claim construction) | Reading B | clear | first instance |
+| United States Court of Appeals for the Federal Circuit (358 F.3d 1371) | Reading B | clear | affirmed |
 
 **The edits that would have prevented it**
 
@@ -537,6 +570,13 @@ The ambiguity sits in the comma before "unless and until". Found at section 8.1 
 
 Found at Telecom Decision CRTC 2007-75, the Commission's determination on the French language version.
 
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| Canadian Radio-television and Telecommunications Commission (Telecom Decision CRTC 2006-45) | Reading A | clear | first instance |
+| Canadian Radio-television and Telecommunications Commission, on review (Telecom Decision CRTC 2007-75) | Reading B | clear | self reversed |
+
 **The edits that would have prevented it**
 
 Both readings were draftable. What the text failed to do was choose between them.
@@ -602,6 +642,13 @@ The ambiguity sits in the absent comma between "shipment" and "or distribution".
 > We are reluctant to conclude from the text alone that the legislature clearly chose to deploy the nonstandard grammatical device of asyndeton. But we are also reluctant to overlook the seemingly anomalous violation of the parallel usage canon that Oakhurst's reading of the text produces. And so -- there being no comma in place to break the tie -- the text turns out to be no clearer on close inspection than it first appeared.
 
 Found at slip op., closing the grammatical analysis at "We are reluctant to conclude from the text alone".
+
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| United States District Court for the District of Maine (Torresen, C.J.) | Reading B | clear | first instance |
+| United States Court of Appeals for the First Circuit (851 F.3d 69) | Reading A | ambiguous | reversed |
 
 **The edits that would have prevented it**
 
@@ -669,6 +716,13 @@ The ambiguity sits in the trailing participial phrase "using a random or sequent
 
 Found at slip op., Part II-A, at "Facebook argues the clause".
 
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| United States Court of Appeals for the Ninth Circuit (926 F.3d 1146) | Reading B | did not say | first instance |
+| Supreme Court of the United States (592 U.S. 395) | Reading A | clear | reversed |
+
 **The edits that would have prevented it**
 
 Both readings were draftable. What the text failed to do was choose between them.
@@ -730,6 +784,13 @@ The ambiguity sits in the indefinite article "a", and the fact that it sits outs
 
 Found at slip op., at "To trigger the stop-time rule, the government must serve".
 
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| United States Court of Appeals for the Sixth Circuit | Reading B | did not say | first instance |
+| Supreme Court of the United States (593 U.S. 155) | Reading A | clear | reversed |
+
 **The edits that would have prevented it**
 
 Both readings were draftable. What the text failed to do was choose between them.
@@ -790,6 +851,13 @@ The ambiguity sits in how the negation "does not have" distributes across an "an
 > There are, to be sure, two grammatically permissible readings of the statute when viewed in the abstract...But the difficulty in choosing between those two constructions falls away once we consider the content of Subparagraphs A, B, and C
 
 Found at majority opinion, at "There are, to be sure, two grammatically permissible readings".
+
+**How it travelled**
+
+| Court | Read it as | Called the text | |
+|---|---|---|---|
+| United States Court of Appeals for the Eighth Circuit | Reading B | did not say | first instance |
+| Supreme Court of the United States (601 U.S. 124) | Reading B | clear | affirmed |
 
 **The edits that would have prevented it**
 

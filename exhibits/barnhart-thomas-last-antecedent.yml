@@ -54,6 +54,27 @@ readings:
       exists anywhere.
     adopted: true
 
+decisions:
+  - court: United States Court of Appeals for the Third Circuit
+    citation: 294 F.3d 568
+    adopted: A
+    declared_ambiguous: false
+    disposition: first-instance
+    quote: >
+      When a sentence sets out one or more specific items followed by "any other" and a
+      description, the specific items must fall within the description.
+    pinpoint: 294 F.3d at 572, as quoted in the Supreme Court's opinion
+  - court: Supreme Court of the United States
+    citation: 540 U.S. 20
+    date: "2003-11-12"
+    adopted: B
+    declared_ambiguous: true
+    disposition: reversed
+    quote: >
+      The Third Circuit's reading disregards — indeed, is precisely contrary to — the
+      grammatical "rule of the last antecedent"
+    pinpoint: the majority opinion, opening its analysis
+
 resolution:
   outcome: B
   basis: [last-antecedent-canon, agency-deference, structural-context]

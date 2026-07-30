@@ -45,6 +45,23 @@ readings:
       merely stores numbers and dials them is an autodialer, sweeping in a far
       wider class of systems.
 
+decisions:
+  - court: United States Court of Appeals for the Ninth Circuit
+    citation: 926 F.3d 1146
+    adopted: B
+    declared_ambiguous: null
+    disposition: first-instance
+  - court: Supreme Court of the United States
+    citation: 592 U.S. 395
+    date: "2021-04-01"
+    adopted: A
+    declared_ambiguous: false
+    disposition: reversed
+    quote: >
+      We conclude that the clause modifies both, specifying how the equipment must
+      either "store" or "produce" telephone numbers.
+    pinpoint: slip op., Part II-A
+
 resolution:
   outcome: A
   basis: [structural-context, plain-meaning]

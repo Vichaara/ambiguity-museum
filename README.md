@@ -4,9 +4,9 @@ A curated collection of cases in which a dispute turned on what a written legal
 instrument actually said, where the words admitted more than one reading and a court
 had to pick one.
 
-Each exhibit records the text verbatim, both readings, how the court resolved it in the
-court's own words, what was at stake, and the smallest edit that would have forced each
-reading.
+Each exhibit records the text verbatim, both readings, every court that decided the
+point, how it was resolved in the court's own words, what was at stake, and the smallest
+edit that would have forced each reading.
 
 That last part is deliberate. Recording only the edit that produces the outcome the court
 reached would quietly make that outcome the drafting baseline, as though the losing side's
@@ -69,6 +69,17 @@ read for pleasure. Where that happens, it stays out.
 ## The wings
 
 **The core.** Text that was genuinely ambiguous, and the court said so.
+
+**How exhibits travelled** (`decisions`). Every court that decided the point, oldest
+first, each recording the reading it adopted and whether it treated the text as
+ambiguous. Nine exhibits reached more than one court. In six the reading changed between
+them, and in four the courts disagreed about whether the text was ambiguous at all. A
+single outcome field hides that; this is the more interesting fact.
+
+*ICS v West Bromwich* is the clearest case. The judge read it one way while doubting
+himself, the Court of Appeal reversed him and called the words natural and ordinary, and
+the House of Lords restored the judge. The court most confident the text was plain sat in
+the middle and was overturned.
 
 **Declared clear** (`resolution.court_declared_ambiguous: false`). Cases where a court
 held the text unambiguous, sometimes while the record showed sustained disagreement

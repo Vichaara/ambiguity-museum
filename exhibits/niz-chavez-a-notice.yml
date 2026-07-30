@@ -45,6 +45,22 @@ readings:
       The phrase denotes the aggregate of the required information, deliverable
       in instalments, with the rule triggering when the last piece arrives.
 
+decisions:
+  - court: United States Court of Appeals for the Sixth Circuit
+    adopted: B
+    declared_ambiguous: null
+    disposition: first-instance
+  - court: Supreme Court of the United States
+    citation: 593 U.S. 155
+    date: "2021-04-29"
+    adopted: A
+    declared_ambiguous: false
+    disposition: reversed
+    quote: >
+      To trigger the stop-time rule, the government must serve "a" notice containing all
+      the information Congress has specified.
+    pinpoint: slip op., stating the holding
+
 resolution:
   outcome: A
   basis: [plain-meaning, structural-context]

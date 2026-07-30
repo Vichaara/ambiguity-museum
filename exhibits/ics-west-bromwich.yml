@@ -63,6 +63,37 @@ readings:
       claims were reserved, so the damages claims passed to the Scheme.
     adopted: true
 
+decisions:
+  - court: High Court, Chancery Division (Evans-Lombe J.)
+    adopted: B
+    declared_ambiguous: true
+    disposition: first-instance
+    quote: >
+      more appropriate to rectification than the process of construction
+    pinpoint: >
+      the judge's own misgiving about his construction, as reported in Lord Hoffmann's
+      speech
+  - court: Court of Appeal (Leggatt L.J.)
+    adopted: A
+    declared_ambiguous: false
+    disposition: reversed
+    quote: >
+      the natural and ordinary meaning of the words used
+    pinpoint: >
+      Leggatt L.J.'s characterisation of his own construction, as reported in Lord
+      Hoffmann's speech, where Hoffmann answers that the concept is unhelpful "when, on
+      any view, the words have not been used in a natural and ordinary way"
+  - court: House of Lords
+    citation: "[1998] 1 WLR 896"
+    date: "1997-06-19"
+    adopted: B
+    declared_ambiguous: true
+    disposition: restored-below
+    quote: >
+      If this means that judges cannot, short of rectification, decide that the parties
+      must have made mistakes of meaning or syntax, I respectfully think he was wrong.
+    pinpoint: Lord Hoffmann's speech, answering the Court of Appeal
+
 resolution:
   outcome: B
   basis: [commercial-absurdity, structural-context]
