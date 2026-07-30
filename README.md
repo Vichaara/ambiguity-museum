@@ -111,6 +111,7 @@ schema/          exhibit.schema.json, the editorial policy in machine-checkable 
 scripts/         validate.py, build_catalogue.py
 CATALOGUE.md     generated. Edit the YAML, never this file
 NON-EXHIBITS.md  what is excluded, and why. Hand-written
+CITATION.cff     how to cite the collection
 ```
 
 ```bash
@@ -133,6 +134,14 @@ confirms. A secondary source can support a dollar figure, but it can never be th
 support for a citation, the disputed text, or the resolution quote. The validator
 enforces this, so an exhibit marked `confirmed` that lacks primary or near-primary
 coverage of those three fields fails the build.
+
+Every quoted passage carries a `pinpoint` saying where in the source it sits, so a reader
+can check it without searching a long judgment. Reporter pages appear only where the
+pagination was seen in the source itself; everywhere else the locator is structural, which
+is honest and just as findable. Sources carry a Wayback `archived` link where a snapshot
+exists. Court sites reorganise and course pages vanish, and the *Raffles* report is hosted
+on a university teaching page, which is exactly the kind of link that disappears without
+notice.
 
 Exhibits still being verified carry `verification.status: needs-primary` and say what is
 outstanding. None currently does.

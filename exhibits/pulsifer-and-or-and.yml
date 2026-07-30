@@ -29,6 +29,8 @@ disputed_text:
     how the negation "does not have" distributes across an "and"-joined list of
     three disqualifiers
 
+  pinpoint: >
+    18 U.S.C. 3553(f)(1), set out in Part I of the majority opinion
 readings:
   - id: A
     advanced_by: Pulsifer
@@ -53,6 +55,9 @@ resolution:
     two constructions falls away once we consider the content of Subparagraphs
     A, B, and C
 
+  pinpoint: >
+    majority opinion, at "There are, to be sure, two grammatically permissible
+    readings"
 stakes:
   kind: liberty
   note: >
@@ -105,6 +110,7 @@ inclusion_test:
 
 sources:
   - url: https://supreme.justia.com/cases/federal/us/601/22-340/
+    archived: https://web.archive.org/web/20251209125531/https://supreme.justia.com/cases/federal/us/601/22-340/
     kind: near-primary
     confirms: [citation, disputed_text, readings, resolution]
     retrieved: "2026-07-29"

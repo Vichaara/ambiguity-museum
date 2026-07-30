@@ -39,6 +39,9 @@ disputed_text:
     The word "occurrence", present and defined in the WilProp form, present and
     UNDEFINED in the Travelers form. The exhibit is the contrast, not the clause.
 
+  pinpoint: >
+    the WilProp definition, quoted from SR Int'l Bus. Ins. Co. v. World Trade Ctr.
+    Props. LLC, 222 F. Supp. 2d 385, 398 (S.D.N.Y. 2002)
 readings:
   - id: A
     advanced_by: The Silverstein Parties
@@ -67,6 +70,9 @@ resolution:
     to preclude summary judgment and to warrant consideration by the fact finder of
     extrinsic evidence to determine the parties' intentions.
 
+  pinpoint: >
+    the court's disposition as to Hartford, Royal and St. Paul, and its conclusion as
+    to Travelers
 stakes:
   kind: money
   amount: USD 3.5bn per occurrence

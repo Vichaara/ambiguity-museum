@@ -31,6 +31,8 @@ disputed_text:
     percent (10%) of its total sales ...
   locus: the undefined noun "sandwiches"
 
+  pinpoint: >
+    21 Mass. L. Rptr. at 566, Lease section 4.07 as set out in the Background
 readings:
   - id: A
     advanced_by: PR Restaurants (Panera)
@@ -56,6 +58,8 @@ resolution:
     burritos, tacos, and quesadillas, which are typically made with a single
     tortilla and stuffed with a choice filling of meat, rice, and beans.
 
+  pinpoint: >
+    21 Mass. L. Rptr. at 567, section A of the Discussion
 stakes:
   kind: money
   amount: USD 385,000+ committed by the incoming tenant

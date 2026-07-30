@@ -27,6 +27,8 @@ disputed_text:
     packed in secured fiber cartons or wooden boxes, suitable for export
   locus: the single word "chicken"
 
+  pinpoint: >
+    190 F. Supp. at 117, the first of the two contracts as set out in the opinion
 readings:
   - id: A
     advanced_by: Frigaliment (buyer)
@@ -53,6 +55,8 @@ resolution:
     here. ... I have concluded that plaintiff has not sustained its burden of
     persuasion that the contract used "chicken" in the narrower sense.
 
+  pinpoint: >
+    190 F. Supp. at 117, the opening paragraph and the burden holding that follows it
 stakes:
   kind: money
   amount: >

@@ -29,6 +29,8 @@ disputed_text:
     the indefinite article "a", and the fact that it sits outside the
     parenthetical defined term in §1229(a)(1)
 
+  pinpoint: >
+    8 U.S.C. 1229b(d)(1), cross-referring to the notice requirements of 1229(a)(1)
 readings:
   - id: A
     advanced_by: Niz-Chavez
@@ -54,6 +56,8 @@ resolution:
     "a" single document containing the required information, not a mishmash of
     pieces with some assembly required.
 
+  pinpoint: >
+    slip op., at "To trigger the stop-time rule, the government must serve"
 stakes:
   kind: entitlement
   note: >
@@ -90,10 +94,12 @@ inclusion_test:
 
 sources:
   - url: https://www.supremecourt.gov/opinions/20pdf/19-863_6jgm.pdf
+    archived: https://web.archive.org/web/20260621214030/https://www.supremecourt.gov/opinions/20pdf/19-863_6jgm.pdf
     kind: primary
     confirms: [disputed_text, readings, resolution]
     retrieved: "2026-07-29"
   - url: https://supreme.justia.com/cases/federal/us/593/19-863/
+    archived: https://web.archive.org/web/20260113223944/https://supreme.justia.com/cases/federal/us/593/19-863/
     kind: near-primary
     confirms: [citation]
     retrieved: "2026-07-29"

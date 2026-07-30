@@ -36,6 +36,8 @@ disputed_text:
     reaches back past "any other kind of substantial gainful work" to "his
     previous work"
 
+  pinpoint: >
+    540 U.S. at 21-22, quoting 42 U.S.C. 423(d)(2)(A) and 1382c(a)(3)(B)
 readings:
   - id: A
     advanced_by: Thomas, and the Third Circuit below
@@ -66,6 +68,8 @@ resolution:
     indicia of meaning, we have said that construing a statute in accord with the
     rule is "quite sensible as a matter of grammar."
 
+  pinpoint: >
+    the majority opinion, at "The Third Circuit's reading disregards"
 stakes:
   kind: entitlement
   note: >
@@ -113,6 +117,7 @@ inclusion_test:
 
 sources:
   - url: https://www.courtlistener.com/opinion/131145/barnhart-v-thomas/
+    archived: https://web.archive.org/web/20231217235747/https://www.courtlistener.com/opinion/131145/barnhart-v-thomas/?
     kind: near-primary
     confirms: [citation, disputed_text, readings, resolution, stakes, prior_history]
     retrieved: "2026-07-29"

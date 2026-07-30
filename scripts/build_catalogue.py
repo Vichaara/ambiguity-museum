@@ -132,7 +132,8 @@ for d in docs:
     for line in flat(d["disputed_text"]["quote"]).split("\n"):
         w(f"> {line}")
     w("")
-    w(f"The ambiguity sits in {flat(d['disputed_text']['locus'])}.")
+    w(f"The ambiguity sits in {flat(d['disputed_text']['locus'])}. "
+      f"Found at {flat(d['disputed_text']['pinpoint'])}.")
     w("")
 
     w("**The readings**")
@@ -151,6 +152,8 @@ for d in docs:
     w("")
     for line in flat(res["quote"]).split("\n"):
         w(f"> {line}")
+    w("")
+    w(f"Found at {flat(res['pinpoint'])}.")
     w("")
 
     w("**The edits that would have prevented it**")
@@ -204,8 +207,11 @@ for d in docs:
         w("")
     w("**Sources**")
     w("")
-    for s in d["sources"]:
-        w(f"- [{s['kind']}]({s['url']})")
+    for s_ in d["sources"]:
+        line = f"- [{s_['kind']}]({s_['url']})"
+        if s_.get("archived"):
+            line += f" &middot; [archived]({s_['archived']})"
+        w(line)
     w("")
     if d.get("pairs_with"):
         links = ", ".join(

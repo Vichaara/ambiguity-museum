@@ -31,6 +31,8 @@ disputed_text:
     (2) Meat and fish products; and (3) Perishable foods.
   locus: the absent comma between "shipment" and "or distribution"
 
+  pinpoint: >
+    26 M.R.S.A. 664(3)(F), set out in the opinion under Exemption F
 readings:
   - id: A
     advanced_by: The delivery drivers
@@ -58,6 +60,9 @@ resolution:
     being no comma in place to break the tie -- the text turns out to be no
     clearer on close inspection than it first appeared.
 
+  pinpoint: >
+    slip op., closing the grammatical analysis at "We are reluctant to conclude from
+    the text alone"
 stakes:
   kind: money
   amount: unstated in the opinion
@@ -97,6 +102,7 @@ inclusion_test:
 
 sources:
   - url: https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf
+    archived: https://web.archive.org/web/20250127140205/https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf
     kind: primary
     confirms: [disputed_text, readings, resolution, prior_history]
     retrieved: "2026-07-29"

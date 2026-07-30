@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: The Ambiguity Museum
+abstract: >-
+  A curated collection of cases in which a dispute turned on what a written legal
+  instrument actually said, where the words admitted more than one reading and a
+  court had to pick one. Each exhibit records the disputed text verbatim with a
+  pinpoint, both readings, the holding in the court's own words, what was at stake,
+  and the smallest edit that would have forced each reading. Inclusion is governed
+  by a machine-checkable schema that admits ambiguity and excludes vagueness.
+type: dataset
+message: >-
+  If you cite an exhibit, cite the underlying judgment. Cite this collection only
+  for the curation, the schema, or the aggregate findings.
+authors:
+  - name: Vichaara Inc.
+    city: Portland
+    region: Oregon
+    country: US
+    website: https://vichaara.ai
+repository-code: https://github.com/Vichaara/ambiguity-museum
+url: https://github.com/Vichaara/ambiguity-museum
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - legal interpretation
+  - textual ambiguity
+  - contract drafting
+  - statutory construction
+  - canons of construction
+  - legal linguistics

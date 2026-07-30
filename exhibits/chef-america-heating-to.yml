@@ -26,6 +26,8 @@ disputed_text:
     about 400° F. to 850° F.
   locus: the preposition "to", as against "at"
 
+  pinpoint: >
+    358 F.3d at 1372, the heating step as quoted in the statement of the issue
 readings:
   - id: A
     advanced_by: Chef America
@@ -50,6 +52,8 @@ resolution:
     unambiguously requires that the dough be heated to a temperature range of
     400° F. to 850° F.
 
+  pinpoint: >
+    358 F.3d at 1372-73, Part II-A, at "we construe the claim as written"
 stakes:
   kind: property
   note: >
@@ -108,6 +112,7 @@ inclusion_test:
 
 sources:
   - url: https://www.courtlistener.com/opinion/785188/chef-america-inc-v-lamb-weston-inc/
+    archived: https://web.archive.org/web/20250524024919/https://www.courtlistener.com/opinion/785188/chef-america-inc-v-lamb-weston-inc/
     kind: near-primary
     confirms: [citation, disputed_text, readings, resolution, stakes]
     retrieved: "2026-07-29"

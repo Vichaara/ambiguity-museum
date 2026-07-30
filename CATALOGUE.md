@@ -51,7 +51,7 @@ one reading, and a court had to choose between them.
 
 > ... certain goods, to wit, 125 bales of Surat cotton, guaranteed middling fair merchant's dhollorah, to arrive ex Peerless from Bombay; and that the cotton should be taken from the quay, and that the defendants would pay the plaintiff for the same at a certain rate, to wit, at the rate of 17.25 d. per pound, within a certain time then agreed upon after the arrival of said goods in England.
 
-The ambiguity sits in the ship's name "Peerless", which on the face of the contract picks out one vessel and in fact picked out two, one sailing from Bombay in October and one in December.
+The ambiguity sits in the ship's name "Peerless", which on the face of the contract picks out one vessel and in fact picked out two, one sailing from Bombay in October and one in December. Found at the Declaration, as reported at 2 Hurl. & C. 906.
 
 **The readings**
 
@@ -63,6 +63,8 @@ The ambiguity sits in the ship's name "Peerless", which on the face of the contr
 **Held**
 
 > He was then stopped by the Court. Per Curiam. Judgment for the defendants.
+
+Found at the close of the report, following Mellish's argument in support of the plea.
 
 **The edits that would have prevented it**
 
@@ -103,8 +105,8 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Sources**
 
-- [near-primary](http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf)
-- [near-primary](https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html)
+- [near-primary](http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf) &middot; [archived](https://web.archive.org/web/20260730205018/http://grammar.ucsd.edu/courses/lign87/Court%20cases%2087%20pdf/raffles.pdf)
+- [near-primary](https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html) &middot; [archived](https://web.archive.org/web/20260314053603/https://law.justia.com/cases/foreign/united-kingdom/159-eng-rep-375-1864.html)
 
 **Read alongside** [What is chicken?](#ex-1960-01)
 
@@ -122,7 +124,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > US Fresh Frozen Chicken, Grade A, Government Inspected, Eviscerated 2½-3 lbs. and 1½-2 lbs. each all chicken individually wrapped in cryovac, packed in secured fiber cartons or wooden boxes, suitable for export
 
-The ambiguity sits in the single word "chicken".
+The ambiguity sits in the single word "chicken". Found at 190 F. Supp. at 117, the first of the two contracts as set out in the opinion.
 
 **The readings**
 
@@ -134,6 +136,8 @@ The ambiguity sits in the single word "chicken".
 **Held**
 
 > The issue is, what is chicken? Plaintiff says "chicken" means a young chicken, suitable for broiling and frying. Defendant says "chicken" means any bird of that genus that meets contract specifications on weight and quality, including what it calls "stewing chicken" and plaintiff pejoratively terms "fowl". Dictionaries give both meanings, as well as some others not relevant here. ... I have concluded that plaintiff has not sustained its burden of persuasion that the contract used "chicken" in the narrower sense.
+
+Found at 190 F. Supp. at 117, the opening paragraph and the burden holding that follows it.
 
 **The edits that would have prevented it**
 
@@ -180,7 +184,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > Any claim (whether sounding in rescission for undue influence or otherwise) that you have or may have against the West Bromwich Building Society in which you claim an abatement of sums which you would otherwise have to repay to that Society in respect of sums borrowed by you from that Society in connection with the transaction and dealings giving rise to the claim (including interest on any such sums).
 
-The ambiguity sits in the placement of the opening parenthesis, and so whether "sounding in rescission" limits the claims reserved to the investor or merely illustrates them.
+The ambiguity sits in the placement of the opening parenthesis, and so whether "sounding in rescission" limits the claims reserved to the investor or merely illustrates them. Found at section 3(b) of the claim form, set out in full in Lord Lloyd of Berwick's speech.
 
 **The readings**
 
@@ -192,6 +196,8 @@ The ambiguity sits in the placement of the opening parenthesis, and so whether "
 **Held**
 
 > If one applies these principles, it seems to me that the judge must be right and, as we are dealing with one badly drafted clause which is happily no longer in use, there is little advantage in my repeating his reasons at greater length. ... Secondly, Leggatt L.J. said that the judge's construction was not an "available meaning" of the words. If this means that judges cannot, short of rectification, decide that the parties must have made mistakes of meaning or syntax, I respectfully think he was wrong.
+
+Found at Lord Hoffmann's speech, immediately following his five principles of construction.
 
 **The edits that would have prevented it**
 
@@ -232,7 +238,7 @@ Both readings were draftable. What the text failed to do was choose between them
 **Sources**
 
 - [primary](https://publications.parliament.uk/pa/ld199798/ldjudgmt/jd970619/invest01.htm)
-- [near-primary](https://www.bailii.org/uk/cases/UKHL/1997/28.html)
+- [near-primary](https://www.bailii.org/uk/cases/UKHL/1997/28.html) &middot; [archived](https://web.archive.org/web/20260109180412/http://www.bailii.org/uk/cases/UKHL/1997/28.html)
 
 **Read alongside** [Heat the dough to 850°F and see what happens](#ex-2004-01)
 
@@ -250,7 +256,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > "Occurrence" shall mean all losses or damages that are attributable directly or indirectly to one cause or to one series of similar causes. All such losses will be added together and the total amount of such losses will be treated as one occurrence irrespective of the period of time or area over which such losses occur.
 
-The ambiguity sits in The word "occurrence", present and defined in the WilProp form, present and UNDEFINED in the Travelers form. The exhibit is the contrast, not the clause..
+The ambiguity sits in The word "occurrence", present and defined in the WilProp form, present and UNDEFINED in the Travelers form. The exhibit is the contrast, not the clause.. Found at the WilProp definition, quoted from SR Int'l Bus. Ins. Co. v. World Trade Ctr. Props. LLC, 222 F. Supp. 2d 385, 398 (S.D.N.Y. 2002).
 
 **The readings**
 
@@ -262,6 +268,8 @@ The ambiguity sits in The word "occurrence", present and defined in the WilProp 
 **Held**
 
 > ... the district court held that (a) the binders they issued were governed by the insurance policy form circulated by Silverstein Properties' insurance broker, and (b) under the definition of "occurrence" in that form, the destruction of the WTC was one occurrence as a matter of law. ... [W]e conclude that ... the meaning of "occurrence" in the Travelers binder is sufficiently ambiguous under New York law to preclude summary judgment and to warrant consideration by the fact finder of extrinsic evidence to determine the parties' intentions.
+
+Found at the court's disposition as to Hartford, Royal and St. Paul, and its conclusion as to Travelers.
 
 **The edits that would have prevented it**
 
@@ -313,7 +321,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > ... only if his physical or mental impairment or impairments are of such severity that he is not only unable to do his previous work but cannot, considering his age, education, and work experience, engage in any other kind of substantial gainful work which exists in the national economy.
 
-The ambiguity sits in the relative clause "which exists in the national economy", and whether it reaches back past "any other kind of substantial gainful work" to "his previous work".
+The ambiguity sits in the relative clause "which exists in the national economy", and whether it reaches back past "any other kind of substantial gainful work" to "his previous work". Found at 540 U.S. at 21-22, quoting 42 U.S.C. 423(d)(2)(A) and 1382c(a)(3)(B).
 
 **The readings**
 
@@ -325,6 +333,8 @@ The ambiguity sits in the relative clause "which exists in the national economy"
 **Held**
 
 > The Third Circuit's reading disregards — indeed, is precisely contrary to — the grammatical "rule of the last antecedent," according to which a limiting clause or phrase (here, the relative clause "which exists in the national economy") should ordinarily be read as modifying only the noun or phrase that it immediately follows (here, "any other kind of substantial gainful work"). ... While this rule is not an absolute and can assuredly be overcome by other indicia of meaning, we have said that construing a statute in accord with the rule is "quite sensible as a matter of grammar."
+
+Found at the majority opinion, at "The Third Circuit's reading disregards".
 
 **The edits that would have prevented it**
 
@@ -358,7 +368,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Sources**
 
-- [near-primary](https://www.courtlistener.com/opinion/131145/barnhart-v-thomas/)
+- [near-primary](https://www.courtlistener.com/opinion/131145/barnhart-v-thomas/) &middot; [archived](https://web.archive.org/web/20231217235747/https://www.courtlistener.com/opinion/131145/barnhart-v-thomas/?)
 
 **Read alongside** [One modifier, two verbs. Which does it reach?](#ex-2021-01)
 
@@ -376,7 +386,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > heating the resulting batter-coated dough to a temperature in the range of about 400° F. to 850° F.
 
-The ambiguity sits in the preposition "to", as against "at".
+The ambiguity sits in the preposition "to", as against "at". Found at 358 F.3d at 1372, the heating step as quoted in the statement of the issue.
 
 **The readings**
 
@@ -388,6 +398,8 @@ The ambiguity sits in the preposition "to", as against "at".
 **Held** — while calling the text unambiguous
 
 > Thus, in accord with our settled practice we construe the claim as written, not as the patentees wish they had written it. As written, the claim unambiguously requires that the dough be heated to a temperature range of 400° F. to 850° F.
+
+Found at 358 F.3d at 1372-73, Part II-A, at "we construe the claim as written".
 
 **The edits that would have prevented it**
 
@@ -422,7 +434,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Sources**
 
-- [near-primary](https://www.courtlistener.com/opinion/785188/chef-america-inc-v-lamb-weston-inc/)
+- [near-primary](https://www.courtlistener.com/opinion/785188/chef-america-inc-v-lamb-weston-inc/) &middot; [archived](https://web.archive.org/web/20250524024919/https://www.courtlistener.com/opinion/785188/chef-america-inc-v-lamb-weston-inc/)
 
 **Read alongside** [May a court move the brackets?](#ex-1997-01), [Is a burrito a sandwich?](#ex-2006-01)
 
@@ -440,7 +452,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > Landlord agrees not to enter into a lease, occupancy agreement or license affecting space in the Shopping Center ... for a bakery or restaurant reasonably expected to have annual sales of sandwiches greater than ten percent (10%) of its total sales ...
 
-The ambiguity sits in the undefined noun "sandwiches".
+The ambiguity sits in the undefined noun "sandwiches". Found at 21 Mass. L. Rptr. at 566, Lease section 4.07 as set out in the Background.
 
 **The readings**
 
@@ -452,6 +464,8 @@ The ambiguity sits in the undefined noun "sandwiches".
 **Held** — while calling the text unambiguous
 
 > Given that the term "sandwiches" is not ambiguous and the Lease does not provide a definition of it, this court applies the ordinary meaning of the word. ... Under this definition and as dictated by common sense, this court finds that the term "sandwich" is not commonly understood to include burritos, tacos, and quesadillas, which are typically made with a single tortilla and stuffed with a choice filling of meat, rice, and beans.
+
+Found at 21 Mass. L. Rptr. at 567, section A of the Discussion.
 
 **The edits that would have prevented it**
 
@@ -508,7 +522,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > Subject to the termination provisions of this Agreement, this Agreement shall be effective from the date it is made and shall continue in force for a period of five (5) years from the date it is made, and thereafter for successive five (5) year terms, unless and until terminated by one year prior notice in writing by either party.
 
-The ambiguity sits in the comma before "unless and until".
+The ambiguity sits in the comma before "unless and until". Found at section 8.1 of the 2002 model Support Structure Agreement, set out in Telecom Decision CRTC 2006-45.
 
 **The readings**
 
@@ -520,6 +534,8 @@ The ambiguity sits in the comma before "unless and until".
 **Held** — while calling the text unambiguous
 
 > The Commission considers that the wording of section 8.1 in the French language version of the model SSA can be interpreted in only one way: termination of the model SSA can only occur upon notice one year prior to the end of the initial term or one year prior to the end of a renewed term.
+
+Found at Telecom Decision CRTC 2007-75, the Commission's determination on the French language version.
 
 **The edits that would have prevented it**
 
@@ -554,7 +570,7 @@ Both readings were draftable. What the text failed to do was choose between them
 **Sources**
 
 - [primary](https://crtc.gc.ca/eng/archive/2007/dt2007-75.htm)
-- [primary](https://crtc.gc.ca/eng/archive/2006/dt2006-45.pdf)
+- [primary](https://crtc.gc.ca/eng/archive/2006/dt2006-45.pdf) &middot; [archived](https://web.archive.org/web/20260313175158/https://www.crtc.gc.ca/eng/archive/2006/dt2006-45.pdf)
 
 **Read alongside** [For want of a comma](#ex-2017-01), [Is a burrito a sandwich?](#ex-2006-01)
 
@@ -572,7 +588,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > The canning, processing, preserving, freezing, drying, marketing, storing, packing for shipment or distribution of: (1) Agricultural produce; (2) Meat and fish products; and (3) Perishable foods.
 
-The ambiguity sits in the absent comma between "shipment" and "or distribution".
+The ambiguity sits in the absent comma between "shipment" and "or distribution". Found at 26 M.R.S.A. 664(3)(F), set out in the opinion under Exemption F.
 
 **The readings**
 
@@ -584,6 +600,8 @@ The ambiguity sits in the absent comma between "shipment" and "or distribution".
 **Held**
 
 > We are reluctant to conclude from the text alone that the legislature clearly chose to deploy the nonstandard grammatical device of asyndeton. But we are also reluctant to overlook the seemingly anomalous violation of the parallel usage canon that Oakhurst's reading of the text produces. And so -- there being no comma in place to break the tie -- the text turns out to be no clearer on close inspection than it first appeared.
+
+Found at slip op., closing the grammatical analysis at "We are reluctant to conclude from the text alone".
 
 **The edits that would have prevented it**
 
@@ -617,7 +635,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Sources**
 
-- [primary](https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf)
+- [primary](https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf) &middot; [archived](https://web.archive.org/web/20250127140205/https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf)
 - [near-primary](https://law.justia.com/cases/federal/appellate-courts/ca1/16-1901/16-1901-2017-03-13.html)
 
 **Read alongside** [The comma that cost a million dollars, and then didn't](#ex-2007-01), [One modifier, two verbs. Which does it reach?](#ex-2021-01)
@@ -636,7 +654,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > (A) to store or produce telephone numbers to be called, using a random or sequential number generator; and (B) to dial such numbers.
 
-The ambiguity sits in the trailing participial phrase "using a random or sequential number generator", and the comma that precedes it.
+The ambiguity sits in the trailing participial phrase "using a random or sequential number generator", and the comma that precedes it. Found at 47 U.S.C. 227(a)(1)(A)-(B), quoted in Part I of the slip opinion.
 
 **The readings**
 
@@ -648,6 +666,8 @@ The ambiguity sits in the trailing participial phrase "using a random or sequent
 **Held** — while calling the text unambiguous
 
 > Facebook argues the clause "using a random or sequential number generator" modifies both verbs that precede it ("store" and "produce"), while Duguid contends it modifies only the closest one ("produce"). We conclude that the clause modifies both, specifying how the equipment must either "store" or "produce" telephone numbers.
+
+Found at slip op., Part II-A, at "Facebook argues the clause".
 
 **The edits that would have prevented it**
 
@@ -677,7 +697,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Sources**
 
-- [primary](https://www.supremecourt.gov/opinions/20pdf/19-511_p86b.pdf)
+- [primary](https://www.supremecourt.gov/opinions/20pdf/19-511_p86b.pdf) &middot; [archived](https://web.archive.org/web/20260702224929/https://www.supremecourt.gov/opinions/20pdf/19-511_p86b.pdf)
 
 **Read alongside** [For want of a comma](#ex-2017-01)
 
@@ -695,7 +715,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > ... a notice to appear ...
 
-The ambiguity sits in the indefinite article "a", and the fact that it sits outside the parenthetical defined term in §1229(a)(1).
+The ambiguity sits in the indefinite article "a", and the fact that it sits outside the parenthetical defined term in §1229(a)(1). Found at 8 U.S.C. 1229b(d)(1), cross-referring to the notice requirements of 1229(a)(1).
 
 **The readings**
 
@@ -707,6 +727,8 @@ The ambiguity sits in the indefinite article "a", and the fact that it sits outs
 **Held** — while calling the text unambiguous
 
 > To trigger the stop-time rule, the government must serve "a" notice containing all the information Congress has specified. To an ordinary reader—both in 1996 and today—"a" notice would seem to suggest just that: "a" single document containing the required information, not a mishmash of pieces with some assembly required.
+
+Found at slip op., at "To trigger the stop-time rule, the government must serve".
 
 **The edits that would have prevented it**
 
@@ -735,8 +757,8 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Sources**
 
-- [primary](https://www.supremecourt.gov/opinions/20pdf/19-863_6jgm.pdf)
-- [near-primary](https://supreme.justia.com/cases/federal/us/593/19-863/)
+- [primary](https://www.supremecourt.gov/opinions/20pdf/19-863_6jgm.pdf) &middot; [archived](https://web.archive.org/web/20260621214030/https://www.supremecourt.gov/opinions/20pdf/19-863_6jgm.pdf)
+- [near-primary](https://supreme.justia.com/cases/federal/us/593/19-863/) &middot; [archived](https://web.archive.org/web/20260113223944/https://supreme.justia.com/cases/federal/us/593/19-863/)
 
 **Read alongside** [Is a burrito a sandwich?](#ex-2006-01)
 
@@ -754,7 +776,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 > the defendant does not have— (A) more than 4 criminal history points, excluding any criminal history points resulting from a 1-point offense, as determined under the sentencing guidelines; (B) a prior 3-point offense, as determined under the sentencing guidelines; and (C) a prior 2-point violent offense, as determined under the sentencing guidelines
 
-The ambiguity sits in how the negation "does not have" distributes across an "and"-joined list of three disqualifiers.
+The ambiguity sits in how the negation "does not have" distributes across an "and"-joined list of three disqualifiers. Found at 18 U.S.C. 3553(f)(1), set out in Part I of the majority opinion.
 
 **The readings**
 
@@ -766,6 +788,8 @@ The ambiguity sits in how the negation "does not have" distributes across an "an
 **Held** — while calling the text unambiguous
 
 > There are, to be sure, two grammatically permissible readings of the statute when viewed in the abstract...But the difficulty in choosing between those two constructions falls away once we consider the content of Subparagraphs A, B, and C
+
+Found at majority opinion, at "There are, to be sure, two grammatically permissible readings".
 
 **The edits that would have prevented it**
 
@@ -804,7 +828,7 @@ Both readings were draftable. What the text failed to do was choose between them
 
 **Sources**
 
-- [near-primary](https://supreme.justia.com/cases/federal/us/601/22-340/)
+- [near-primary](https://supreme.justia.com/cases/federal/us/601/22-340/) &middot; [archived](https://web.archive.org/web/20251209125531/https://supreme.justia.com/cases/federal/us/601/22-340/)
 
 **Read alongside** [Is a burrito a sandwich?](#ex-2006-01)
 

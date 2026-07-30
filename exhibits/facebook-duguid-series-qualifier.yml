@@ -28,6 +28,8 @@ disputed_text:
     the trailing participial phrase "using a random or sequential number
     generator", and the comma that precedes it
 
+  pinpoint: >
+    47 U.S.C. 227(a)(1)(A)-(B), quoted in Part I of the slip opinion
 readings:
   - id: A
     advanced_by: Facebook
@@ -54,6 +56,8 @@ resolution:
     clause modifies both, specifying how the equipment must either "store" or
     "produce" telephone numbers.
 
+  pinpoint: >
+    slip op., Part II-A, at "Facebook argues the clause"
 stakes:
   kind: money
   amount: unstated in the opinion
@@ -92,6 +96,7 @@ inclusion_test:
 
 sources:
   - url: https://www.supremecourt.gov/opinions/20pdf/19-511_p86b.pdf
+    archived: https://web.archive.org/web/20260702224929/https://www.supremecourt.gov/opinions/20pdf/19-511_p86b.pdf
     kind: primary
     confirms: [citation, disputed_text, readings, resolution, prior_history]
     retrieved: "2026-07-29"

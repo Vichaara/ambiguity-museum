@@ -136,7 +136,8 @@
       "additionalProperties": false,
       "required": [
         "quote",
-        "locus"
+        "locus",
+        "pinpoint"
       ],
       "properties": {
         "quote": {
@@ -168,6 +169,10 @@
               }
             }
           }
+        },
+        "pinpoint": {
+          "type": "string",
+          "description": "Where in the source this text sits, so a reader can check it without searching a long judgment. A reporter page where the pagination is known; otherwise a structural locator (a named part of the opinion, a judge's speech, a distinctive opening phrase). Do not assert a page number that has not been seen in the source itself."
         }
       }
     },
@@ -208,7 +213,8 @@
         "outcome",
         "basis",
         "court_declared_ambiguous",
-        "quote"
+        "quote",
+        "pinpoint"
       ],
       "properties": {
         "outcome": {
@@ -230,6 +236,10 @@
           "type": "string",
           "maxLength": 1200,
           "description": "REQUIRED VERBATIM, never a paraphrase. Adversarial review of an earlier draft killed four of five claims in this collection, and every one was a paraphrased characterisation of a court's reasoning. Quote the holding or do not make the claim."
+        },
+        "pinpoint": {
+          "type": "string",
+          "description": "Where in the source this text sits, so a reader can check it without searching a long judgment. A reporter page where the pagination is known; otherwise a structural locator (a named part of the opinion, a judge's speech, a distinctive opening phrase). Do not assert a page number that has not been seen in the source itself."
         }
       }
     },
@@ -368,6 +378,11 @@
           "retrieved": {
             "type": "string",
             "format": "date"
+          },
+          "archived": {
+            "type": "string",
+            "format": "uri",
+            "description": "A Wayback snapshot of this URL. Court sites reorganise and course pages vanish; the Raffles report here is hosted on a university teaching page, which is exactly the kind of link that disappears without notice. Omit where no snapshot exists rather than inventing one."
           }
         }
       }
