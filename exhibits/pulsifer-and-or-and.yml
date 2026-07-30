@@ -83,7 +83,18 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: true
+  boundary:
+    tests: [refusal-to-find-ambiguity]
+    against_inclusion: >
+      The majority declined to call the provision ambiguous for the purposes of the rule
+      of lenity, holding the choice resolvable once the content of the subparagraphs is
+      considered. If context settles it, there is one reading the statute bears and no
+      ambiguity to collect.
+    why_included: >
+      The same opinion concedes there are "two grammatically permissible readings of the
+      statute when viewed in the abstract". That concession is the exhibit. What follows
+      is a court resolving an ambiguity it has declined to name, which is a different
+      thing from a text that was never ambiguous.
   notes: >
     A boundary specimen for an unusual reason. The Court expressly conceded
     "two grammatically permissible readings" existed on the face of the text,

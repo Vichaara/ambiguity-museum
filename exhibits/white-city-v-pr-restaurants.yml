@@ -89,7 +89,22 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: true
+  boundary:
+    tests: [vagueness, refusal-to-find-ambiguity]
+    against_inclusion: >
+      This is the most contestable inclusion in the collection. A burrito is a borderline
+      case of "sandwich", and borderline cases of an open-textured predicate are the
+      definition of vagueness, which the collection excludes by rule. The court agreed
+      the term was not ambiguous, and reached its answer by consulting a dictionary,
+      which is how one resolves vagueness rather than how one chooses between parses.
+    why_included: >
+      The dispute was not about where a boundary falls. Both sides advanced discrete,
+      statable definitions, two slices of bread against any filling enclosed in any bread
+      product, and the case turned on which definition governed rather than on whether a
+      particular item shaded across a line. A word can be vague at its edges and
+      ambiguous between two settled senses; this was the second. A reader who thinks that
+      distinction too fine should treat this exhibit as the collection's weakest and say
+      so.
   notes: >
     Included in the "declared clear" wing rather than the core. The court held the
     word NOT ambiguous, so on its own account this is not an ambiguity case at all.

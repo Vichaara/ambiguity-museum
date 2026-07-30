@@ -106,7 +106,22 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: true
+  boundary:
+    tests: [repair-not-interpretation, scrivener-error]
+    against_inclusion: >
+      Lord Lloyd, dissenting, said the difficulty arose "not from any obscurity of the
+      language (the meaning is, I think, tolerably clear) but from slovenly drafting".
+      On that view this is a drafting error, which the collection excludes as scrivener's
+      error, and there is nothing ambiguous to exhibit. Leggatt L.J. put it more
+      strongly: the adopted reading was "not an available meaning of the words", which
+      would make the House's construction a rectification wearing interpretation's
+      clothes.
+    why_included: >
+      The House met the objection head on and rejected it. Hoffmann held that judges
+      may, short of rectification, decide the parties made mistakes of meaning or syntax,
+      and declined even to accept he was straining the words. That places the case on the
+      interpretation side of the line on the highest available authority. The dissent is
+      preserved verbatim so a reader can take Lord Lloyd's view instead.
   notes: >
     A boundary specimen and the direct counterpart to chef-america-heating-to. The
     two cases pose the same question, whether a court may repair defective drafting

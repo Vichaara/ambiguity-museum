@@ -84,7 +84,6 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: false
   notes: >
     The facts were undisputed: a charging document in March 2013, a separate
     time-and-place document two months later. The entire case is the article.

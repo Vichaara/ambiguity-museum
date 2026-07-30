@@ -185,9 +185,16 @@ for d in docs:
         w(f"| History | {cell(case['prior_history'])} |")
     w(f"| Verification | `{d['verification']['status']}`, checked {d['verification']['checked_on']} |")
     w("")
+    b = inc.get("boundary")
+    if b:
+        w(f"**Boundary specimen.** Tests: {', '.join(human(t) for t in b['tests'])}.")
+        w("")
+        w(f"*The case against including it.* {flat(b['against_inclusion'])}")
+        w("")
+        w(f"*Why it is here anyway.* {flat(b['why_included'])}")
+        w("")
     if inc.get("notes"):
-        label = "Why this is a boundary specimen" if inc.get("boundary") else "Curator's note"
-        w(f"**{label}.** {flat(inc['notes'])}")
+        w(f"**Curator's note.** {flat(inc['notes'])}")
         w("")
     if d["verification"].get("open_questions"):
         w("**Outstanding**")

@@ -284,13 +284,44 @@
           "description": "Not an open-textured predicate ('reasonable', 'material', 'promptly')."
         },
         "boundary": {
-          "type": "boolean",
-          "default": false,
-          "description": "True for exhibits that test the edge — latent ambiguity surfaced only by facts, or a court repairing syntax rather than parsing it. Label them; do not hide them."
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "tests",
+            "against_inclusion",
+            "why_included"
+          ],
+          "description": "Present only on exhibits that press against the collection's own rules. Five of the twelve do, which makes them central rather than marginal, so the case against each one is recorded as structured fields instead of being buried in prose. A reader should be able to disagree with the editors using the editors' own strongest counter-argument.",
+          "properties": {
+            "tests": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "description": "Which exclusion or criterion this exhibit strains.",
+              "items": {
+                "enum": [
+                  "mutual-mistake",
+                  "vagueness",
+                  "repair-not-interpretation",
+                  "refusal-to-find-ambiguity",
+                  "facts-required-to-surface",
+                  "scrivener-error"
+                ]
+              }
+            },
+            "against_inclusion": {
+              "type": "string",
+              "description": "The strongest argument that this exhibit does NOT qualify, stated as its best advocate would state it. Where a judge made the argument, quote or cite them. Weakening it here to make the inclusion look easier defeats the purpose."
+            },
+            "why_included": {
+              "type": "string",
+              "description": "Why the editors kept it anyway, answering the argument above directly."
+            }
+          }
         },
         "notes": {
           "type": "string",
-          "description": "Required in practice whenever boundary is true."
+          "description": "Optional further commentary. For boundary specimens the case for and against belongs in the boundary object, not here."
         }
       }
     },

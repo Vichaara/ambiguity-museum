@@ -86,7 +86,6 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: false
   notes: >
     The Court enumerates both parses itself, in one sentence, before choosing.
     Nothing about Facebook's actual conduct bore on the question.

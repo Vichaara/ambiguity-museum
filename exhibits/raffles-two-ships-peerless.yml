@@ -92,7 +92,21 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: true
+  boundary:
+    tests: [mutual-mistake, facts-required-to-surface]
+    against_inclusion: >
+      The case is taught as mutual mistake rather than interpretation, and mistake is
+      excluded. The judgment supports that: counsel's winning argument was that there was
+      no consensus ad idem, which is a proposition about the parties' minds and not about
+      the words. Worse for inclusion, nothing on the face of the contract is unclear. The
+      second reading appears only once you learn two ships bore the name, which is the
+      fact-dependence that test (b) exists to keep out.
+    why_included: >
+      Test (b) asks whether an edit made in advance, knowing nothing of what later
+      happened, would have prevented the dispute. Naming the sailing month does exactly
+      that. The decisive point is timing: "Peerless" had two referents at the moment of
+      drafting, and it was only the parties' knowledge that arrived late. The ambiguity
+      was in the text from the start, waiting.
   notes: >
     The collection's defining boundary specimen, and the exhibit that most tests
     its own rule. On the face of the contract nothing is unclear. The second

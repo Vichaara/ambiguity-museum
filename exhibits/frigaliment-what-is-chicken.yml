@@ -84,7 +84,6 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: false
   notes: >
     The classic teaching case, and unusually candid about the limits of
     interpretation. Friendly quotes Holmes: the making of a contract depends

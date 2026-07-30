@@ -13,7 +13,8 @@ reached would quietly make that outcome the drafting baseline, as though the los
 reading were the mistake rather than the other half of a choice the drafter never made.
 Both edits are given, along with a note on which one moves money.
 
-Start with [CATALOGUE.md](CATALOGUE.md).
+Start with [CATALOGUE.md](CATALOGUE.md). What is deliberately absent, and why, is in
+[NON-EXHIBITS.md](NON-EXHIBITS.md).
 
 ---
 
@@ -77,10 +78,15 @@ and expert affidavits, and the court called the term unambiguous in the next bre
 that interpretation incinerates the product. Judicial confidence in clarity turns out to
 be poor evidence of clarity.
 
-**Boundary specimens** (`inclusion_test.boundary: true`). Exhibits that test the
-collection's own rule: latent ambiguity that surfaces only once facts arrive, or a court
-repairing syntax instead of parsing it. These are labelled rather than quietly dropped,
-since a criterion that only gets applied to easy cases is not doing any work.
+**Boundary specimens** (`inclusion_test.boundary`). Exhibits that press against the
+collection's own rules: latent ambiguity that surfaces only once facts arrive, a court
+repairing syntax instead of parsing it, a court refusing to find ambiguity at all. Five of
+the twelve qualify, which makes them central rather than marginal.
+
+Each carries the strongest argument that it does *not* belong, stated as its best advocate
+would state it and quoting the judge who made it where one did, together with the answer.
+A criterion applied only to easy cases is not doing any work, and a reader should be able
+to disagree with the editors using the editors' own reasoning.
 
 ---
 
@@ -100,10 +106,11 @@ thought to define it.
 ## Structure
 
 ```
-exhibits/     one YAML file per case, filename == id
-schema/       exhibit.schema.json, the editorial policy in machine-checkable form
-scripts/      validate.py, build_catalogue.py
-CATALOGUE.md  generated. Edit the YAML, never this file
+exhibits/        one YAML file per case, filename == id
+schema/          exhibit.schema.json, the editorial policy in machine-checkable form
+scripts/         validate.py, build_catalogue.py
+CATALOGUE.md     generated. Edit the YAML, never this file
+NON-EXHIBITS.md  what is excluded, and why. Hand-written
 ```
 
 ```bash
@@ -144,7 +151,9 @@ Open a PR with one new file in `exhibits/`, then run both scripts. The validator
 the diff.
 
 Before writing it, ask the two questions above. If you cannot write out two readings,
-you have vagueness. If the fix needs facts, you have a dispute about the world.
+you have vagueness. If the fix needs facts, you have a dispute about the world. Then check
+[NON-EXHIBITS.md](NON-EXHIBITS.md), which records the categories that keep being proposed
+and the cases already turned down.
 
 Cite primary sources. If you can only reach a case brief or a news article, say so in
 `verification.open_questions` and mark the exhibit `needs-primary`. An honest gap is

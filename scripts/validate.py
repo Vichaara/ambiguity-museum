@@ -39,8 +39,17 @@ for p in paths:
         fail += 1; print(f"FAIL {p.name}: id '{doc['id']}' does not match filename"); continue
     if not any(r.get("adopted") for r in doc["readings"]) and not any(k in doc["resolution"]["outcome"] for k in ("unresolved", "no-contract", "Split by instrument")):
         print(f"WARN {p.name}: no reading marked adopted, and outcome is not 'unresolved'")
-    if doc["inclusion_test"].get("boundary") and not doc["inclusion_test"].get("notes"):
-        fail += 1; print(f"FAIL {p.name}: boundary exhibits must explain themselves in inclusion_test.notes"); continue
+    b = doc["inclusion_test"].get("boundary")
+    if b:
+        # The case against a boundary exhibit has to be stated as its best advocate would
+        # state it. A stub here would let a weak inclusion pass by looking documented.
+        if len(b["against_inclusion"].split()) < 25:
+            fail += 1
+            print(f"FAIL {p.name}: boundary.against_inclusion is too short to be the strongest argument")
+            continue
+        if len(b["why_included"].split()) < 25:
+            fail += 1
+            print(f"FAIL {p.name}: boundary.why_included does not answer it"); continue
     # Codex review, #2: recording only the edit that produces the litigated outcome makes
     # that outcome the drafting baseline. Every reading must be shown to be draftable.
     r_ids = {r["id"] for r in doc["readings"]}

@@ -99,7 +99,6 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: false
   notes: >
     The cleanest demonstration in the collection that the answer lives in the text
     and not in the world. The facts were identical across every insurer: same

@@ -90,7 +90,6 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: false
   notes: >
     The collection's canonical exhibit. Both parses are written out in the
     opinion itself, the court held the text irreducibly ambiguous on its face,

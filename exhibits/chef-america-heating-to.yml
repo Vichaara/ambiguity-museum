@@ -83,7 +83,20 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: true
+  boundary:
+    tests: [refusal-to-find-ambiguity]
+    against_inclusion: >
+      The court held the claim "susceptible to only one reasonable interpretation". If
+      one reading is the only reasonable one, the text is not ambiguous, and the exhibit
+      fails test (a) on the deciding court's own account. Chef America's construction
+      was not a rival reading the court weighed and rejected; it was a reading the court
+      said the words could not bear.
+    why_included: >
+      Two readings were argued, briefed, and dispositive of the appeal, and the court
+      chose between them while conceding the winner produces a charcoal briquet. A
+      declaration that text is unambiguous is a holding about the words, not an
+      observation of a fact, and the gap between the two is a large part of what this
+      collection is for. Six of twelve exhibits sit on the same side of it.
   notes: >
     A boundary specimen, and the collection's sharpest statement of the opposite
     principle to ics-west-bromwich. The court conceded the result was absurd: the

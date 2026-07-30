@@ -101,7 +101,6 @@ inclusion_test:
   discrete_readings: true
   fixable_by_text_alone: true
   not_vagueness: true
-  boundary: false
   notes: >
     The purest last-antecedent exhibit in the collection, and unusual in that the
     grammatical rule supplies the stated ground of decision rather than just the
