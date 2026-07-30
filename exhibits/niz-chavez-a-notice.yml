@@ -47,7 +47,8 @@ readings:
 
 decisions:
   - court: United States Court of Appeals for the Sixth Circuit
-    known_from: inferred
+    known_from: reported-above
+    citation: 789 Fed. Appx. 523
     adopted: B
     declared_ambiguous: null
     disposition: first-instance

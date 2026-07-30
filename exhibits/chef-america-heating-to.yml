@@ -43,8 +43,8 @@ readings:
     adopted: true
 
 decisions:
-  - court: United States District Court (on claim construction)
-    known_from: inferred
+  - court: United States District Court, on claim construction
+    known_from: reported-above
     adopted: B
     declared_ambiguous: null
     disposition: first-instance

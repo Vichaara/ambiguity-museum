@@ -23,7 +23,7 @@ one reading, and a court had to choose between them.
 | Reached more than one court | 9 |
 | ... where the reading changed between courts | 6 |
 | ... where courts disagreed on whether the text was ambiguous | 4 |
-| Decisions recorded, of which inferred rather than read | 22, 3 inferred |
+| Decisions recorded, of which inferred rather than read | 22, 0 inferred |
 | Verified to a primary source | 12 of 12 |
 
 ## Index
@@ -432,7 +432,7 @@ Found at 358 F.3d at 1372-73, Part II-A, at "we construe the claim as written".
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States District Court (on claim construction) *(inferred, not read)* | Reading B | did not say | first instance |
+| United States District Court, on claim construction | Reading B | did not say | first instance |
 | United States Court of Appeals for the Federal Circuit (358 F.3d 1371) | Reading B | clear | affirmed |
 
 **The edits that would have prevented it**
@@ -648,7 +648,7 @@ Found at slip op., closing the grammatical analysis at "We are reluctant to conc
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States District Court for the District of Maine (Torresen, C.J.) *(inferred, not read)* | Reading B | did not say | first instance |
+| United States District Court for the District of Maine (Torresen, C.J.) (No. 2:14-cv-192-NT, ECF No. 123) | Reading B | did not say | first instance |
 | United States Court of Appeals for the First Circuit (851 F.3d 69) | Reading A | ambiguous | reversed |
 
 **The edits that would have prevented it**
@@ -675,16 +675,16 @@ Both readings were draftable. What the text failed to do was choose between them
 | History | Reversing partial summary judgment for the dairy in the District of Maine (Torresen, C.J.). |
 | Verification | `confirmed`, checked 2026-07-29 |
 
-**Curator's note.** The best known of these cases, which is a fact about the literature rather than a ranking against the others here. Both parses are written out in the opinion itself, the court held the text irreducibly ambiguous on its face, and the tie was broken by a default rule rather than by the words.
+**Curator's note.** The best known of these cases, which is a fact about the literature rather than a ranking against the others here. Both parses are written out in the opinion itself, the court held the text irreducibly ambiguous on its face, and the tie was broken by a default rule rather than by the words. The order below repays reading for one detail. Torresen C.J. adopted the Recommended Decision against the drivers, and in a footnote corrected the Magistrate Judge on the very authority the First Circuit would later use to reverse her, observing that Cormier "advises that the wage and hour laws should be interpreted to further the beneficent purposes for which they are enacted" and that "it is clear to me that the wage and hour laws were enacted primarily to benefit workers". She accepted the canon and still read the exemption broadly, which is what a judge who never reached ambiguity would do. The order does not say so, and this exhibit does not claim it.
 
 **Outstanding**
 
-- The District of Maine order of 25 March 2016 in No. 2:14-cv-00192 was not reachable in full text. Its row is marked inferred: the reading it took follows from the reversal, but nothing here supports a claim about whether it called the text clear.
 - The govinfo slip opinion carries no F.3d pagination; the 851 F.3d 69 citation was confirmed separately against reporter-faithful sources.
 
 **Sources**
 
 - [primary](https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf) &middot; [archived](https://web.archive.org/web/20250127140205/https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf)
+- [primary](https://law.justia.com/cases/federal/district-courts/maine/medce/2:2014cv00192/46351/123/)
 - [near-primary](https://law.justia.com/cases/federal/appellate-courts/ca1/16-1901/16-1901-2017-03-13.html)
 
 **Read alongside** [The comma that cost a million dollars, and then didn't](#ex-2007-01), [One modifier, two verbs. Which does it reach?](#ex-2021-01)
@@ -790,7 +790,7 @@ Found at slip op., at "To trigger the stop-time rule, the government must serve"
 
 | Court | Read it as | Called the text | |
 |---|---|---|---|
-| United States Court of Appeals for the Sixth Circuit *(inferred, not read)* | Reading B | did not say | first instance |
+| United States Court of Appeals for the Sixth Circuit (789 Fed. Appx. 523) | Reading B | did not say | first instance |
 | Supreme Court of the United States (593 U.S. 155) | Reading A | clear | reversed |
 
 **The edits that would have prevented it**

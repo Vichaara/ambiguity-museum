@@ -50,10 +50,20 @@ readings:
 
 decisions:
   - court: United States District Court for the District of Maine (Torresen, C.J.)
-    known_from: inferred
+    known_from: read
+    citation: No. 2:14-cv-192-NT, ECF No. 123
+    date: "2016-03-25"
     adopted: B
     declared_ambiguous: null
     disposition: first-instance
+    quote: >
+      the Defendants' motion for partial summary judgment (ECF No. 94) is GRANTED and
+      Plaintiffs' motion for partial summary judgment (ECF No. 97) is DENIED
+    pinpoint: >
+      the operative order. The construction itself sits one level below, in the Magistrate
+      Judge's Recommended Decision of 26 January 2016 (ECF No. 112), which the order
+      adopts and which was not obtained, so nothing here shows whether that court treated
+      the text as ambiguous
   - court: United States Court of Appeals for the First Circuit
     known_from: read
     citation: 851 F.3d 69
@@ -118,6 +128,15 @@ inclusion_test:
     ranking against the others here. Both parses are written out in the
     opinion itself, the court held the text irreducibly ambiguous on its face,
     and the tie was broken by a default rule rather than by the words.
+    The order below repays reading for one detail. Torresen C.J. adopted the
+    Recommended Decision against the drivers, and in a footnote corrected the
+    Magistrate Judge on the very authority the First Circuit would later use to reverse
+    her, observing that Cormier "advises that the wage and hour laws should be
+    interpreted to further the beneficent purposes for which they are enacted" and that
+    "it is clear to me that the wage and hour laws were enacted primarily to benefit
+    workers". She accepted the canon and still read the exemption broadly, which is what
+    a judge who never reached ambiguity would do. The order does not say so, and this
+    exhibit does not claim it.
 
 sources:
   - url: https://www.govinfo.gov/content/pkg/USCOURTS-ca1-16-01901/pdf/USCOURTS-ca1-16-01901-0.pdf
@@ -125,6 +144,10 @@ sources:
     kind: primary
     confirms: [disputed_text, readings, resolution, prior_history]
     retrieved: "2026-07-29"
+  - url: https://law.justia.com/cases/federal/district-courts/maine/medce/2:2014cv00192/46351/123/
+    kind: primary
+    confirms: [decisions]
+    retrieved: "2026-07-30"
   - url: https://law.justia.com/cases/federal/appellate-courts/ca1/16-1901/16-1901-2017-03-13.html
     kind: near-primary
     confirms: [citation]
@@ -134,10 +157,6 @@ verification:
   status: confirmed
   checked_on: "2026-07-29"
   open_questions:
-    - >
-      The District of Maine order of 25 March 2016 in No. 2:14-cv-00192 was not reachable
-      in full text. Its row is marked inferred: the reading it took follows from the
-      reversal, but nothing here supports a claim about whether it called the text clear.
     - >
       The govinfo slip opinion carries no F.3d pagination; the 851 F.3d 69
       citation was confirmed separately against reporter-faithful sources.
