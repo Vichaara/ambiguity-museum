@@ -63,12 +63,24 @@ stakes:
     messaging system. The opinion does not quantify it.
   documented: false
 
-minimal_fix:
-  edit: >
-    Move the modifier to the front, so that it reads "using a random or sequential number
-    generator, to store or produce telephone numbers", or repeat it after each
-    verb. Either forecloses Reading B.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Front the modifier so it cannot attach to a single verb: "using a random or
+      sequential number generator, to store or produce telephone numbers to be called".
+    plausible_intent: true
+    changes_bargain: >
+      Keeps the definition narrow. Equipment that merely stores a list and dials it
+      falls outside the Act, and most modern platforms escape liability.
+  - forces: B
+    edit: >
+      Give each verb its own object and attach the modifier to one of them: "to store
+      telephone numbers to be called, or to produce telephone numbers to be called
+      using a random or sequential number generator".
+    plausible_intent: true
+    changes_bargain: >
+      Sweeps in any system that stores and dials, exposing a far wider class of
+      businesses to statutory damages assessed per call.
 
 inclusion_test:
   discrete_readings: true

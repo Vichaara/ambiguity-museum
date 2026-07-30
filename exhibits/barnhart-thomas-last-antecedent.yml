@@ -76,14 +76,26 @@ stakes:
     in 1995.
   documented: true
 
-minimal_fix:
-  edit: >
-    Move the qualifier or repeat it: "unable to do his previous work which exists
-    in the national economy, and cannot ... engage in any other kind of
-    substantial gainful work which exists in the national economy." Fronting it,
-    "of work which exists in the national economy, he can do neither his previous
-    work nor any other kind", settles it just as well.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Repeat the qualifier on both limbs: "unable to do his previous work which exists
+      in the national economy and cannot ... engage in any other kind of substantial
+      gainful work which exists in the national economy". Fronting it serves as well.
+    plausible_intent: true
+    changes_bargain: >
+      The agency must establish that the claimant's former occupation still exists
+      before denying benefits on that ground, qualifying more claimants and costing the
+      programme more.
+  - forces: B
+    edit: >
+      Detach the qualifier from the first limb: "unable to do his previous work and
+      cannot ... engage in any other kind of substantial gainful work, if such other
+      work exists in the national economy".
+    plausible_intent: true
+    changes_bargain: >
+      Ability to do vanished work defeats a claim, which is the cheaper rule and the one
+      the agency applied.
 
 inclusion_test:
   discrete_readings: true

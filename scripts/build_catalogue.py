@@ -153,7 +153,16 @@ for d in docs:
         w(f"> {line}")
     w("")
 
-    w(f"**The edit that would have prevented it.** {flat(d['minimal_fix']['edit'])}")
+    w("**The edits that would have prevented it**")
+    w("")
+    w("Both readings were draftable. What the text failed to do was choose between them.")
+    w("")
+    for e in d["preventive_edits"]:
+        tag = "" if e["plausible_intent"] else " *(a possible parse, not a possible bargain)*"
+        w(f"- **To force Reading {e['forces']}**{tag}  ")
+        w(f"  {flat(e['edit'])}")
+        if e.get("changes_bargain"):
+            w(f"  <br>*Effect:* {flat(e['changes_bargain'])}")
     w("")
 
     w("<details>")

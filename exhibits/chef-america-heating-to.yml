@@ -57,11 +57,27 @@ stakes:
     commercially worthless, since nothing practising the patent as written could work.
   documented: true
 
-minimal_fix:
-  edit: >
-    One preposition: "heating the resulting batter-coated dough **at** a
-    temperature in the range of about 400° F. to 850° F."
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      One preposition: "heating the resulting batter-coated dough at a temperature in
+      the range of about 400° F. to 850° F."
+    plausible_intent: true
+    changes_bargain: >
+      Describes the oven, which is what the process requires and what the patent was
+      worth.
+  - forces: B
+    edit: >
+      Say the dough itself is the thing heated: "heating the resulting batter-coated
+      dough until the dough reaches a temperature in the range of about 400° F. to
+      850° F."
+    plausible_intent: false
+    changes_bargain: >
+      Reconstructs an intention nobody held. The court enforced this reading while
+      accepting that it produces what an attorney in the case called a charcoal
+      briquet. The edit is draftable and was never going to be drafted, and it is
+      recorded to show the winning construction was a possible parse rather than a
+      possible bargain.
 
 inclusion_test:
   discrete_readings: true

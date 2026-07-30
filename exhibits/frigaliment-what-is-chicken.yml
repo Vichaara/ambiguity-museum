@@ -62,12 +62,23 @@ stakes:
     damages figure.
   documented: true
 
-minimal_fix:
-  edit: >
-    Name the bird by grade class, "broiler" or "fryer", or add a sentence
-    defining "chicken" for the purposes of the contract. The USDA classes
-    already existed and are referenced in the opinion.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Use the trade class rather than the genus: "US Fresh Frozen Broiler or Fryer
+      Chicken, Grade A". The USDA classes existed and are referenced in the opinion.
+    plausible_intent: true
+    changes_bargain: >
+      Young birds command a higher price, so specifying them is a different and dearer
+      contract than the one the seller performed.
+  - forces: B
+    edit: >
+      Say the wider genus is meant: "US Fresh Frozen Chicken, Grade A, including
+      stewing chicken".
+    plausible_intent: true
+    changes_bargain: >
+      Lets the seller perform with fowl at the stated weight and grade, which is
+      cheaper to source and nearer the price actually agreed.
 
 inclusion_test:
   discrete_readings: true

@@ -65,16 +65,25 @@ stakes:
     right for the balance of a ten-year lease.
   documented: true
 
-minimal_fix:
-  edit: >
-    Define the term. One sentence, "for the purposes of this Section,
-    'sandwich' includes any filling wrapped or enclosed in any bread product,
-    including tortillas", forecloses Reading B entirely.
-  suffices_without_facts: true
-  caveat: >
-    The drafter had the motive and three revisions in which to do it. The fix was
-    never the hard part. The term simply looked obvious enough that nobody reached
-    for a definition.
+preventive_edits:
+  - forces: A
+    edit: >
+      Define the term broadly: "for the purposes of this Section, 'sandwich' includes
+      any filling wrapped or enclosed in any bread product, including tortillas, wraps
+      and flatbreads".
+    plausible_intent: true
+    changes_bargain: >
+      Widens the exclusivity to most fast-casual food. Worth considerably more to the
+      tenant, and it costs the landlord tenants it could otherwise sign.
+  - forces: B
+    edit: >
+      Define it narrowly: "'sandwich' means a filling between two slices of bread or a
+      split roll, and does not include burritos, tacos, quesadillas or other filled
+      tortillas".
+    plausible_intent: true
+    changes_bargain: >
+      Confines the exclusivity to conventional sandwiches and leaves the landlord free
+      to let to Mexican-style restaurants.
 
 inclusion_test:
   discrete_readings: true

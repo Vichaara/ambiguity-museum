@@ -41,6 +41,21 @@ for p in paths:
         print(f"WARN {p.name}: no reading marked adopted, and outcome is not 'unresolved'")
     if doc["inclusion_test"].get("boundary") and not doc["inclusion_test"].get("notes"):
         fail += 1; print(f"FAIL {p.name}: boundary exhibits must explain themselves in inclusion_test.notes"); continue
+    # Codex review, #2: recording only the edit that produces the litigated outcome makes
+    # that outcome the drafting baseline. Every reading must be shown to be draftable.
+    r_ids = {r["id"] for r in doc["readings"]}
+    e_ids = [e["forces"] for e in doc["preventive_edits"]]
+    if set(e_ids) != r_ids:
+        fail += 1
+        print(f"FAIL {p.name}: preventive_edits cover {sorted(set(e_ids))}, readings are {sorted(r_ids)}")
+        continue
+    if len(e_ids) != len(set(e_ids)):
+        fail += 1; print(f"FAIL {p.name}: two preventive_edits force the same reading"); continue
+    if not any(e["plausible_intent"] for e in doc["preventive_edits"]):
+        fail += 1
+        print(f"FAIL {p.name}: no reading is marked plausible_intent, so nobody wanted either outcome")
+        continue
+
     hard = {"citation", "disputed_text", "resolution"}
     covered = {c for s in doc["sources"] if s["kind"] in ("primary", "near-primary") for c in s["confirms"]}
     if doc["verification"]["status"] == "confirmed" and not hard <= covered:

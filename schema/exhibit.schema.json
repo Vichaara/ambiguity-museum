@@ -14,10 +14,10 @@
     "disputed_text",
     "readings",
     "resolution",
-    "minimal_fix",
     "inclusion_test",
     "sources",
-    "verification"
+    "verification",
+    "preventive_edits"
   ],
   "properties": {
     "id": {
@@ -261,28 +261,6 @@
         }
       }
     },
-    "minimal_fix": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "edit",
-        "suffices_without_facts"
-      ],
-      "properties": {
-        "edit": {
-          "type": "string",
-          "description": "The smallest change to the text that forecloses the losing reading. A comma, a word, a moved parenthesis."
-        },
-        "suffices_without_facts": {
-          "type": "boolean",
-          "description": "Inclusion test (b). Could the drafter have made this edit knowing nothing about what later happened? Must be true."
-        },
-        "caveat": {
-          "type": "string",
-          "description": "Where the fix trades one ambiguity for another, say so."
-        }
-      }
-    },
     "inclusion_test": {
       "type": "object",
       "additionalProperties": false,
@@ -402,6 +380,39 @@
       "type": "array",
       "items": {
         "type": "string"
+      }
+    },
+    "preventive_edits": {
+      "type": "array",
+      "minItems": 2,
+      "description": "The smallest textual change that forces EACH reading, not just the one the court picked. Recording only the edit that produces the litigated outcome quietly makes that outcome the drafting baseline, as though the losing party's reading were the error rather than the other half of a choice the drafter failed to make. Every reading gets an entry. What the exhibit then shows is that syntax encodes a decision, and that the drafter had to make it either way.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "forces",
+          "edit",
+          "plausible_intent"
+        ],
+        "properties": {
+          "forces": {
+            "type": "string",
+            "pattern": "^[A-Z]$",
+            "description": "The reading id this edit makes unavoidable."
+          },
+          "edit": {
+            "type": "string",
+            "description": "The smallest change that forecloses every other reading. Quote the revised wording where it is short enough to quote."
+          },
+          "plausible_intent": {
+            "type": "boolean",
+            "description": "Whether anyone could actually have WANTED this reading. A reading can be a plausible parse and an implausible intention: Chef America's winning construction incinerates the product, so it is draftable but nobody was ever going to draft it. False here is not a judgment that the court was wrong, only that the edit reconstructs an intention no party held."
+          },
+          "changes_bargain": {
+            "type": "string",
+            "description": "Where choosing this reading moves money, risk or entitlement rather than merely clarifying, say how. This is what stops the two edits reading as interchangeable when one of them doubles an insurer's limit."
+          }
+        }
       }
     }
   },

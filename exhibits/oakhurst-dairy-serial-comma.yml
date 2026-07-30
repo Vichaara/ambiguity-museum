@@ -67,14 +67,24 @@ stakes:
     are not in this opinion.
   documented: false
 
-minimal_fix:
-  edit: >
-    One comma: "packing for shipment, or distribution of". Reading B survives
-    only in its absence.
-  suffices_without_facts: true
-  caveat: >
-    The legislature could not have added it without departing from its own
-    drafting manual, which is the uncomfortable part.
+preventive_edits:
+  - forces: A
+    edit: >
+      Close the list before the modifier: "... marketing, storing, and packing for
+      shipment or distribution of". With "and" fixing "packing" as the final item,
+      "for shipment or distribution" can only describe the purpose of packing.
+    plausible_intent: true
+    changes_bargain: >
+      Narrows the exemption. Drivers who only distribute keep their overtime, which is
+      the more expensive rule for employers.
+  - forces: B
+    edit: >
+      Add the serial comma the state drafting manual forbids: "... storing, packing for
+      shipment, or distribution of". That makes "distribution" a list item in its own
+      right.
+    plausible_intent: true
+    changes_bargain: >
+      Widens the exemption to cover distribution standing alone, and the drivers lose.
 
 inclusion_test:
   discrete_readings: true

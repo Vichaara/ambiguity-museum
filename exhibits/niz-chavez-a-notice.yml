@@ -61,13 +61,24 @@ stakes:
     eligibility for cancellation of removal.
   documented: false
 
-minimal_fix:
-  edit: >
-    Drop the article and use the mass-noun sense, so that the rule triggers on
-    providing "notice" of the mandated information, for the Government's
-    reading. Write "a single written notice" for the other. The Court names
-    both edits itself.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Make the singleness explicit: "a single written notice containing all of the
+      information required by section 1229(a)(1)".
+    plausible_intent: true
+    changes_bargain: >
+      The government must assemble everything before the clock stops, so more
+      applicants accrue the continuous presence cancellation of removal requires.
+  - forces: B
+    edit: >
+      Drop the article and use the mass noun, as the Court itself proposes: the rule
+      applies once the government provides "notice" of the mandated information,
+      indicating indifference to whether it arrives at once or by instalment.
+    plausible_intent: true
+    changes_bargain: >
+      Lets the government stop the clock with a partial document and complete it later,
+      cutting off eligibility earlier.
 
 inclusion_test:
   discrete_readings: true

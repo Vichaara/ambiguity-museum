@@ -5,8 +5,13 @@ instrument actually said, where the words admitted more than one reading and a c
 had to pick one.
 
 Each exhibit records the text verbatim, both readings, how the court resolved it in the
-court's own words, what was at stake, and the smallest edit that would have prevented
-the whole thing.
+court's own words, what was at stake, and the smallest edit that would have forced each
+reading.
+
+That last part is deliberate. Recording only the edit that produces the outcome the court
+reached would quietly make that outcome the drafting baseline, as though the losing side's
+reading were the mistake rather than the other half of a choice the drafter never made.
+Both edits are given, along with a note on which one moves money.
 
 Start with [CATALOGUE.md](CATALOGUE.md).
 

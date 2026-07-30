@@ -70,11 +70,23 @@ stakes:
     damages figure, the case having been decided on demurrer.
   documented: true
 
-minimal_fix:
-  edit: >
-    Name the sailing. "To arrive ex Peerless from Bombay, sailing in October"
-    identifies one vessel and no other, and the case does not arise.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Name the sailing: "to arrive ex Peerless from Bombay, sailing in October".
+    plausible_intent: true
+    changes_bargain: >
+      Fixes the arrival the buyer was counting on and leaves the risk of a later
+      shipment with the seller.
+  - forces: B
+    edit: >
+      Say the vessel is immaterial: "to arrive from Bombay ex any vessel named
+      Peerless", or drop the vessel and sell against the description alone.
+    plausible_intent: true
+    changes_bargain: >
+      Makes it a sale by description with no fixed arrival, shifting timing risk to the
+      buyer. That was the seller's case, and it is an ordinary commercial term rather
+      than an absurd one.
 
 inclusion_test:
   discrete_readings: true

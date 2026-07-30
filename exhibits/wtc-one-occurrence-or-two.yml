@@ -76,13 +76,24 @@ stakes:
     and settlement; cite the limit, which the opinion supports, and not a total.
   documented: true
 
-minimal_fix:
-  edit: >
-    Define the term, or, from the insured's side, define it the other way. Travelers'
-    form said "occurrence" and stopped. Adding either the WilProp sentence or its
-    converse ("each impact shall constitute a separate occurrence") would have
-    determined the outcome before a plane ever took off.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Define the term against aggregation: "Each aircraft impact, and the ensuing
+      collapse of the building it struck, shall constitute a separate occurrence."
+    plausible_intent: true
+    changes_bargain: >
+      Doubles the recoverable limit to roughly USD 7bn. No insurer writes that term at
+      the same premium, so this is not a clarification but a different and far dearer
+      policy.
+  - forces: B
+    edit: >
+      Adopt the WilProp definition the Travelers form omitted: losses "attributable
+      directly or indirectly to one cause or to one series of similar causes" are
+      treated as one occurrence.
+    plausible_intent: true
+    changes_bargain: >
+      Caps recovery at a single USD 3.5bn limit however many impacts occurred.
 
 inclusion_test:
   discrete_readings: true

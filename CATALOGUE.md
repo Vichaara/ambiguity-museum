@@ -64,7 +64,16 @@ The ambiguity sits in the ship's name "Peerless", which on the face of the contr
 
 > He was then stopped by the Court. Per Curiam. Judgment for the defendants.
 
-**The edit that would have prevented it.** Name the sailing. "To arrive ex Peerless from Bombay, sailing in October" identifies one vessel and no other, and the case does not arise.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Name the sailing: "to arrive ex Peerless from Bombay, sailing in October".
+  <br>*Effect:* Fixes the arrival the buyer was counting on and leaves the risk of a later shipment with the seller.
+- **To force Reading B**  
+  Say the vessel is immaterial: "to arrive from Bombay ex any vessel named Peerless", or drop the vessel and sell against the description alone.
+  <br>*Effect:* Makes it a sale by description with no fixed arrival, shifting timing risk to the buyer. That was the seller's case, and it is an ordinary commercial term rather than an absurd one.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -120,7 +129,16 @@ The ambiguity sits in the single word "chicken".
 
 > The issue is, what is chicken? Plaintiff says "chicken" means a young chicken, suitable for broiling and frying. Defendant says "chicken" means any bird of that genus that meets contract specifications on weight and quality, including what it calls "stewing chicken" and plaintiff pejoratively terms "fowl". Dictionaries give both meanings, as well as some others not relevant here. ... I have concluded that plaintiff has not sustained its burden of persuasion that the contract used "chicken" in the narrower sense.
 
-**The edit that would have prevented it.** Name the bird by grade class, "broiler" or "fryer", or add a sentence defining "chicken" for the purposes of the contract. The USDA classes already existed and are referenced in the opinion.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Use the trade class rather than the genus: "US Fresh Frozen Broiler or Fryer Chicken, Grade A". The USDA classes existed and are referenced in the opinion.
+  <br>*Effect:* Young birds command a higher price, so specifying them is a different and dearer contract than the one the seller performed.
+- **To force Reading B**  
+  Say the wider genus is meant: "US Fresh Frozen Chicken, Grade A, including stewing chicken".
+  <br>*Effect:* Lets the seller perform with fowl at the stated weight and grade, which is cheaper to source and nearer the price actually agreed.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -169,7 +187,16 @@ The ambiguity sits in the placement of the opening parenthesis, and so whether "
 
 > If one applies these principles, it seems to me that the judge must be right and, as we are dealing with one badly drafted clause which is happily no longer in use, there is little advantage in my repeating his reasons at greater length. ... Secondly, Leggatt L.J. said that the judge's construction was not an "available meaning" of the words. If this means that judges cannot, short of rectification, decide that the parties must have made mistakes of meaning or syntax, I respectfully think he was wrong.
 
-**The edit that would have prevented it.** Move the opening bracket one word to the left: "Any claim sounding in rescission (whether for undue influence or otherwise)". That is exactly the rearrangement the House of Lords performed, and it is the whole dispute.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Delete the parenthesis: "Any claim that you have or may have against the West Bromwich Building Society in which you claim an abatement of sums ...".
+  <br>*Effect:* Investors keep every claim against the society, damages included, and the Scheme recovers nothing from that quarter after paying compensation.
+- **To force Reading B**  
+  Move the opening bracket one word to the left: "Any claim sounding in rescission (whether for undue influence or otherwise)". This is the rearrangement the House of Lords performed.
+  <br>*Effect:* Only rescission claims stay with the investor. The damages claims pass to the Scheme, which is what makes the compensation payment recoverable.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -224,7 +251,16 @@ The ambiguity sits in The word "occurrence", present and defined in the WilProp 
 
 > ... the district court held that (a) the binders they issued were governed by the insurance policy form circulated by Silverstein Properties' insurance broker, and (b) under the definition of "occurrence" in that form, the destruction of the WTC was one occurrence as a matter of law. ... [W]e conclude that ... the meaning of "occurrence" in the Travelers binder is sufficiently ambiguous under New York law to preclude summary judgment and to warrant consideration by the fact finder of extrinsic evidence to determine the parties' intentions.
 
-**The edit that would have prevented it.** Define the term, or, from the insured's side, define it the other way. Travelers' form said "occurrence" and stopped. Adding either the WilProp sentence or its converse ("each impact shall constitute a separate occurrence") would have determined the outcome before a plane ever took off.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Define the term against aggregation: "Each aircraft impact, and the ensuing collapse of the building it struck, shall constitute a separate occurrence."
+  <br>*Effect:* Doubles the recoverable limit to roughly USD 7bn. No insurer writes that term at the same premium, so this is not a clarification but a different and far dearer policy.
+- **To force Reading B**  
+  Adopt the WilProp definition the Travelers form omitted: losses "attributable directly or indirectly to one cause or to one series of similar causes" are treated as one occurrence.
+  <br>*Effect:* Caps recovery at a single USD 3.5bn limit however many impacts occurred.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -278,7 +314,16 @@ The ambiguity sits in the relative clause "which exists in the national economy"
 
 > The Third Circuit's reading disregards — indeed, is precisely contrary to — the grammatical "rule of the last antecedent," according to which a limiting clause or phrase (here, the relative clause "which exists in the national economy") should ordinarily be read as modifying only the noun or phrase that it immediately follows (here, "any other kind of substantial gainful work"). ... While this rule is not an absolute and can assuredly be overcome by other indicia of meaning, we have said that construing a statute in accord with the rule is "quite sensible as a matter of grammar."
 
-**The edit that would have prevented it.** Move the qualifier or repeat it: "unable to do his previous work which exists in the national economy, and cannot ... engage in any other kind of substantial gainful work which exists in the national economy." Fronting it, "of work which exists in the national economy, he can do neither his previous work nor any other kind", settles it just as well.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Repeat the qualifier on both limbs: "unable to do his previous work which exists in the national economy and cannot ... engage in any other kind of substantial gainful work which exists in the national economy". Fronting it serves as well.
+  <br>*Effect:* The agency must establish that the claimant's former occupation still exists before denying benefits on that ground, qualifying more claimants and costing the programme more.
+- **To force Reading B**  
+  Detach the qualifier from the first limb: "unable to do his previous work and cannot ... engage in any other kind of substantial gainful work, if such other work exists in the national economy".
+  <br>*Effect:* Ability to do vanished work defeats a claim, which is the cheaper rule and the one the agency applied.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -332,7 +377,16 @@ The ambiguity sits in the preposition "to", as against "at".
 
 > Thus, in accord with our settled practice we construe the claim as written, not as the patentees wish they had written it. As written, the claim unambiguously requires that the dough be heated to a temperature range of 400° F. to 850° F.
 
-**The edit that would have prevented it.** One preposition: "heating the resulting batter-coated dough **at** a temperature in the range of about 400° F. to 850° F."
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  One preposition: "heating the resulting batter-coated dough at a temperature in the range of about 400° F. to 850° F."
+  <br>*Effect:* Describes the oven, which is what the process requires and what the patent was worth.
+- **To force Reading B** *(a possible parse, not a possible bargain)*  
+  Say the dough itself is the thing heated: "heating the resulting batter-coated dough until the dough reaches a temperature in the range of about 400° F. to 850° F."
+  <br>*Effect:* Reconstructs an intention nobody held. The court enforced this reading while accepting that it produces what an attorney in the case called a charcoal briquet. The edit is draftable and was never going to be drafted, and it is recorded to show the winning construction was a possible parse rather than a possible bargain.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -381,7 +435,16 @@ The ambiguity sits in the undefined noun "sandwiches".
 
 > Given that the term "sandwiches" is not ambiguous and the Lease does not provide a definition of it, this court applies the ordinary meaning of the word. ... Under this definition and as dictated by common sense, this court finds that the term "sandwich" is not commonly understood to include burritos, tacos, and quesadillas, which are typically made with a single tortilla and stuffed with a choice filling of meat, rice, and beans.
 
-**The edit that would have prevented it.** Define the term. One sentence, "for the purposes of this Section, 'sandwich' includes any filling wrapped or enclosed in any bread product, including tortillas", forecloses Reading B entirely.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Define the term broadly: "for the purposes of this Section, 'sandwich' includes any filling wrapped or enclosed in any bread product, including tortillas, wraps and flatbreads".
+  <br>*Effect:* Widens the exclusivity to most fast-casual food. Worth considerably more to the tenant, and it costs the landlord tenants it could otherwise sign.
+- **To force Reading B**  
+  Define it narrowly: "'sandwich' means a filling between two slices of bread or a split roll, and does not include burritos, tacos, quesadillas or other filled tortillas".
+  <br>*Effect:* Confines the exclusivity to conventional sandwiches and leaves the landlord free to let to Mexican-style restaurants.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -434,7 +497,16 @@ The ambiguity sits in the comma before "unless and until".
 
 > The Commission considers that the wording of section 8.1 in the French language version of the model SSA can be interpreted in only one way: termination of the model SSA can only occur upon notice one year prior to the end of the initial term or one year prior to the end of a renewed term.
 
-**The edit that would have prevented it.** Delete the comma before "unless and until", or move the phrase: "unless and until terminated by one year prior notice in writing by either party, this Agreement shall continue for successive five year terms."
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Give the termination right its own sentence: "Either party may terminate this Agreement at any time on one year's prior written notice." The right then plainly survives the initial term.
+  <br>*Effect:* Permits a mid-term exit, which is worth a great deal to whichever party wants out of a long support-structure commitment.
+- **To force Reading B**  
+  Tie the notice to expiry, as the French version already does: "unless terminated by written notice given not less than one year before the expiry of the then-current term".
+  <br>*Effect:* Locks both parties in for the full five years, with the earliest exit at the end of the initial term.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -489,7 +561,16 @@ The ambiguity sits in the absent comma between "shipment" and "or distribution".
 
 > We are reluctant to conclude from the text alone that the legislature clearly chose to deploy the nonstandard grammatical device of asyndeton. But we are also reluctant to overlook the seemingly anomalous violation of the parallel usage canon that Oakhurst's reading of the text produces. And so -- there being no comma in place to break the tie -- the text turns out to be no clearer on close inspection than it first appeared.
 
-**The edit that would have prevented it.** One comma: "packing for shipment, or distribution of". Reading B survives only in its absence.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Close the list before the modifier: "... marketing, storing, and packing for shipment or distribution of". With "and" fixing "packing" as the final item, "for shipment or distribution" can only describe the purpose of packing.
+  <br>*Effect:* Narrows the exemption. Drivers who only distribute keep their overtime, which is the more expensive rule for employers.
+- **To force Reading B**  
+  Add the serial comma the state drafting manual forbids: "... storing, packing for shipment, or distribution of". That makes "distribution" a list item in its own right.
+  <br>*Effect:* Widens the exemption to cover distribution standing alone, and the drivers lose.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -544,7 +625,16 @@ The ambiguity sits in the trailing participial phrase "using a random or sequent
 
 > Facebook argues the clause "using a random or sequential number generator" modifies both verbs that precede it ("store" and "produce"), while Duguid contends it modifies only the closest one ("produce"). We conclude that the clause modifies both, specifying how the equipment must either "store" or "produce" telephone numbers.
 
-**The edit that would have prevented it.** Move the modifier to the front, so that it reads "using a random or sequential number generator, to store or produce telephone numbers", or repeat it after each verb. Either forecloses Reading B.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Front the modifier so it cannot attach to a single verb: "using a random or sequential number generator, to store or produce telephone numbers to be called".
+  <br>*Effect:* Keeps the definition narrow. Equipment that merely stores a list and dials it falls outside the Act, and most modern platforms escape liability.
+- **To force Reading B**  
+  Give each verb its own object and attach the modifier to one of them: "to store telephone numbers to be called, or to produce telephone numbers to be called using a random or sequential number generator".
+  <br>*Effect:* Sweeps in any system that stores and dials, exposing a far wider class of businesses to statutory damages assessed per call.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -594,7 +684,16 @@ The ambiguity sits in the indefinite article "a", and the fact that it sits outs
 
 > To trigger the stop-time rule, the government must serve "a" notice containing all the information Congress has specified. To an ordinary reader—both in 1996 and today—"a" notice would seem to suggest just that: "a" single document containing the required information, not a mishmash of pieces with some assembly required.
 
-**The edit that would have prevented it.** Drop the article and use the mass-noun sense, so that the rule triggers on providing "notice" of the mandated information, for the Government's reading. Write "a single written notice" for the other. The Court names both edits itself.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Make the singleness explicit: "a single written notice containing all of the information required by section 1229(a)(1)".
+  <br>*Effect:* The government must assemble everything before the clock stops, so more applicants accrue the continuous presence cancellation of removal requires.
+- **To force Reading B**  
+  Drop the article and use the mass noun, as the Court itself proposes: the rule applies once the government provides "notice" of the mandated information, indicating indifference to whether it arrives at once or by instalment.
+  <br>*Effect:* Lets the government stop the clock with a partial document and complete it later, cutting off eligibility earlier.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>
@@ -644,7 +743,16 @@ The ambiguity sits in how the negation "does not have" distributes across an "an
 
 > There are, to be sure, two grammatically permissible readings of the statute when viewed in the abstract...But the difficulty in choosing between those two constructions falls away once we consider the content of Subparagraphs A, B, and C
 
-**The edit that would have prevented it.** Replace "and" with "or" for the Government's reading, or write "does not have all of the following" for the defendant's. One word settles it.
+**The edits that would have prevented it**
+
+Both readings were draftable. What the text failed to do was choose between them.
+
+- **To force Reading A**  
+  Say the list is conjunctive: "the defendant does not have all of the following", followed by subparagraphs A, B and C.
+  <br>*Effect:* Opens the safety valve to any defendant lacking the full combination, so many more defendants escape the mandatory minimum.
+- **To force Reading B**  
+  Make the list disjunctive: replace "and" before subparagraph C with "or", so the negation distributes across each item.
+  <br>*Effect:* Each item disqualifies on its own, closing the valve to most defendants carrying any of the three records.
 
 <details>
 <summary>Apparatus — provenance, stakes, and why this exhibit qualifies</summary>

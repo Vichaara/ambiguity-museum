@@ -83,12 +83,24 @@ stakes:
     compensation payment of £20,345.15 to one investor.
   documented: true
 
-minimal_fix:
-  edit: >
-    Move the opening bracket one word to the left: "Any claim sounding in
-    rescission (whether for undue influence or otherwise)". That is exactly the
-    rearrangement the House of Lords performed, and it is the whole dispute.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Delete the parenthesis: "Any claim that you have or may have against the West
+      Bromwich Building Society in which you claim an abatement of sums ...".
+    plausible_intent: true
+    changes_bargain: >
+      Investors keep every claim against the society, damages included, and the Scheme
+      recovers nothing from that quarter after paying compensation.
+  - forces: B
+    edit: >
+      Move the opening bracket one word to the left: "Any claim sounding in rescission
+      (whether for undue influence or otherwise)". This is the rearrangement the House
+      of Lords performed.
+    plausible_intent: true
+    changes_bargain: >
+      Only rescission claims stay with the investor. The damages claims pass to the
+      Scheme, which is what makes the compensation payment recoverable.
 
 inclusion_test:
   discrete_readings: true

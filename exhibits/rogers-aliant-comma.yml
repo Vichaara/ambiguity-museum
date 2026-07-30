@@ -73,12 +73,25 @@ stakes:
     shorthand, not a finding.
   documented: false
 
-minimal_fix:
-  edit: >
-    Delete the comma before "unless and until", or move the phrase: "unless and
-    until terminated by one year prior notice in writing by either party, this
-    Agreement shall continue for successive five year terms."
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Give the termination right its own sentence: "Either party may terminate this
+      Agreement at any time on one year's prior written notice." The right then plainly
+      survives the initial term.
+    plausible_intent: true
+    changes_bargain: >
+      Permits a mid-term exit, which is worth a great deal to whichever party wants out
+      of a long support-structure commitment.
+  - forces: B
+    edit: >
+      Tie the notice to expiry, as the French version already does: "unless terminated
+      by written notice given not less than one year before the expiry of the
+      then-current term".
+    plausible_intent: true
+    changes_bargain: >
+      Locks both parties in for the full five years, with the earliest exit at the end
+      of the initial term.
 
 inclusion_test:
   discrete_readings: true

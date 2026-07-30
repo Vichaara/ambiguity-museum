@@ -61,11 +61,23 @@ stakes:
     single figure.
   documented: false
 
-minimal_fix:
-  edit: >
-    Replace "and" with "or" for the Government's reading, or write "does not
-    have all of the following" for the defendant's. One word settles it.
-  suffices_without_facts: true
+preventive_edits:
+  - forces: A
+    edit: >
+      Say the list is conjunctive: "the defendant does not have all of the following",
+      followed by subparagraphs A, B and C.
+    plausible_intent: true
+    changes_bargain: >
+      Opens the safety valve to any defendant lacking the full combination, so many
+      more defendants escape the mandatory minimum.
+  - forces: B
+    edit: >
+      Make the list disjunctive: replace "and" before subparagraph C with "or", so the
+      negation distributes across each item.
+    plausible_intent: true
+    changes_bargain: >
+      Each item disqualifies on its own, closing the valve to most defendants carrying
+      any of the three records.
 
 inclusion_test:
   discrete_readings: true
